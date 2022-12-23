@@ -1,0 +1,4634 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:fb="http://ogp.me/ns/fb#" class="">    
+  <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>การสร้าง และใช้งาน Rich Menu ผ่าน LINE Messaging API ตอนที่  คอร์สเรียน เรียนฟรี ออนไลน์ บทความ </title>
+<meta name="description" content="การสร้าง และใช้งาน Rich Menu ผ่าน LINE Messaging API ตอนที่  คอร์สเรียน เรียนฟรี ออนไลน์ บทความ ตัวอย่าง คือ การใช้งาน หมายถึง วิธีการ การแสดง ด้วย แปลงค่า ส่งค่า PHP Dart Flutter Angular NodeJs JavaScript Ajax CSS jQuery MySQL  " />
+<meta name="keywords" content="เรียน การสร้าง และใช้งาน Rich Menu ผ่าน LINE Messaging API ตอนที่ 8 คอร์สเรียน เรียนฟรี ออนไลน์ บทความ  คำสั่ง  การ กำหนด รูปแบบ" />
+<meta property="og:title" content="การสร้าง และใช้งาน Rich Menu ผ่าน LINE Messaging API ตอนที่ 8 คอร์สเรียน เรียนฟรี ออนไลน์ บทความ " />
+<meta property="og:url" content="https://www.ninenik.com/การสร้าง_และใช้งาน_Rich_Menu_ผ่าน_LINE_Messaging_API_ตอนที่_8-898.html" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="ninenik.com"/>
+<meta property="og:image" content="https://i.imgur.com/ZCn6ynA.png"/>
+<meta property="og:description" content="การสร้าง และใช้งาน Rich Menu ผ่าน LINE Messaging API ตอนที่ " />
+<meta property="og:locale" content="th_TH" />
+<meta property="fb:app_id" content="134358299911812">
+<link rel='shortlink' href='http://niik.in/898' />
+<link rel="canonical" href="https://www.ninenik.com/การสร้าง_และใช้งาน_Rich_Menu_ผ่าน_LINE_Messaging_API_ตอนที่_8-898.html"/>
+<link rel="alternate" media="handheld" href="https://www.ninenik.com/content.php?arti_id=898" />
+<link rel="stylesheet" href="https://www.ninenik.com/lib/syntaxhighlighter/css/shCore.css" type="text/css" />
+<link rel="stylesheet" data-theme="brush"  href="https://www.ninenik.com/lib/syntaxhighlighter/css/shThemeDefault.css" type="text/css" />
+
+<link rel="stylesheet" type="text/css" href="https://www.ninenik.com/Satcss.css?202201"/>
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Security-Policy" content="block-all-mixed-content">
+<meta name="verify-v1" content="Ll9um4ivzNN3tTAoorVzLDB0V2dBuhdwfjWA1BVm0VE=" />		
+<meta name="google-site-verification" content="DgVNbrznXlArFk-Hc-nZa_YbJ2XMq8igvr7-iyYUOdw" />
+<meta name="y_key" content="4b2cf4cb72341cdf" /> 
+<meta name="stats-in-th" content="0r67" />
+<meta name="msvalidate.01" content="951664C6D0474A6185FE0E10942337EF" />
+<meta name="bwvalidate" content="21a782f9-d856-4776-b324-8d07d7a748f1" /> 
+<meta name="author" content="Ninenik Narkdee">
+<meta name="theme-color" data-theme="color"  content="#9B3F9A" />
+<meta property="fb:pages" content="147283348648591" />
+<link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="192x192" href="/icons/apple-icon-192x192.png">
+<link rel="apple-touch-icon" sizes="512x512" href="/icons/apple-icon-512x512.png">
+<link rel="icon" type="image/png" sizes="512x512"  href="/icons/android-icon-512x512.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#9B3F9A">
+<meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="Ninenik" />
+<meta name="apple-mobile-web-app-status-bar-style" content="#9B3F9A" />
+<style type="text/css">
+@media (max-width: 768px) {
+	div.main_contain,
+	div.home_group_sector_1,
+	div.content_group_sector_1,
+	div.article_cat_group_sector_1,
+	div#nav_second_level{
+		width: auto !important;	
+		clear: both !important;
+	}
+	div.home_group_sector_1,
+	div.content_group_sector_1,	
+	div.article_cat_group_sector_1{
+		float:none !important;
+		left:0 !important;	
+	}
+	div.home_group_sector_1 ul,
+	div.content_group_sector_1 ul,	
+	div.article_cat_group_sector_1 ul{
+		width: 100% !important;
+		padding: 0 10px !important;
+	}	
+
+	a.navbar-brand{
+		display: inline-block !important;
+		width: 100% !important;
+		text-align: center !important;		
+	}
+	a.navbar-brand img{
+		height:50px !important;
+	}
+	input.myclock_place{
+		width:95% !important;
+		max-width:95% !important;
+		margin:auto !important;
+		height:35px !important;
+	}
+	button.btn-search-article{
+		display:block !important;	
+		width:95% !important;
+		margin:auto !important;
+	}
+	a.place_u_name_show{	
+		display: block !important;
+		text-align:center !important;
+		background-color: #ffffff;
+		width: 90% !important;
+		max-width: 90% !important;
+		margin: auto;
+		box-shadow: 0 0.2em 0.2em rgba(0, 0, 0, 0.1);
+	}
+	.ct-mem-menu{
+		text-align:center !important;	
+	}
+	.fa-fw.mr-5{
+		margin-right:20px !important;	
+	}
+	li.member-menu-list,
+	ul.member-menu-list li{
+/*		text-align:center !important;*/
+		text-indent:20px !important;
+		padding-top:3px !important;
+		padding-bottom:3px !important;
+	}
+	li.last-list-forgotpassword,
+	li.last-list-logout{
+		box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.1);
+	}
+	li.listTopic{
+		box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.1);
+		margin-bottom: 15px !important;
+	}
+	div.home_right_group_sector_1,
+	div.article_cat_right_group_sector_1{
+		float: none !important;
+		width: 95% !important;		
+		right: 0px !important;
+		margin: auto !important;	
+	}
+	ul.forum-cotent-wrap{
+		width:100% !important;		
+	}
+	ul.forum-cotent-wrap > img,	
+	ul.forum-cotent-wrap img{
+		width:100% !important;		
+	}	
+	img.ads-my-own{
+		width:95% !important;	
+		margin: auto !important;			
+	}
+	div.home_right_group_sector_1 > img,
+	div.article_cat_right_group_sector_1 > img,	
+	div.home_right_group_sector_1 img,
+	div.article_cat_right_group_sector_1 img{
+		width:100% !important;
+		height:auto !important;
+	}
+	div.article_cat_group_sector_1.snippets-css{
+		width:95% !important;
+	}
+	div.fb-comments-wrap,	
+	div.fb-fanpage-wrap{
+		text-indent:0px !important;	
+		width:95% !important;
+		margin:auto !important;
+	}
+	a.list_recom_article{
+		width:95% !important;	
+	}
+	div#fixed-controls{
+		top:auto !important;
+		left:0px !important;
+		bottom:10px !important;
+		display:none !important;
+	}
+	div.nShowContent{
+		width:100% !important;	
+		padding: 0px 10px !important;
+	}
+	div.nShowContent img{
+		width:100% !important;
+		height:auto !important;	
+	}
+	div.nShowContent a{
+		word-break: break-word;
+	}
+	h1.home-h1-tag,
+	h1.content-h1-tag,	
+	h2.home-h2-tag,
+	h2.content-h2-tag{
+		padding: 0px 10px !important;
+	}
+	div#show_copy_success2,
+	div#show_copy_success{
+		width:95% !important;
+	}
+	ul.i_block_social{
+		margin-left:20% !important;	
+		margin-top:10px !important;
+	}
+	div.good_to_share_msg{
+		position:relative !important;
+		text-align: center !important;
+		width: 90% !important;
+		right: 0px !important;		
+		margin:auto !important;
+	}
+	div.only_fix_like_btn{
+		width: 100% !important;
+		height: 90px !important;		
+	}
+	div.only_fix_like_btn div.good_to_share_msg{
+		left: 50px !important;
+		font-size: 15px !important;		
+		position: absolute !important;
+		text-align: center !important;
+		width: 65% !important;
+		margin: auto !important;		
+		padding-left: 50px !important;
+	}
+	div.only_fix_like_btn div.good_to_share_msg img{	
+		float:right !important;
+	}
+	div.only_fix_like_btn ul.i_block_social{
+		margin-left: -15px !important;
+		overflow: hidden;
+		width: 130px !important;
+	}
+	div.article_cat_filter{
+		padding-right:0px !important;
+		text-align: center !important;	
+	}
+	div.browse_page{
+		display: flex !important;	
+		flex-wrap: wrap !important;		
+		height: auto !important;
+		justify-content: center;		
+	}
+	div.browse_page a{
+		margin-bottom:5px !important;
+	}
+	div.table-of-forum{
+		width:95% !important;	
+		margin:auto !important;
+		float: none !important;
+		left: auto !important;	
+	}
+	input#search_forum,
+	input#search_member,
+	button#btn_search_member,
+	button#btn_search_forum{
+		width:100% !important;	
+	}
+	div.css_tags_word{
+		width:95% !important;	
+		margin:auto !important;	
+		display: flex !important;
+		flex-wrap: wrap;
+	}
+	div.css_tags_word a{
+		border:1px solid #CCC;
+	}
+	div.gsc-control-cse,
+	nav.navbar-default{
+		width:100% !important;
+	}
+	div#queries{
+		display: flex !important;
+		flex-wrap: wrap;
+		width:95% !important;
+		justify-content: center;
+	}
+	div#queries a{
+		padding:5px 10px !important;
+	}
+	div.break-word-list{
+		word-break: break-word;
+		width: 95%;		
+	}
+	div.home-layout-bg{
+/*		background-color: #607D8B !important;
+		color: #FFFFFF !important;*/
+	}
+	div.random_recom_article{
+/*		background-color:transparent !important;	*/
+	}
+	a.list_recom_article{
+		filter: drop-shadow(2px 4px 6px #BFBFBF);
+	}
+	div.list-verify-code{
+		width: auto !important;
+		word-break: break-word;
+	}
+	ul.forum-new-item-create{
+		width: auto !important;
+		margin-left: 0px !important;			
+	}
+	ul.forum-new-item-create input,
+	ul.forum-new-item-create textarea{
+		width: 100% !important;
+	}
+	ul#emoticon_choose{
+		display: flex !important;
+		margin-left: 0px !important;
+	}
+	div.btn-reply-que{
+		margin-top:52px !important;	
+	}
+	span.iTopicQUE_T strong{
+		white-space: normal !important; 
+		word-break: break-word !important;
+	}
+	input.link-que-copy,
+	input.link-ans-copy{
+		width: auto !important;
+		background-color: transparent !important;
+		text-align: right !important;	
+	}
+	div.syntaxhighlighter{
+		overflow-x: auto !important;
+		padding-bottom:5px !important;
+	}	
+	ul.dropdown-menu.more-list-menu{
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		width: 50%;
+		transform: translate(-50%, -50%);		
+	}
+	.cke_editor_message{
+		width:100% !important;	
+	}
+	#show_zoom_emoticon{
+		width: 100px !important;
+	}
+	.navbar-header,
+	.navbar-left,
+	.navbar-right{
+		float:none !important;	
+	}
+	#cse-search-box{
+		float:none !important;	
+	}
+	.navbar-form .form-group{
+		display:block !important;	
+		text-align:center !important;
+	}
+	.nav.navbar-nav.navbar-right{
+		display:block !important;	
+		text-align:center !important;
+		float: none !important;		
+	}
+	.navbar-nav>li{
+		float:none !important;	
+	}
+	.dropdown-menu.member-menu-list{
+		float: none;
+		width: 100%;		
+	}
+	
+	div.wrap-feature-highlight{
+	  width: 100%;
+	  margin: 5px auto;
+	}
+	div.feature-highlight{
+	  display: flex  !important;	
+		    flex-direction: column  !important;	
+	/*  margin-bottom: 10px;*/
+	}
+	a.feature-link{
+	  padding: 0 5px;
+	  width:100%  !important;	
+	  display: block;
+	}
+	img.feature-img{
+	  width:100%;
+		margin: 3px 0px !important;
+	}	
+}
+@media (max-width: 576px) {
+	col.col-group-forum {
+		width: 0.1%;
+	}		
+}
+div.syntaxhighlighter{
+	overflow-x: auto !important;
+}	
+pre::-webkit-scrollbar,
+div.syntaxhighlighter::-webkit-scrollbar {
+    width: 5px;
+    height: 2px;
+}
+</style><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://www.ninenik.com/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://www.ninenik.com/js/bootstrap.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-5781401-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+	gtag('set', {
+	  'page_title' : 'การสร้าง และใช้งาน Rich Menu ผ่าน LINE Messaging API ตอนที่ 8',
+	  'page_location' : 'https://www.ninenik.com/การสร้าง_และใช้งาน_Rich_Menu_ผ่าน_LINE_Messaging_API_ตอนที่_8-898.html',
+	  'page_path': '/การสร้าง_และใช้งาน_Rich_Menu_ผ่าน_LINE_Messaging_API_ตอนที่_8-898.html',	  
+	  'content_group1': 'Line Dev'
+	});
+  
+
+
+  gtag('config', 'UA-5781401-1');
+  
+
+	
+	
+</script>
+<script type="text/javascript"> window.$crisp=[];window.CRISP_WEBSITE_ID="aa20179f-3fe9-4421-8765-d1293f1b58b0";(function(){ d=document;s=d.createElement("script"); s.src="https://client.crisp.chat/l.js"; s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})(); </script><link href="https://www.ninenik.com/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://www.ninenik.com/css/fontawesome-5.7.2/css/all.min.css">
+<style type="text/css">
+html {
+  scroll-behavior: smooth;
+}
+body{
+	background-color:#F7EFFB;		
+}
+::-moz-selection { /* Code for Firefox */
+    color: #FFFFFF;
+    background: #9B3F9A;
+}
+::selection {
+    color: #FFFFFF; 
+    background: #9B3F9A;
+}
+.btn-ninenik{
+	border:0px !important;	
+}
+div.main_contain{
+	margin:auto;
+	width:1000px;	
+	background-color:#FFFFFF;
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
+}
+li.listTopic{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	margin-bottom:5px;
+	background-color: #F7F7F7;
+	padding: 3px;
+	border-bottom: 1px dashed #CCC;	
+	-webkit-border-radius: 10px;  
+	-moz-border-radius: 10px;  
+	border-radius: 10px;	
+}
+li.listForum{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	margin-bottom:5px;
+	background-color: #F7F7F7;
+	padding: 3px;
+	padding-left:8px;
+	border-bottom: 1px dashed #CCC;	
+/*	-webkit-border-radius: 10px;  
+	-moz-border-radius: 10px;  
+	border-radius: 10px;	*/
+}
+li.listTopic:hover{
+	background-color: #E3E8EE;	
+}
+span.newTopic_css{
+	color:#FFF;
+	font-weight:bold;
+	font-size:11px;
+	text-align:center;	
+    padding: 0px 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.1);	
+}
+div.updateTopic_css{
+	position: absolute;
+	display: block;
+	float: right;
+/*	top: 0px;*/
+	bottom:-22px;
+	width: 100px;
+	height: 20px;
+	right: 10px;
+	color: #FFF;
+	text-align: center;
+}
+div.dayTopic{
+	position:relative;
+	float:left;
+	top:5px;
+	display: block;
+	width: 60px;
+	height: 40px;
+	background-color: #FFFFFF;
+	text-align: center;
+	-webkit-border-radius: 10px;  
+	-moz-border-radius: 10px;  
+	border-radius: 10px;
+	padding-bottom: 45px;
+	text-transform:uppercase;
+	color: #000;	
+}
+div.footer_css_new{
+	padding: 30px 0px;
+	text-align: center;
+	height: 150px;
+	color:#FFFFFF;
+}
+</style>
+<style type="text/css">
+/* css แบ่งหน้า */
+.browse_page{   
+    clear:both;   
+    margin-left:12px;   
+    height:25px;   
+    margin-top:5px;   
+    display:block;   
+}   
+.browse_page a,.browse_page a:hover{   
+    display:block;   
+    height:25px;    
+    width:45px;   
+    font-size:14px;   
+    float:left;   
+    margin:0px 2px;
+    border:1px solid #CCCCCC;   
+    background-color:#F4F4F4;   
+    color:#333333;   
+    text-align:center;   
+    line-height:22px;   
+    font-weight:bold;   
+    text-decoration:none;   
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	
+}   
+.browse_page a:hover{   
+	border:1px solid #ca5ec9;
+	background-color:#ca5ec9;
+    color:#FFFFFF;   
+}   
+.browse_page a.selectPage{   
+    display:block;   
+    height:25px;   
+    width:45px;   
+    font-size:14px;   
+    float:left;   
+    margin-right:2px;   
+	border:1px solid #ca5ec9;
+	background-color:#ca5ec9;
+    color:#FFFFFF;   
+    text-align:center;   
+    line-height:22px;    
+    font-weight:bold;   
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	
+}   
+.browse_page a.SpaceC{   
+    display:block;   
+    height:25px;   
+    width:15px;   
+    font-size:7px;   
+    float:left;   
+    margin-right:1px;   
+    border:0px dotted #0A85CB;   
+    background-color:#FFFFFF;   
+    color:#333333;   
+    text-align:center;   
+    line-height:22px;   
+    font-weight:bold;   
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	
+}   
+.browse_page a.naviPN{   
+    width:50px;   
+    font-size:12px;   
+	height:25px;  
+    display:block;   
+/*    width:25px;   */
+    float:left;   
+	border:1px solid #ca5ec9;
+	background-color:#ca5ec9;
+    color:#FFFFFF;   
+    text-align:center;   
+    line-height:22px;   
+    font-weight:bold;      
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	
+}  
+/* จบ css แบ่งหน้า */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 7px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ca5ec9;
+  border: 0px none #9B3F9A;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+[data-tooltip]:not([data-tooltip=""]) {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+#fixed-controls {
+    position: fixed;
+    z-index: 3;
+    top: 50%;
+    margin-top: -100px;
+    background: #fff;
+    border: #ddd 1px solid;
+    width: 50px;
+    font-size: 20px;
+    right: 0;
+}
+.fxc-row {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #ececec;
+    color:#444;
+}
+#fixed-controls .fxc-row:after {
+	content:"";
+	position:absolute;
+	left:0;top:0; width:100%;
+	height:100%;
+	background:#ca5ec9;
+	margin:0; padding:0;
+	border:none;
+	-webkit-transform: scale(0.1);
+	-moz-transform: scale(0.1);
+	-ms-transform: scale(0.1);
+	transform: scale(0.1);   
+}
+ #fixed-controls .fxc-row > span { z-index:3; position:relative;
+     font-weight: normal;
+ }
+ #fixed-controls .fxc-row:hover > span { color:#fff;} 
+ #fixed-controls .fxc-row:after,
+ #fixed-controls .fxc-row > span {
+  -webkit-transition: 0.15s linear;
+    -ms-transition: 0.15s linear;
+    -moz-transition: 0.15s linear;
+    -o-transition: 0.15s linear;
+    transition: 0.15s linear;
+}    
+#fixed-controls .fxc-row:hover:after {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+} 
+.old_section_title{
+	background-color: #f3a69e;
+	position: relative;
+	z-index: 99999;
+	color:#000000;
+	padding: 10px;
+	border: 2px solid #F44336;	
+	border-bottom:0px;
+}
+.old_section{
+	background-color: #e7d2d2;
+	position: relative;
+	z-index: 99999;
+	padding: 10px;
+	border: 2px solid #F44336;
+	border-top:0px;
+	margin: 0px 0px 30px 0px;	
+}
+a.place_u_name_show{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+	max-width: 250px;	
+}
+.place_u_name_show_forumss{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+	max-width: 300px;	
+	line-height: 10px;
+    height: 25px;
+    top: 8px;
+    position: relative;
+    padding: 5px 0px;	
+}
+.news_and_feature{
+    background-color: #FFEB3B;
+    padding: 0px 8px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.1);	
+}
+#overlay_for_adsblock {       
+    background:#000;    
+    width:100%;    
+    height:100%;    
+    z-index:80001;    
+    top:0px;    
+    left:0px;    
+    position:fixed;    
+    opacity: .9;       
+    filter: alpha(opacity=80);       
+    -moz-opacity: .8;      
+    display:none;    
+}    
+#msg_show_adsblock{  
+	background: #D30000;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 5px;
+    position:fixed;  
+    z-index:90001;  
+    margin:auto;  
+	width:700px;
+	height:100px;
+    top: 35%;  
+    left: 50%;  
+    margin-top: 0px;  
+    margin-left: -350px;  
+    text-align:center;  
+    display:none;  
+    padding: 15px;
+    font-size: 17px;	
+}  
+ul.dropdown-menu.member-menu-list li {
+    padding: 3px 0px;
+}
+.dark-mode-toggle {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 62px;
+  height: 32px;
+  display: inline-block;
+  position: relative;
+  border-radius: 50px;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #707070;
+  transition: background-color ease 0.3s;
+}
+
+.dark-mode-toggle:before {
+  content: "on off";
+  display: block;
+  position: absolute;
+  z-index: 2;
+  width: 28px;
+  height: 28px;
+  background: #fff;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  font: 10px/28px Helvetica;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-indent: -22px;
+  word-spacing: 37px;
+  color: #fff;
+  text-shadow: -1px -1px rgba(0,0,0,0.15);
+  white-space: nowrap;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  transition: all cubic-bezier(0.3, 1.5, 0.7, 1) 0.3s;
+}
+
+.dark-mode-toggle:checked {
+  background-color: #4CD964;
+}
+
+.dark-mode-toggle:checked:before {
+  left: 32px;
+}
+.css-time-of-article{padding: 2px 10px;border-radius: 10px;font-size: 13px;box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.1);}
+.css-time-of-article.year-0{background-color:#A0C10D;color: #FFFFFF;}.of-year-0{color:#A0C10D;}
+.css-time-of-article.year-1{background-color:#90AE0A;color: #FFFFFF;}.of-year-1{color:#90AE0A;}
+.css-time-of-article.year-2{background-color:#F6C404;color: #FFFFFF;}.of-year-2{color:#F6C404;}
+.css-time-of-article.year-3{background-color:#FD9704;color: #FFFFFF;}.of-year-3{color:#FD9704;}
+.css-time-of-article.year-4{background-color:#C34F28;color: #FFFFFF;}.of-year-4{color:#C34F28;}
+.css-time-of-article.year-5{background-color:#7A2B27;color: #FFFFFF;}.of-year-5{color:#7A2B27;}
+.use_shadow{box-shadow: 6px 5px 5px 0px rgb(226, 225, 225) !important;cursor:zoom-in !important;max-width: 100%;height: auto !important;};
+.nShowContent h5{font-weight:bold !important;}
+.nShowContent h6{font-weight:bold !important;}
+#link_to_topic tr.sector_h3{text-indent:5px !important;}
+#link_to_topic tr.sector_h4{text-indent:10px !important;}
+#link_to_topic tr.sector_h5{text-indent:20px !important;}
+#link_to_topic tr.sector_h6{text-indent:30px !important;}
+.btn-code-copy{
+	position: absolute;right: 0px;z-index: 9999;background-color: transparent;
+}
+.grecaptcha-badge{
+	visibility:hidden !important;	
+}
+</style>
+<link href="https://www.ninenik.com/css/darkmode.css?v7" rel="stylesheet">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-7717395067782467",
+          enable_page_level_ads: true
+     });
+</script>
+<link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+<style type="text/css">.big_preview_img{position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);z-index: 9999999;-webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);box-shadow: 0 5px 15px rgba(0,0,0,.5);	max-width:90%;max-height:90%;cursor:zoom-out !important;}</style>
+<style type="text/css">h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family: 'Kanit', sans-serif !important;}</style>
+<style type="text/css">.google-auto-placed{margin-top:10px;margin-bottom:10px;}.step_skip{padding:10px;margin:10px 0px;}.fb_iframe_widget_fluid_desktop iframe{min-width:100% !important}td.code > div.container {top: -11px !important;}</style>
+</head>
+<body>
+  <div id="fixed-controls" style="">
+<a id="goto_section_top2" href="javascript:void(0);" class="" data-tooltip="Scroll to bottom" style="
+    display: block;
+    text-align: center;  padding: 0px 0px;
+    border-bottom: 1px solid #9B3F9A;
+    background-color: #F7EFFB;
+">
+  <span ><i class="fas fa-caret-up fa-lg" style="color:#9B3F9A;"></i></span>
+  </a>  
+<a id="goto_section_top" href="javascript:void(0);" class="" data-tooltip="Scroll to bottom" style="
+    display: block;
+    text-align: center;    padding: 5px 0px;
+">
+  <span ><i class="fas fa-angle-up fa-lg" style="color:#9B3F9A;"></i></span>
+  </a>    
+  
+  
+  <a id="goto_topic_menu" title="ไปยัง หัวข้อ ของเนื้อหา" href="javascript:void(0);" data-toggle="modal" data-target=".bs-topic-modal-sm"  class="fxc-row scroll-to" data-tooltip="Show topic menu">
+  <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+  </a>
+  
+  <a id="goto_section_bottom" href="javascript:void(0);" class="" data-tooltip="Scroll to bottom" style="
+    display: block;
+    text-align: center;    padding: 5px 0px;
+">
+  <span ><i class="fas fa-angle-down fa-lg" style="color:#9B3F9A;"></i></span>
+  </a>  
+<a id="goto_section_bottom2" href="javascript:void(0);" class="" data-tooltip="Scroll to bottom" style="
+    display: block;box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.1);
+    text-align: center;     padding: 0px 0px;
+    border-top: 1px solid #9B3F9A;
+    background-color: #F7EFFB;
+">
+  <span ><i class="fas fa-caret-down fa-lg" style="color:#9B3F9A;"></i></span>
+  </a>  
+</div><div class="main_contain">
+   
+<nav class="navbar navbar-default" role="navigation" style="border:0px;background-color:#F8F8F8;">
+    <div class="container-fluid" style="padding-top: 10px;
+padding-bottom: 10px;
+border-bottom: 1px solid #DDD;
+border-top: 5px solid #9B3F9A;
+box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.1);
+">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://www.ninenik.com/index.html" style="padding:0px;margin-left:10px;position:relative;">
+      <img title="1 Jan 2022" alt="เว็บไซต์ รวมบทความ เนื้อหา วิธีการใช้งาน การประยุกต์ คำสั่ง การ กำหนด รูปแบบ ตัวอย่าง เทคนิค ลูกเล่น 
+PHP Ionic Angular Phonegap Ajax CSS jQuery MySQL" src="https://www.ninenik.com/images/logo_01_Sat.gif" width="175" height="50" style="position:relative;" />
+      </a>    
+      <form class="navbar-form navbar-left" role="search" action="https://www.ninenik.com/google_search.php" id="cse-search-box">
+        <div class="form-group">
+          <input type="text" class="form-control myclock_place" placeholder="เวลา 19:31:59 น. / ค้นหาที่นี่" name="q" value="" style="width:300px;max-width:300px;">
+        </div>
+        <button type="submit" name="sa" class="btn btn-default btn-search-article" style="background-color: #ca5ec9;color:#FFFFFF;">
+        <i class="fas fa-search"></i> ค้นหา</button>
+        <gcse:searchbox-only></gcse:searchbox-only>    
+      </form>     
+      <style type="text/css">#___gcse_0{display:none;}</style>
+     
+      	  
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle ct-mem-menu" data-toggle="dropdown">เมนู | ตั้งค่า  <b class="caret"></b></a>
+          <ul class="dropdown-menu member-menu-list">
+              <li><a href="https://www.ninenik.com/forum.html?newtopic"><i class="fa fa-file fa-fw mr-5"></i> ตั้งคำถามใหม่</a></li>
+            <li class="divider"></li>
+            <li><a href="https://www.ninenik.com/forum.html?signin"><i class="fas fa-sign-in-alt fa-fw mr-5"></i> เข้าสู่ระบบ</a></li>
+            <li><a href="https://www.ninenik.com/forum.html?signup"><i class="fas fa-user-plus fa-fw mr-5"></i> สมัครสมาชิก</a></li>
+            <li><a style="display: flex;" href="javascript:void(0);"><div style="line-height: 40px;padding-right: 5px;">Dark Mode</div> 
+            <input class="dark-mode-toggle" type="checkbox"  /></a></li>
+            <li class="divider"></li>
+            <li class="last-list-forgotpassword"><a href="https://www.ninenik.com/forum.html?forgotpassword"><i class="fas fa-unlock-alt fa-fw mr-5"></i> ลืมรหัสผ่าน</a></li>
+          </ul>
+        </li>
+      </ul>        
+        
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->    
+</nav>
+<div id="nav_second_level" style="margin:auto;width:998px;text-align:center;
+position: relative;
+top: -22px;
+background-color: #FCFCFC;
+box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.1);
+">
+<a class="btn btn-default btn-ninenik" href="https://www.ninenik.com/index.html" role="button" 
+style="background-color: #ca5ec9;color:#FFFFFF;">
+<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+</a>
+<a class="btn btn-default btn-ninenik" href="https://www.ninenik.com/บทความ-PHP_Learning-5.html" role="button" 
+>PHP</a>
+<a class="btn btn-default btn-ninenik" href="https://www.ninenik.com/บทความ-Dart-29.html" role="button" 
+>Dart</a>
+<a class="btn btn-default btn-ninenik" href="https://www.ninenik.com/บทความ-Angular-22.html" role="button" 
+>Angular</a>
+<a class="btn btn-default btn-ninenik" href="https://www.ninenik.com/บทความ-HTML5-16.html" role="button" 
+>HTML5</a>
+<a class="btn btn-default btn-ninenik" href="https://www.ninenik.com/บทความ-AJAX_Learning-6.html" role="button" 
+>AJAX</a>
+<a class="btn btn-default btn-ninenik" href="https://www.ninenik.com/บทความ-Javascript_Learning-7.html" role="button" 
+>Javascript</a>
+<a class="btn btn-default btn-ninenik" href="https://www.ninenik.com/บทความ-CSS_Learning-8.html" role="button" 
+>CSS</a>
+<a class="btn btn-default btn-ninenik" href="https://www.ninenik.com/บทความ-MySQL_Learning-9.html" role="button" 
+>MySQL</a>
+<a class="btn btn-default btn-ninenik" href="https://www.ninenik.com/บทความ-jQuery_Learning-10.html" role="button" 
+>jQuery</a>
+<!-- Single button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle btn-ninenik" data-toggle="dropdown" aria-expanded="false">
+    More <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu more-list-menu" role="menu">
+    <li><a href="https://www.ninenik.com/บทความ-ANDROID-12.html">ANDROID</a></li>
+    <li><a href="https://www.ninenik.com/บทความ-AngularJs-15.html">AngularJs</a></li>    
+    <li><a href="https://www.ninenik.com/บทความ-Bootstrap-24.html">Bootstrap</a></li>
+    <li><a href="https://www.ninenik.com/บทความ-Codeigniter-19.html">Codeigniter</a></li>
+    <li><a href="https://www.ninenik.com/บทความ-Expressjs-26.html">Expressjs</a></li>    
+    <li><a href="https://www.ninenik.com/บทความ-Firebase-31.html">Firebase</a></li>    
+    <li><a href="https://www.ninenik.com/บทความ-Flutter-28.html">Flutter</a></li>
+    <li><a href="https://www.ninenik.com/บทความ-Ionic_Native-23.html">Ionic</a></li>										
+    <li><a href="https://www.ninenik.com/บทความ-Line_Dev-27.html">Line Dev</a></li>
+    <li><a href="https://www.ninenik.com/บทความ-NodeJs-25.html">NodeJS</a></li>                
+    <li><a href="https://www.ninenik.com/บทความ-OpenCart-21.html">OpenCart</a></li>
+    <li><a href="https://www.ninenik.com/บทความ-Phonegap-13.html">Phonegap</a></li>    
+    <li><a href="https://www.ninenik.com/บทความ-Web_Service-30.html">Web Service</a></li>   
+    <li class="divider"></li>
+	<li><a href="https://www.ninenik.com/snippets/">รวม Snippets</a></li>
+    <li><a href="https://www.ninenik.com/sitemap.html">Sitemap</a></li>
+	<li><a href="https://www.ninenik.com/privacy_policy.php">Privacy Policy</a></li>
+  </ul>
+</div>
+<a class="btn btn-default btn-ninenik" href="https://www.ninenik.com/forum.html" role="button" 
+>Forum</a>
+</div>
+<div>
+  <br>
+  <div style="margin:auto;text-align:center;padding:10px;">
+    <script type="text/javascript"><!--
+google_ad_client = "ca-pub-7717395067782467";
+/* ninenik-ad_01 */
+google_ad_slot = "5045781586";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><!--/////////// TRANSLATE ///////////////-->
+<style type="text/css">body{top:0 !important;}.goog-te-banner-frame{visibility: hidden !important;}.w-150{width: 150px;display: inline-block;}
+.btn-lang{background-color: #ca5ec9 !important;;color:#FFFFFF !important;}
+</style>
+<div id="google_translate_element"></div>
+<script type="text/javascript">
+var _0x1136=['.goog-te-gadget-simple','removeChild','parentNode','nodeType','childNodes','before','InlineLayout','translate','TranslateElement','.goog-te-gadget','cookie','reload','notranslate','googtrans=;expires=;path=/','forEach','th,en,zh-CN,ja,ko,lo,my,km,tl,ms,vi,id,hmn,fr,es,de,ru,pt,el,hi,ar,af'];(function(_0x3a9a89,_0x1136d1){var _0xdf8932=function(_0x56d300){while(--_0x56d300){_0x3a9a89['push'](_0x3a9a89['shift']());}};_0xdf8932(++_0x1136d1);}(_0x1136,0x73));var _0xdf89=function(_0x3a9a89,_0x1136d1){_0x3a9a89=_0x3a9a89-0x0;var _0xdf8932=_0x1136[_0x3a9a89];return _0xdf8932;};function googleTranslateElementInit(){var _0x4fae86='<button\x20type=\x22button\x22\x20onClick=\x22googleTranslateReset()\x22\x20class=\x22btn-lang\x20btn\x20btn-sm\x20btn-light\x22>Original\x20Language (THAI)</button>';$('pre')['addClass'](_0xdf89('0x9'));new google[(_0xdf89('0x4'))][(_0xdf89('0x5'))]({'pageLanguage':'th','multilanguagePage':!![],'includedLanguages':_0xdf89('0xc'),'layout':google[_0xdf89('0x4')][_0xdf89('0x5')][_0xdf89('0x3')]['SIMPLE']},'google_translate_element');$(_0xdf89('0xd'))[_0xdf89('0x2')](_0x4fae86);var _0x5963f6=$(_0xdf89('0x6'))[0x0][_0xdf89('0x1')];_0x5963f6[_0xdf89('0xb')](_0x3d4026=>_0x3d4026[_0xdf89('0x0')]!=0x1&&_0x3d4026[_0xdf89('0xf')][_0xdf89('0xe')](_0x3d4026));}function googleTranslateReset(){document[_0xdf89('0x7')]=_0xdf89('0xa');document[_0xdf89('0x7')]='googtrans=;expires=;path=/;domain=.ninenik.com';location[_0xdf89('0x8')]();}
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!--/////////// TRANSLATE ///////////////-->    
+  </div>
+  <br style="clear:both;"/>
+	
+  <center>
+  
+    <h1 style="font-size:23px;">การสร้าง และใช้งาน Rich Menu ผ่าน LINE Messaging API ตอนที่ 8</h1>
+    <em><time title="บทความจะได้ 2 ปีแล้ว" class="css-time-of-article year-2" datetime="2019-03-31 15:17">31 March 2019</time> 
+    <span class="of-year-2">เขียนเมื่อ 2 ปีก่อน</span>
+    โดย Ninenik Narkdee</em>
+    <h5>
+    <a class="badge" style="margin: 0px 3px;background-color:#afafaf;padding: 3px 10px;font-weight:normal;" href="tag_คำสั่ง_วิธีการ_ใช้งาน_การประยุกต์_ตัวอย่าง_เกี่ยวกับ-line" target="_blank" title="line">line</a>
+<a href="javascript:void(0)" data-clipboard-text="https://www.ninenik.com/tag_คำสั่ง_วิธีการ_ใช้งาน_การประยุกต์_ตัวอย่าง_เกี่ยวกับ-line" class="badge btm_copy" style="
+    margin-left: -11px;
+    border-radius: 0px;
+    background-color: transparent;
+    color: #afafaf;
+"><i class="fa fa-clipboard fa-lg" title="Copy URL tag นี้"></i></a>
+<a class="badge" style="margin: 0px 3px;background-color:#afafaf;padding: 3px 10px;font-weight:normal;" href="tag_คำสั่ง_วิธีการ_ใช้งาน_การประยุกต์_ตัวอย่าง_เกี่ยวกับ-rich_menu" target="_blank" title="rich_menu">rich menu</a>
+<a href="javascript:void(0)" data-clipboard-text="https://www.ninenik.com/tag_คำสั่ง_วิธีการ_ใช้งาน_การประยุกต์_ตัวอย่าง_เกี่ยวกับ-rich_menu" class="badge btm_copy" style="
+    margin-left: -11px;
+    border-radius: 0px;
+    background-color: transparent;
+    color: #afafaf;
+"><i class="fa fa-clipboard fa-lg" title="Copy URL tag นี้"></i></a>
+<a class="badge" style="margin: 0px 3px;background-color:#afafaf;padding: 3px 10px;font-weight:normal;" href="tag_คำสั่ง_วิธีการ_ใช้งาน_การประยุกต์_ตัวอย่าง_เกี่ยวกับ-line_bot" target="_blank" title="line_bot">line bot</a>
+<a href="javascript:void(0)" data-clipboard-text="https://www.ninenik.com/tag_คำสั่ง_วิธีการ_ใช้งาน_การประยุกต์_ตัวอย่าง_เกี่ยวกับ-line_bot" class="badge btm_copy" style="
+    margin-left: -11px;
+    border-radius: 0px;
+    background-color: transparent;
+    color: #afafaf;
+"><i class="fa fa-clipboard fa-lg" title="Copy URL tag นี้"></i></a>
+    </h5>
+    <div id="show_copy_success2" style="background-color:#EBFDEB;color:#5CB85C;
+    padding: 20px;width: 50%;
+    margin: auto;
+    margin-bottom: 0px;display:none;
+    border-left: 3px solid #5CB85C;" class="bs-callout bs-callout-success" >    
+    <strong>สำเร็จ!</strong> ทำการ copy URL สำหรับอ้างอิงเรียบร้อยแล้ว
+    </div>    
+        <h2 class="content-h2-tag" style="font-size:12px;">
+		คำสั่ง การ กำหนด รูปแบบ ตัวอย่าง เทคนิค ลูกเล่น การประยุกต์ การใช้งาน เกี่ยวกับ line rich menu line bot    </h2>
+  </center>
+
+
+<br>
+<br style="clear:both;" />
+<div class="nShowContent">
+<br>
+<div class="alert alert-info" role="alert"> 
+<strong><u>UPDATE</U>!</strong>  <strong><u>อัพเดทล่าสุด</U></strong> 28-06-2020 <br>
+ 
+28-06-20250 | ปรับให้รองรับ Rich Menu แบบ Compact เนื้อหาเพิ่มเติม ที่ 1 <br>
+
+	    
+
+</div>
+<br>
+<button type="button" id="btm_go_header" title="เลือกไปที่หัวข้อ" data-toggle="modal" data-target=".bs-topic-modal-sm" class="btn btn-default btn-sm btm_go_header" style="position: relative;left: 3px;
+    float: right;background-color: #ca5ec9;color:#FFFFFF;border-color:#9B3F9A;"  />
+ไปที่
+<i class="fa fa-bars fa-lg"  title="เลือกไปที่หัวข้อ"></i>
+</button>
+<button type="button" id="btm_copy2"  title="Copy to clipboard" class="btn btn-success btn-sm btm_copy" data-clipboard-target="#link_share" style="position: relative;
+    float: right;"  />
+Copy
+<i class="fa fa-clipboard fa-lg"  title="Copy to clipboard"></i>
+</button>
+<span class="bg-for-get-url" title="คลิกเลือก Copy Link นี้เพื่อส่งต่อหรือแชร์" style="
+	clear:both;
+    float: right;
+    background-color: #f8f8f8;
+    display: inline-block;
+    height: 30px;
+    margin: 0px 5px;
+    line-height: 30px;
+    padding: 0px 0px;
+    color: #9B3F9A;
+    margin-top:5px;
+    margin-right:-3px;
+">
+    <input onClick="this.select()" class="my_short_url" type="text" value="http://niik.in/898" style="
+    background-color: transparent;
+    border: 0px;
+    width: 134px;
+    height: 30px;
+    padding: 0px 5px;
+    text-align: center;
+">
+<button id="get_qrcode_url" title="แสดง QRCODE" class="btn" style="
+    padding: 4px 10px;
+    position: relative;
+    top: -1px;
+">
+<i class="fas fa-qrcode"></i>
+</button>
+</span>
+<div id="place_qrcode_url"  style="
+    clear: both;
+    float: right;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 5px;
+    text-align: center;
+    vertical-align: middle;
+    display:none;
+">
+   <i class="fas fa-spinner fa-spin fa-4x" style="
+    position: relative;
+    top: 20px;
+    color:#ca5ec9;
+"></i>
+</div>
+<div  itemscope itemtype="http://schema.org/Article">
+  <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+    <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+      <meta itemprop="url" content="https://www.ninenik.com/images/ninenik_page_logo.jpg">
+      <meta itemprop="width" content="442">
+      <meta itemprop="height" content="440">
+    </div>  
+    <meta itemprop="name" content="Ninenik.com">
+  </div>
+<meta itemprop="author" content="Ninenik Narkdee">
+<meta itemprop="image" content="https://i.imgur.com/ZCn6ynA.png">
+<meta itemprop="headline" content="การสร้าง และใช้งาน Rich Menu ผ่าน LINE Messaging API ตอนที่ 8">
+<meta itemprop="mainEntityOfPage" content="https://www.ninenik.com">
+<meta itemprop="datePublished" content="2019-03-31">
+<meta itemprop="dateModified" content="2020-06-28">
+<meta itemprop="name" content="การสร้าง และใช้งาน Rich Menu ผ่าน LINE Messaging API ตอนที่ 8">
+<div itemprop="description">
+<div>
+	เนื้อหาในตอนต่อไปนี้ เราจะมาดูเกี่ยวกับการใช้งาน Rich Menu</div>
+<div>
+	&nbsp; &nbsp; Rich Menu เป็นเมนูที่เราสามารถจัดรูปแบบเองได้ จะแสดงในหน้าสนทนา ตัวต่อตัว</div>
+<div>
+	ระหว่างผู้ใช้กับ bot เพื่อกำหนดตัวเลือกให้ผู้ใช้งานตอบโต้กับ bot&nbsp; คล้ายๆ กับปุ่ม navigator</div>
+<div>
+	เราสามารถปรับแต่งเมนูให้ทำงานรองรับ action ต่างๆ ได้</div>
+<div>
+	&nbsp;</div>
+<h5>
+	ตัวอย่างหน้าตา Rich Menu</h5>
+<div>
+	&nbsp;</div>
+<div>
+	<img alt="" class="use_shadow" src="https://i.imgur.com/1rCC9Lj.png" style="width: 320px; height: 640px;" /><br />
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<h3>
+	Rich Menu จะประกอบไปด้วยส่วนที่เป็นรูปภาพ และส่วนที่เป็นแถบเมนู</h3>
+<div>
+	&nbsp; &nbsp; - ส่วนที่เป็นรูปภาพ เราสามารถกำหนดบริเวณหรือพื้นที่ ที่ผู้ใช้สามารถที่จะกดเลือกตามต้องการได้&nbsp;</div>
+<div>
+	โดยเมื่อกดเลือกพื้นที่หรือจุดที่กำหนดไว้แล้ว ก็ให้ไปทำงานตาม action ที่ระบุ</div>
+<div>
+	&nbsp; &nbsp; - ส่วนของแถบเมนู เป็นส่วนที่ผู้ใช้สามารถที่ใช้เปิด หรือปิด Rich Menu สามารถแก้ไขข้อความ</div>
+<div>
+	ที่แสดงตามต้องการได้ แต่ปกติ จะใช้คำว่า &quot;เมนู&quot; หรือ &quot;Menu&quot;</div>
+<div>
+	&nbsp;</div>
+<h3>
+	รูปแบบและลำดับความสำคัญการแสดงของ Rich Menu</h3>
+<div>
+	&nbsp; &nbsp; - Rich Menu ที่กำหนดโดย Messaging API ที่แสดงต่อผู้ใช้แต่ละคน จะมีระดับความสำคัญเท่ากับ 1&nbsp;</div>
+<div>
+	หมายถึง Rich Menu ที่เชื่อมกับผู้ใช้ใดๆ จะถูกแสดงก่อน Rich Menu เริ่มต้น</div>
+<div>
+	&nbsp; &nbsp; - Rich Menu เริ่มต้น หรือ Rich Menu ที่ผู้ใช้ทุกคนที่เพิ่ม bot เป็นเพื่อนแล้ว ที่กำหนดผ่าน Messaging</div>
+<div>
+	API จะมีระดับความสำคัญเท่ากับ 2 หมายถึง เมื่อมีการกำหนด Rich Menu ใดๆ เป็นเมนูเริ่มต้น ผู้ใช้ทุกคน</div>
+<div>
+	ที่เป็นเพื่อนกับ bot จะเห็นเมนูนี้</div>
+<div>
+	&nbsp; &nbsp; - Rich Menu เริ่มต้น หรือ Rich Menu ที่ผู้ใช้ทุกคนที่เพิ่ม bot เป็นเพื่อนแล้ว ที่กำหนดผ่าน <a href="https://manager.line.biz/" target="_blank">LINE OA Manager</a></div>
+<div>
+	จะมีระดับความสำคัญเท่ากับ 3 หมายถึง เมื่อมีการกำหนด Rich Menu ใดๆ เป็นเมนูเริ่มต้น ผู้ใช้ทุกคน</div>
+<div>
+	ที่เป็นเพื่อนกับ bot จะเห็นเมนูนี้</div>
+<div>
+	&nbsp;</div>
+<h3>
+	เงื่อนไขเมื่อมีการกำหนดค่าหรือปรับแต่ง Rich Menu</h3>
+<div>
+	&nbsp; &nbsp; เมื่อมีการปรับแต่ง หรือกำหนดค่าให้กับ Rich Menu แล้ว Rich Menu จะมีผลต่อการเปลี่ยนแปลงที่เกิดขึ้น</div>
+<div>
+	ในเวลาที่แตกต่างกันขึ้นกับรูปแบบของ Rich Menu ตามเงื่อนไขดังนี้</div>
+<div>
+	&nbsp; &nbsp; - Rich Menu กำหนดโดย Messaging API ที่เชื่อมกับผู้ใช้ จะมีผลทัน นั่นคือ เมื่อมีการเปลี่ยนแปลง&nbsp;</div>
+<div>
+	Rich Menu ที่เชื่อมกับผู้ใช้อยู่ Rich Menu นั้นๆ ก็จะอัพเดทและแสดงทันที อย่างไรก็ตาม ถ้า Rich Menu นั้น</div>
+<div>
+	ถูกลบออก โดยไม่ได้ทำการยกเลิกการเชื่อมกับผู้ใช้&nbsp; &nbsp; Rich Menu นั้นจะหายไป เมื่อผู้ใช้ออกจากหน้าสนทนา</div>
+<div>
+	ไปแล้วเปิดเข้ามาใหม่</div>
+<div>
+	&nbsp; &nbsp; - Rich Menu ที่เป็นเมนูหลัก กำหนดโดย Messaging API จะมีผล เมื่อผู้ใช้ออกจากห้องสนทนาไปแล้วเปิดกลับ</div>
+<div>
+	เข้ามาใหม่ ไม่เกิดขึ้นในทันทีทันใด หรือนานเป็นนาที ดังนั้นผู้ใช้ต้องรอสักครู่</div>
+<div>
+	&nbsp; &nbsp; - Rich Menu ที่เป็นเมนูหลัก ที่กำหนดผ่าน <a href="https://manager.line.biz/" target="_blank">LINE OA Manager</a> จะมีผล เมื่อผู้ใช้ออกจากห้องสนทนาไปแล้ว</div>
+<div>
+	เปิดกลับเข้ามาใหม่&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<h3>
+	การกำหนด Rich Menu ผ่าน Messaging API</h3>
+<div>
+	&nbsp; &nbsp; เราสามารถกำหนด Rich Menu สำหรับเมนูหลัก และแบบสำหรับเชื่อมโยงเฉพาะกับผู้ใช้ ผ่านการใช้งาน&nbsp;</div>
+<div>
+	Messaging API ได้ โดย Rich Menu ที่กำหนดโดย Messaging API จะรองรับ postback และ datetime picker action&nbsp; เพิ่มเข้ามา ต่างจากที่กำหนดใน <a href="https://manager.line.biz/" target="_blank">LINE OA Manager</a> ที่รองรับเฉพาะ Message และ URL action</div>
+<div>
+	&nbsp; &nbsp; เราสามารถกำหนดบริเวณ พื้นที่ หรือจุดใดๆใน Rich Menu เพื่อให้ทำงาน action ที่กำหนดเมื่อแตะเลือกได้</div>
+<div>
+	&nbsp;</div>
+<h4>
+	ลำดับขั้นตอนการสร้าง Rich Menu ผ่าน Messaging API</h4>
+<ul>
+	<li>
+		&nbsp; &nbsp; เตรียมรูปภาพ</li>
+	<li>
+		&nbsp; &nbsp; สร้าง Rich Menu</li>
+	<li>
+		&nbsp; &nbsp; อัพโหลดรูปสำหรับ Rich Menu</li>
+</ul>
+<h4>
+	การกำหนด Rich Menu ใดๆ เป็นเมนูหลัก หรือเมนูที่เชื่อมกับผู้ใช้แต่ละคน</h4>
+<ul>
+	<li>
+		&nbsp; &nbsp; กำหนดเป็น เมนูหลัก</li>
+	<li>
+		&nbsp; &nbsp; เชื่อมโยงกับผู้ใช้ขณะนั้น</li>
+</ul>
+<div>
+	&nbsp;</div>
+<h4>
+	&nbsp; &nbsp; การเตรียมรูปสำหร้บใช้เป็น Rich Menu</h4>
+<div>
+	&nbsp; &nbsp; สำหรับรูปที่ใช้ในการสร้าง Rich Menu นั้น จะสามารถกำหนดจุดที่จะทำงาน action ได้สูงสุดไม่เกิน 20 จุด&nbsp;</div>
+<div>
+	โดย รูปที่จะนำมาใช้ ต้องเป็นไปตามรูปแบบดังนี้</div>
+<div>
+	&nbsp; &nbsp; - เป็นไฟล์รูปภาพนามสกุล JPEG หรือ PNG</div>
+<div>
+	&nbsp; &nbsp; - มีขนาดความกว้างความสูง 2500x1686 หรือ 2500x843 pixels (ความสูงครึ่งหนึ่ง)</div>
+<div>
+	&nbsp; &nbsp; - ขนาดของไฟล์สูงสุดไม่เกิน 1 MB</div>
+<div>
+	&nbsp;</div>
+<h4>
+	&nbsp; &nbsp; การสร้าง Rich Menu</h4>
+<div>
+	&nbsp; &nbsp; ขึ้นตอนในการสร้าง Rich Menu จะเป็นไปดังนี้</div>
+<div>
+	&nbsp; &nbsp; - สร้าง Rich Menu Object โดยมีการกำหนดค่าต่างๆ เช่น ขนาด ชื่อ ข้อความแสดงเมนู พื้นที่บริเวณที่</div>
+<div>
+	จะให้สามารถกดเลือกได้ การแสดงเมนูเสมอหรือไม่ เหล่านี้เป็นต้น</div>
+<div>
+	&nbsp; &nbsp; - ส่งข้อมูล Rich Menu ที่ได้สร้างไปยัง url ที่ Line กำหนดไว้ หากทำการสร้างเมนูสำเร็จ จะมีการคืนค่า</div>
+<div>
+	เป็น Rich Menu ID กลับมา</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; เราสามารถสร้าง Rich Menu ได้สูงสุดถึง 1000 ต่อ 1 bot&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; สำหรับใครที่ยังไม่เข้าใจการกำหนดบริเวณหรือพื้นที่ในรูปภาพ เพื่อใช้ในการกำหนด action สามารถทบทวน</div>
+<div>
+	เนื้อหาเกี่ยวกับ Imagemapได้ที่บทความ</div>
+<div>
+	&nbsp; &nbsp; การใช้งาน Template Message ใน LINE Messaging API ตอนที่ 3 <a href="http://niik.in/836" target="_blank">http://niik.in/836</a></div>
+<div>
+	&nbsp; &nbsp; <a href="https://www.ninenik.com/content.php?arti_id=836" target="_blank">https://www.ninenik.com/content.php?arti_id=836</a> via @ninenik</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; ในการสร้าง Rich Menu ผ่าน Messaging API เราจะใช้งาน Line bot sdk หลักๆ คือ รับคำสั่งข้อความ</div>
+<div>
+	จากเรา แล้วเข้าไปทำคำสั่งตามเงื่อนไข และแจ้งสถานะการทำงานกลับมา (* เราจะมีแนวทางการประยุกต์เพิ่มให้)</div>
+<div>
+	&nbsp; &nbsp; เราจะใช้รูปแบบโค้ดต่อจากตอนที่แล้ว <a href="http://niik.in/897" target="_blank">http://niik.in/897</a></div>
+<div>
+	&nbsp; &nbsp; โดยไฟล์ <u>bot.php</u> กับ <u>bot_action.php</u> จะเพิ่มโค้ดการใช้งาน class เข้าไป</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre class="php:controls" name="code">
+use LINE\LINEBot\RichMenuBuilder;
+use LINE\LINEBot\RichMenuBuilder\RichMenuSizeBuilder;
+use LINE\LINEBot\RichMenuBuilder\RichMenuAreaBuilder;
+use LINE\LINEBot\RichMenuBuilder\RichMenuAreaBoundsBuilder;</pre>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; เนื่องจากการใช้งาน Rich Menu มีรูปแบบคำสั่งต่างๆ รวมทั้งการจัดการค่อนข้างมาก จะขอยกตัวอย่างเฉพาะ</div>
+<div>
+	ในขั้นตอนการสร้าง อย่างง่ายเพื่อทำความเข้าใจ ส่วนรายละเอียดแบบเต็มให้ดูในโค้ดการประยุกต์ในตอนท้ายๆ</div>
+<div>
+	&nbsp; &nbsp; นี่คือรูปที่เราจะใช้เป็นตัวอย่าง ในการสร้าง Rich Menu</div>
+<div>
+	&nbsp;</div>
+<div>
+	<img alt="" class="use_shadow" src="https://i.imgur.com/CVhqTZm.png" style="width: 400px; height: 270px;" /></div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; รูปนี้จะแบ่งออกเป็นสองส่วน เป็นด้านซ้ายและขวา A และ B ตามรูป โดยบริเวณ A เราจะใส่ Message action</div>
+<div>
+	เมื่อผู้ใช้กดเลือกให้ส่งข้อความไปใน chat ส่วนบริเวณ B เราจะใช้ URI action เป็นลิ้งค์ เมื่อผู้ใช้กดเลือก ก็จะเปิด</div>
+<div>
+	หน้าลิ้งค์นั้นขึ้นมาใน LINE โค้ดในส่วนของการสร้าง จะเป็นดังนี้</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre class="php:controls" name="code">
+case (preg_match(&#39;/^create-/&#39;,$userMessage) ? true : false): // เมื่อพิมพ์คำว่า create- เข้ามา
+	$respRichMenu = $bot-&gt;createRichMenu(
+		new RichMenuBuilder(
+			new RichMenuSizeBuilder(1686,2500), // ขนาด rich menu ปกติจะไม่เปลี่ยน แปลง
+			true, // เปิดให้แสดง * จะไม่แสดงทันที 
+			&quot;Rich Menu 1&quot;, // ชื่อ rich menu
+			&quot;เมนู&quot;, // ข้อความที่จะแสดงที่แถบเมนู
+			array( // array ของ action แต่ละบริเวณ
+				new RichMenuAreaBuilder( // action ที่ 1
+					new RichMenuAreaBoundsBuilder(0,0,1250,1686),// พื้นที่ A (x,y,width,height)
+					new MessageTemplateActionBuilder(&#39;m&#39;,&#39;Area A&#39;) // เปลี่ยนเฉพาะตัวที่ 2 ตามต้องการ &#39;Area A&#39;
+				),
+				new RichMenuAreaBuilder( // action ที่ 2
+					new RichMenuAreaBoundsBuilder(1250,0,1250,1686), // พื้นที่ B (x,y,width,height)
+					new UriTemplateActionBuilder(&#39;u&#39;,&#39;http://niik.in&#39;) // เปลี่ยนเฉพาะตัวที่ 2 ตามต้องการ &#39;http://niik.in&#39;
+				),																					
+			)
+		)
+	);			
+	// ให้ bot แจ้งกลับเกี่ยวกับ สถานะการสร้าง
+	$textReplyMessage = &quot; การสร้าง Rich Menu &quot;.$respRichMenu-&gt;getRawBody();
+	$replyData = new TextMessageBuilder($textReplyMessage);         											
+	break;</pre>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; กรณีจะใช้เป็น postback หรือ datetime picker action ก็สามารถใช้เป็น&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre class="php:controls" name="code">
+new PostbackTemplateActionBuilder(&#39;p&#39;,&#39;action=dosomething&amp;data=1&#39;)</pre>
+</div>
+<div>
+	&nbsp; &nbsp; หรือ</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre class="php:controls" name="code">
+new DatetimePickerTemplateActionBuilder(&#39;d&#39;,&#39;action=reservation&amp;room=1&#39;,&#39;datetime&#39;)</pre>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; เมื่อเราสร้าง Rich Menu สำเร็จ ก็จะได้ค่า Rich Menu ID กลับมาใช้งาน สมมติได้ค่ากลับมาเป็น</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre  name="code">
+การสร้าง Rich Menu {&quot;richMenuId&quot;:&quot;richmenu-c5057563053bcf79f62d644fc787830a&quot;}</pre>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; หลังจากนั้น เราต้องทำการอัพโหลดรูปไปใช้กับ Rich Menu ที่เราได้สร้าง ในการอัพโหลดรูป เราต้อง</div>
+<div>
+	อัพไฟล์รูปภาพ Rice Menu เราไปไว้ใน path เดียวกันกับไฟล์ bot.php ผ่านโปรแกรม FTP เสียก่อน&nbsp;</div>
+<div>
+	สมมติไฟล์เราชื่อ rich-menu-01.png เราจะได้คำสั่งในการอัพโหลดรูปไปใช้กับ Rich Menu ดังนี้</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre class="php:controls" name="code">
+case (preg_match(&#39;/^uploadpic-/&#39;,$userMessage) ? true : false): // เมื่อพิมพ์คำว่า uploadpic- เข้ามา	
+	$richmenuID = &quot;richmenu-c5057563053bcf79f62d644fc787830a&quot;;  // ค่า rich menu id ที่เราได้จากการสร้าง
+	$respRichMenu = $bot-&gt;uploadRichMenuImage($richmenuID,&quot;rich-menu-01.png&quot;,&quot;image/png&quot;);
+	$textReplyMessage = &quot; อัดโหลดรูป Rich Menu &quot;.$respRichMenu-&gt;getRawBody();
+	$replyData = new TextMessageBuilder($textReplyMessage);         											
+	break;	</pre>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; หลังจากอัพโหลดรูปให้กับ Rich Menu แล้ว ถ้าสำเร็จจะไม่คืนค่าใดๆ กลับมา&nbsp;</div>
+<div>
+	&nbsp; &nbsp; เมื่อเราสร้าง และอัพโหลดรูปให้กับ Rich Menu เรียบร้อยแล้ว Rich Menu นั้น จะไม่แสดงจนกว่าเราจะ</div>
+<div>
+	กำหนดให้เป็นเมนูหลัก ซึ่งเมนูหลักก็คือ เมนูที่ผู้ใช้ทุกคนที่เป็นเพื่อนกับ bot จะเห็นเมนูนี้ในหน้าห้องสนทนา</div>
+<div>
+	เราจะใช้คำสั่งต่อไปนี้</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre class="php:controls" name="code">
+case (preg_match(&#39;/^setdefault-/&#39;,$userMessage) ? true : false): // เมื่อพิมพ์คำว่า setdefault- เข้ามา	
+	$richmenuID = &quot;richmenu-c5057563053bcf79f62d644fc787830a&quot;;  // ค่า rich menu id ที่เราได้จากการสร้าง
+	$respRichMenu = $httpClient-&gt;post(&quot;https://api.line.me/v2/bot/user/all/richmenu/&quot;.$richmenuID,array());
+	$textReplyMessage = &quot; กำหนด Default Rich Menu &quot;.$respRichMenu-&gt;getRawBody();
+	$replyData = new TextMessageBuilder($textReplyMessage);         											
+	break;	</pre>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; &nbsp;เมื่อกำหนดเมนูหลักให้กับ Rich Menu แล้ว ถ้าสำเร็จจะไม่คืนค่าใดๆ กลับมา รอสักครู่ ออกจากห้องสนนากับ</div>
+<div>
+	bot แล้วเปิดเข้าไปใหม่ เมนูก็จะแสดงในห้องสนทนา แนวทางหลักๆ ก็จะประมาณนี้ เราสามารถทำคำสั่งอื่นๆ</div>
+<div>
+	เพื่มเติม เช่น ยกเลิกการแสดงเมนูหลัก ลบ Rich Menu เชื่อม Rich Menu กับผู้ใช้รายบุคคล เป็นต้น เหล่านี้</div>
+<div>
+	สามารถดูเพิ่มเติมได้ที่ <a href="https://developers.line.biz/en/docs/messaging-api/using-rich-menus/" target="_blank">https://developers.line.biz/en/docs/messaging-api/using-rich-menus/</a></div>
+<div>
+	&nbsp; &nbsp; หรือดูจากแนวทางการประยุกต์ด้านล่าง</div>
+<div>
+	<br />
+	&nbsp;</div>
+<h3>
+	สร้างระบบจัดการ Rich Menu ผ่าน Bot</h3>
+<div>
+	&nbsp; &nbsp; จากรูปแบบการใช้งาน Rich Menu ผ่าน Messaging API ข้างต้น จะเห็นว่า ถึงแม้ตัว API จะรองรับการปรับแต่ง</div>
+<div>
+	มากมาย แต่การใช้งาน ก็จำเป็นต้องมีความเข้าใจ และมีการกำหนดสิ่งต่างๆ มากมายผ่านการเขียนโค้ด ดังนั้น&nbsp;</div>
+<div>
+	จึงขอประยุกต์ ให้สามารถสรัาง Rich Menu ได้ง่ายขึ้น ผ่านการสั่งงานไปยัง bot โดยมีรูปแบบและแนวทางดังนี้</div>
+<div>
+	&nbsp; &nbsp; รูปแบบ pattern เราจะใช้รูปแบบเดียวกับ Line มี 7 layout ดังรูปด้านล่าง</div>
+<div>
+	&nbsp;</div>
+<div>
+	<img alt="" class="use_shadow" src="https://i.imgur.com/ZCn6ynA.png" style="width: 600px; height: 290px;" /></div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; จะใช้เลข 1 ถึง 7 แทนรูปแบบที่ต้องการ ให้ดาวน์โหลดไฟล์รูปภาพ pattern ตามลิ้งค์ด้านล่าง</div>
+<div>
+	<a href="http://niik.in/download/rich-menu.rar" target="_blank">&nbsp; &nbsp; http://niik.in/download/rich-menu.rar</a></div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; เมื่อแตกไฟล์จะพบโฟลเดอร์ rich-menu และด้านในมีไฟล์ pattern กับไฟล์ตัวอย่างที่จะใช้สำหรับกำหนด</div>
+<div>
+	Rich Menu รูปแบบชื่อไฟล์ จะเป็น&nbsp;</div>
+<ul>
+	<li>
+		&nbsp; &nbsp; rich-menu-01.png&nbsp; สำหรับไฟล์ที่จะใช้เป็น Rich Menu</li>
+	<li>
+		&nbsp; &nbsp; rich-menu-pattern-01.png สำหรับไฟล์ pattern layout</li>
+</ul>
+<div>
+	&nbsp; &nbsp;&nbsp;</div>
+<div>
+	&nbsp; &nbsp; แต่ละไฟล์จะแยกด้วยตัวเลข 01-07 โดยไฟล์ pattern เราไม่ต้องแก้ไข</div>
+<div>
+	ส่วนไฟล์ rich-menu-0(x).png จะเป็นไฟล์ที่เราไว้อัพโหลดเพื่อใช้งาน Rich Menu&nbsp;</div>
+<div>
+	สมมติ เราต้องการ Rich Menu รูปแบบที่ 1 เราก็สร้างไฟล์ให้ได้ pattern เดียวกับไฟล์&nbsp;</div>
+<div>
+	rich-menu-pattern-01.png แล้วอัพโหลดขึ้นไปทับไฟล์ rich-menu-01.png&nbsp;</div>
+<div>
+	ถ้าเราต้องการ Rich Menu รูปแบบที่ 1 อีกหนึ่งตัว เราก็ใช้เป็นชื่อ rich-menu-01-2.png จะได้รูปแบบ</div>
+<div>
+	กรณีใช้รูปแบบเดียวกันหลายๆ รูปเป็นดังนี้</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre  name="code">
+    rich-menu-01.png 
+    rich-menu-01-2.png 
+    rich-menu-01-3.png 
+    .....
+    .....    
+    rich-menu-01-x.png </pre>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	ดังนั้น ก่อนที่เราจะไปในขั้นตอนการสร้าง Rich Menu เราต้องเตรียมรูปให้พร้อมก่อน แล้วอัพโหลดไปยังโฟลเดอร์</div>
+<div>
+	เดียวกับ bot&nbsp; สมมติไฟล์ webhook หรือไฟล์ <u>bot.php</u> เราอยู่ในโฟลเดอร์ linebot โครงสร้างโฟลเดอร์ก็จะเป็น</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre  name="code">
+&gt; linebot
+    &gt; rich-menu 
+        &gt; ไฟล์รูป Rich menu และไฟล์ pattern
+    bot.php
+    bot_action.php</pre>
+</div>
+<div>
+	&nbsp;</div>
+<h5>
+	&nbsp; &nbsp; คำสั่งและรูปแบบการสร้าง Rich Menu</h5>
+<div>
+	&nbsp; &nbsp; ต่อไปมาดูรูปแบบคำสั่งที่เราจะใช้สร้าง Rich Menu ผ่านหน้า Chat กับ Bot</div>
+<div>
+	&nbsp;</div>
+<div>
+	<u><strong>&nbsp; &nbsp; คำสั่งในการสร้าง Rich Menu</strong></u></div>
+<div>
+	<pre  name="code">
+cr-x&gt;y&gt;z</pre>
+</div>
+<div>
+	&nbsp;</div>
+<ul>
+	<li>
+		&nbsp; &nbsp; x คือรูปแบบ</li>
+	<li>
+		&nbsp; &nbsp; y คือลำดับ ID ค่าควรจะเริ่มจาก 1 ให้สอดคล้องกับรูปที่กำหนดด้านบน</li>
+	<li>
+		&nbsp; &nbsp; z คือ รูปแบบ action ที่ต้องการ</li>
+</ul>
+<div>
+	&nbsp;</div>
+<div>
+	<strong><u>&nbsp; &nbsp; รูปแบบ action</u></strong></div>
+<ul>
+	<li>
+		&nbsp; &nbsp; p(data) สำหรับกำหนด postback action</li>
+	<li>
+		&nbsp; &nbsp; m(data) สำหรับกำหนด message action</li>
+	<li>
+		&nbsp; &nbsp; u(data) สำหรับกำหนด uri action หรือ url</li>
+	<li>
+		&nbsp; &nbsp; d(data) สำหรับกำหนด datetime picker action</li>
+	<li>
+		&nbsp; &nbsp; c() สำหรับกำหนด เพื่อถ่ายรูป</li>
+	<li>
+		&nbsp; &nbsp; cs() สำหรับกำหนด ให้เลือกรูป 1 รูปจากคลังภาพ</li>
+	<li>
+		&nbsp; &nbsp; cm() สำหรับกำหนด ให้เลือกรูปได้หลายรูปจากคลังภาพ</li>
+	<li>
+		&nbsp; &nbsp; l() สำหรับกำหนด เลือกตำแหน่งในแผนที่ (*ตัว L พิมพ์เล็ก)</li>                                
+	<li>
+		&nbsp; &nbsp; () สำหรับกำหนดเป็นค่าว่าง ไม่มี action</li>
+</ul>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; การกำหนดจำนวนของ action ต้องกำหนด จำนวนให้เท่ากับ จำนวนพื้นที่ของแต่ละ pattern นั้นๆ</div>
+<div>
+	&nbsp; &nbsp; โดยแต่ละ pattern มีจุด action แตกต่างกันไปดังนี้</div>
+<ul>
+	<li>
+		&nbsp; &nbsp; &nbsp;pattern 1 มี 6</li>
+	<li>
+		&nbsp; &nbsp; &nbsp;pattern 2 มี 4</li>
+	<li>
+		&nbsp; &nbsp; &nbsp;pattern 3 มี 4</li>
+	<li>
+		&nbsp; &nbsp; &nbsp;pattern 4 มี 3</li>
+	<li>
+		&nbsp; &nbsp; &nbsp;pattern 5 มี 2</li>
+	<li>
+		&nbsp; &nbsp; &nbsp;pattern 6 มี 2</li>
+	<li>
+		&nbsp; &nbsp; &nbsp;pattern 7 มี 1</li>
+</ul>
+<div>
+	&nbsp; &nbsp; &nbsp;สามารถดูแต่ละตำแหน่งจากรูป pattern เรียงตามลำดับตัวอักษรจากซ้ายไปขวา และบนลงล่าง</div>
+<div>
+	&nbsp; &nbsp; &nbsp;ตามตัวอย่างรูป pattern 4 ด้านล่าง<br />
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<img alt="" class="use_shadow" src="https://i.imgur.com/1pGZFZS.png" style="width: 400px; height: 270px;" /><br />
+	<br />
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; สมมติเราจะสร้าง Rich Menu รูปแบบที่ 4 และไม่มี action ใดๆ เลย จะได้เป็น</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre  name="code">
+cr-4&gt;1&gt;()()()</pre>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; สมมติ รูปแบบที่ 4 ตำแหน่งที่ 2 (B) และ 3 (C) เป็น ข้อความ และ ลิ้งค์ จะได้เป็น</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre  name="code">
+cr-4&gt;1&gt;()m(ข้อความ)u(http://niik.in)</pre>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; จะเห็นว่า ตำแหน่งที่ 1 เราไม่มี action แต่เราต้องกำหนด () เพื่อให้ครบตามจำนวน</div>
+<div>
+	&nbsp;&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<u><strong>&nbsp; &nbsp; คำสั่งในการเรียกดู Rich Menu ที่เราสร้าง</strong></u></div>
+<div>
+	&nbsp; &nbsp; คำสั่งนี้จะใช้เรียกดู Rich Menu ที่เราได้สร้างสำเร็จ หากไม่มีรายการใดๆ ก็จะไม่แสดง โดยเราใช้วิธี</div>
+<div>
+	แสดงรายการแบบใช้ CarouselTemplateBuilder และมีเมนูจัดการด้านในของแต่ละ Rich Menu<div>&nbsp;</div></div>
+<div>
+	<pre  name="code">
+gr-  </pre>
+</div>
+<div>
+	<strong>ประกอบด้วยเมนู&nbsp;</strong></div>
+<ul>
+	<li>
+		กำหนด / ยกเลิก เป็น Default</li>
+	<li>
+		แสดงรายการ Default</li>
+	<li>
+		อัพโหลดรูป Rich Menu</li>
+</ul>
+<div>
+	&nbsp;</div>
+<div>
+	<pre  name="code">
+ gr2-</pre>
+</div>
+<div>
+	<strong>ประกอบด้วยเมนู&nbsp;</strong></div>
+<ul>
+	<li>
+		รายละเอียด Rich Menu</li>
+	<li>
+		ลบ Rich Menu&nbsp;</li>
+	<li>
+		อัพโหลดรูป Rich Menu&nbsp;</li>
+</ul>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; ลำดับการสร้าง Rich Menu และให้แสดงเป็นเป็นเมนูหลัก จะมีขั้นตอนดังนี้</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>&nbsp; &nbsp; 1. สร้าง Rich Menu</strong></div>
+<div>
+	<pre  name="code">
+cr-4&gt;1&gt;()m(ข้อความ)u(http://niik.in)</pre>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>&nbsp; &nbsp; 2. แสดง Rich Menu ที่สร้าง&nbsp;</strong></div>
+<div>
+	<pre  name="code">
+ gr-</pre>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>&nbsp; &nbsp; 3. เมื่อ Rich Menu แสดง กดเลือก &quot;อัพโหลดรูป&quot; Rich Menu ที่ต้องการ</strong></div>
+<div>
+	<strong>&nbsp; &nbsp; 4. กดเลือก &quot;กำหนดเป็น Default&quot; เท่านี้เมนู ก็จะแสดงในหน้าสนทนา</strong></div>
+<div>
+	&nbsp; &nbsp; หากต้องการลบ Rich Menu ใดๆ ให้แสดงเมนูผ่านคำสั่ง gr2-</div>
+<div>
+	&nbsp;</div>
+<h5>
+	&nbsp; &nbsp; ทำความเข้าใจกับการทำงานของคำสั่งการสร้าง Rich Menu</h5>
+<div>
+	<pre  name="code">
+ cr-4&gt;1&gt;()m(ข้อความ)u(http://niik.in)</pre>
+</div>
+<div>
+	&nbsp; &nbsp; ส่วนของการจัดการจะถูกแยกการทำงานออกเป็น 3 ส่วน</div>
+<div>
+	<strong>&nbsp; &nbsp; สองส่วนแรก</strong></div>
+<div>
+	&nbsp; &nbsp; cr-4 จะเป็นการใช้รูปแบบ pattern ที่ 4</div>
+<div>
+	&nbsp; &nbsp; เลข 1 เป็นเมนูลำดับที่ 1</div>
+<div>
+	&nbsp; &nbsp; สองค่านี้จะถูกนำไปใช้ในการกำหนดชื่อเมนู เรากำหนดให้ชื่อเมนูอยู่ในรูปแบบ</div>
+<div>
+	&nbsp; &nbsp; &quot;Rich Menu 4-1&quot; ค่าเหล่านี้จะไปสอดคล้องกับชื่อไฟล์รูปที่เราอัพโหลดไว้</div>
+<div>
+	&nbsp; &nbsp; ไฟล์รูปที่จะถูกอัพโหลดไปยังเมนูนี้คือ rich-menu-04.png</div>
+<div>
+	&nbsp; &nbsp; ถ้าเราใช้เป็น cr-4&gt;2</div>
+<div>
+	&nbsp; &nbsp; ไฟล์รูปที่จะถูกอัพโหลดไปยังเมนูนี้คือ rich-menu-04-2.png&nbsp;&nbsp;</div>
+<div>
+	&nbsp; &nbsp; ดังนั้นเราจะต้องมีโฟล์ rich-menu-04-2.png ในโฟลเดอร์ rich-menu ก่อนด้วย ตามที่ได้กล่าวมาแล้ว</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; <strong>ส่วนที่สาม</strong><em> ()m(ข้อความ)u(http://niik.in) </em>จะเห็นว่ามีวงเล็บทั้งหมด 3 ตัว ทั้งนี้เพราะ</div>
+<div>
+	&nbsp; &nbsp; pattern ที่ 4 มีด้วยกัน 3 จุด action แต่เราเลือกให้ทำงานเฉพราะจุดที่ 2 และ 3 โดยจุดแรกไม่ให้มี</div>
+<div>
+	&nbsp; &nbsp; action ซึ่งเรากำหนดเป็น () ส่วนจุดที่สองกำหนด action เป็น message คำว่า &quot;ข้อความ&quot; คือคำที่</div>
+<div>
+	&nbsp; &nbsp; จะถูกส่งไปยัง bot เมื่อแตะที่บริเวณตำแหน่งที่สอง สำหรับตำแหน่งที่ 3 จะเป็น uri หรือ url ที่เมื่อแตะ</div>
+<div>
+	&nbsp; &nbsp; แล้วก็จะลิ้งค์ไปยังลิ้งค์นั้นๆ ที่กำหนด</div>
+<div>
+	&nbsp;</div>
+<h4>
+	&nbsp; &nbsp; การเชื่อม Rich Menu กับผู้ใช้</h4>
+<div>
+	&nbsp; &nbsp; เราสามารถใช้ส่วนของการกำหนด action สร้างการเชื่อมโยง Rich Menu ให้กับผู้ใช้ ลักษณะคือ เมื่อเชื่อม</div>
+<div>
+	ผู้ใช้ขณะนั้นเข้ากับอีกเมนู เมนูของผู้ใช้จะเปลี่ยนไปเป็นเมนูใหม่ ไม่ใช่เมนูหลัก แต่เราก็สามารถกำหนดให้ผู้ใช้</div>
+<div>
+	กลับมาเมนูหลักโดยการกำหนด action ในเมนูของสมาชิกได้ การเชื่อม Rich Menu จะเชื่อมได้ 1 Rich Menu</div>
+<div>
+	ต่อหนึ่งผู้ใช้เท่านั้น&nbsp;</div>
+<h5>
+	&nbsp; &nbsp; วิธีการเชื่อม Rich Menu และวิธีการยกเลิก</h5>
+<div>
+	&nbsp; &nbsp; เราจะใช้วิธีกำหนดผ่าน postback action แต่ก่อนอื่น เราต้องมี Rich Menu อย่างน้อย 2 อัน</div>
+<div>
+	อันหนึ่งเป็นเมนูหลัก และอีกอันเป็นเมนูสำหรับผู้ใช้&nbsp; ผู้ใช้ทุกคนจะเห็นเมนูหลัก และเมื่อคลิกที่จุดที่เรา</div>
+<div>
+	ทำ action ไว้ ก็จะให้เชื่อมไปยังเมนูที่ 2 ดังนั้นเราต้องทราบ Rich Menu ID ของเมนูที่ 2&nbsp;</div>
+<div>
+	เช่นกันในเมนูที่ 2 เมื่อผู้ใช้เชื่อมกับ Rich Menu แล้ว เราต้องมีปุ่มให้ผู้ใช้ยกเลิกการเชื่อม หรือก็คือกลับมา</div>
+<div>
+	เมนูหลัก</div>
+<div>
+	&nbsp; &nbsp; ตัวอย่าง เราจะสร้างเมนู 2 อัน โดยต้องสร้างเมนูสำหรับผู้ใช้ก่อน ในที่นี้จะใช้ pattern 1 และจะกำหนด</div>
+<div>
+	ปุ่มสุดท้ายมุมล่างขวา เป็นปุ่ม back จะได้คำสั่งเป็น<br />
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<img alt="" class="use_shadow" src="https://i.imgur.com/akpexZr.png" style="width: 400px; height: 270px;" /><br />
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre  name="code">
+ cr-1&gt;1&gt;()()()()()p(action=back_richmenu)</pre>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	เมือ่สร้างแล้ว เราจะได้ {&quot;richMenuId&quot;:&quot;richmenu-f72e9b0233b786f7ba0297e722605e03&quot;}</div>
+<div>
+	&nbsp;</div>
+<div>
+	ต่อไปเราจะสร้างเมนูหลักใช้ pattern 4 เป็นจุดที่จะทำการเชื่อมโยงเมนูแรกกับผู้ใช้<br />
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<img alt="" class="use_shadow" src="https://i.imgur.com/1pGZFZS.png" style="width: 400px; height: 270px;" /><br />
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre  name="code">
+cr-4&gt;1&gt;()()p(action=more_richmenu&amp;richmenuid=richmenu-f72e9b0233b786f7ba0297e722605e03)</pre>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	จากนั้นใช้คำสั่ง gr- เพื่อแสดง Rich Menu ทั้งสอง เมื่อรายการ Rich Menu แสดงให้ทำการกดเลือก</div>
+<div>
+	อัพโหลดรูปให้กับเมนูทั้งสอง เสร็จแล้วให้กดกำหนดเมนู pattern 4 เป็น เมนูหลักหรือ Default</div>
+<div>
+	&nbsp;</div>
+<div>
+	รอสักครู่ จากนั้นออกจากห้องสนทนา แล้วเข้าไปใหม่ จะพบเมนูหลักตามรูป&nbsp;<br />
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<img alt="" class="use_shadow" src="https://i.imgur.com/keEWb9x.png" style="width: 320px; height: 640px;" /><br />
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	เมื่อเรากดไปที่ตำแหน่ง C จุดที่เรากำหนด postback action เอาไว้ ก็จะเป็นการเชื่อมผู้ใช้ คือเราเข้าไปในเมนู</div>
+<div>
+	ที่กำหนด หน้าเมนู ก็จะเปลี่ยนเป็นเมนู pattern 1&nbsp;<br />
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<img alt="" class="use_shadow" src="https://i.imgur.com/cVYDTVx.png" style="width: 320px; height: 640px;" /><br />
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	เมนูนี้จะคงอยู่จนกว่าผู้ใช้จะกด ปุ่มที่ตำแหน่ง F ซึ่งเรากำหนด</div>
+<div>
+	ให้ยกเลิกการเชื่อม เมื่อยกเลิกการเชื่อม Rich Menu ก็จะกลับมาแสดง เมนูหลักอีกครั้ง</div>
+<div>
+	&nbsp;</div>
+<div>
+	จะเห็นวิธีการสร้าง Rich Menu ด้วยวิธีที่ทำขึ้น จะทำให้เราสามารถจัดการ Rich Menu ได้อย่างง่ายดาย หรือถ้า</div>
+<div>
+	ต้องการปรับแต่งเพิ่มเติม ก็สามารถเข้าไปแก้ไขโค้ดได้ตามต้องการ แต่เท่านี้ก็ถือว่ารองรับได้มากพอสมควร</div>
+<div>
+	&nbsp;</div>
+<div>
+	ด้านล่างนี้เป็นโค้ดของตัวจัดการ Rich Menu ผ่าน Bot</div>
+<div>
+	&nbsp;</div>
+<h5>
+	ไฟล์ bot.php</h5>
+<div>
+	<pre class="php:controls highlight:[58,59,60,61]" name="code">
+&lt;?php
+// กรณีต้องการตรวจสอบการแจ้ง error ให้เปิด 3 บรรทัดล่างนี้ให้ทำงาน กรณีไม่ ให้ comment ปิดไป
+ini_set(&#39;display_errors&#39;, 1);
+ini_set(&#39;display_startup_errors&#39;, 1);
+error_reporting(E_ALL);
+
+// include composer autoload
+require_once &#39;../vendor/autoload.php&#39;;
+
+// การตั้งเกี่ยวกับ bot
+require_once &#39;bot_settings.php&#39;;
+
+// กรณีมีการเชื่อมต่อกับฐานข้อมูล
+//require_once(&quot;dbconnect.php&quot;);
+
+///////////// ส่วนของการเรียกใช้งาน class ผ่าน namespace
+use LINE\LINEBot;
+use LINE\LINEBot\HTTPClient;
+use LINE\LINEBot\HTTPClient\CurlHTTPClient;
+use LINE\LINEBot\Event;
+use LINE\LINEBot\Event\BaseEvent;
+use LINE\LINEBot\Event\MessageEvent;
+use LINE\LINEBot\Event\AccountLinkEvent;
+use LINE\LINEBot\Event\MemberJoinEvent; 
+use LINE\LINEBot\MessageBuilder;
+use LINE\LINEBot\MessageBuilder\TextMessageBuilder;
+use LINE\LINEBot\MessageBuilder\StickerMessageBuilder;
+use LINE\LINEBot\MessageBuilder\ImageMessageBuilder;
+use LINE\LINEBot\MessageBuilder\LocationMessageBuilder;
+use LINE\LINEBot\MessageBuilder\AudioMessageBuilder;
+use LINE\LINEBot\MessageBuilder\VideoMessageBuilder;
+use LINE\LINEBot\ImagemapActionBuilder;
+use LINE\LINEBot\ImagemapActionBuilder\AreaBuilder;
+use LINE\LINEBot\ImagemapActionBuilder\ImagemapMessageActionBuilder ;
+use LINE\LINEBot\ImagemapActionBuilder\ImagemapUriActionBuilder;
+use LINE\LINEBot\MessageBuilder\Imagemap\BaseSizeBuilder;
+use LINE\LINEBot\MessageBuilder\ImagemapMessageBuilder;
+use LINE\LINEBot\MessageBuilder\MultiMessageBuilder;
+use LINE\LINEBot\TemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\DatetimePickerTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\MessageTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\PostbackTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\UriTemplateActionBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateMessageBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\ButtonTemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\CarouselTemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\CarouselColumnTemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\ConfirmTemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\ImageCarouselTemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\ImageCarouselColumnTemplateBuilder;
+use LINE\LINEBot\QuickReplyBuilder;
+use LINE\LINEBot\QuickReplyBuilder\QuickReplyMessageBuilder;
+use LINE\LINEBot\QuickReplyBuilder\ButtonBuilder\QuickReplyButtonBuilder;
+use LINE\LINEBot\TemplateActionBuilder\CameraRollTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\CameraTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\LocationTemplateActionBuilder;
+use LINE\LINEBot\RichMenuBuilder;
+use LINE\LINEBot\RichMenuBuilder\RichMenuSizeBuilder;
+use LINE\LINEBot\RichMenuBuilder\RichMenuAreaBuilder;
+use LINE\LINEBot\RichMenuBuilder\RichMenuAreaBoundsBuilder;
+
+
+$httpClient = new CurlHTTPClient(LINE_MESSAGE_ACCESS_TOKEN);
+$bot = new LINEBot($httpClient, array(&#39;channelSecret&#39; =&gt; LINE_MESSAGE_CHANNEL_SECRET));
+ 
+// คำสั่งรอรับการส่งค่ามาของ LINE Messaging API
+$content = file_get_contents(&#39;php://input&#39;);
+ 
+// กำหนดค่า signature สำหรับตรวจสอบข้อมูลที่ส่งมาว่าเป็นข้อมูลจาก LINE
+$hash = hash_hmac(&#39;sha256&#39;, $content, LINE_MESSAGE_CHANNEL_SECRET, true);
+$signature = base64_encode($hash);
+ 
+// แปลงค่าข้อมูลที่ได้รับจาก LINE เป็น array ของ Event Object
+$events = $bot-&gt;parseEventRequest($content, $signature);
+$eventObj = $events[0]; // Event Object ของ array แรก
+ 
+// ดึงค่าประเภทของ Event มาไว้ในตัวแปร มีทั้งหมด 7 event
+$eventType = $eventObj-&gt;getType();
+ 
+// สร้างตัวแปร ไว้เก็บ sourceId ของแต่ละประเภท
+$userId = NULL;
+$groupId = NULL;
+$roomId = NULL;
+// สร้างตัวแปรเก็บ source id และ source type
+$sourceId = NULL;
+$sourceType = NULL;
+// สร้างตัวแปร replyToken และ replyData สำหรับกรณีใช้ตอบกลับข้อความ
+$replyToken = NULL;
+$replyData = NULL;
+// สร้างตัวแปร ไว้เก็บค่าว่าเป้น Event ประเภทไหน
+$eventMessage = NULL;
+$eventPostback = NULL;
+$eventJoin = NULL;
+$eventLeave = NULL;
+$eventFollow = NULL;
+$eventUnfollow = NULL;
+$eventBeacon = NULL;
+$eventAccountLink = NULL;
+$eventMemberJoined = NULL;
+$eventMemberLeft = NULL;
+// เงื่อนไขการกำหนดประเภท Event 
+switch($eventType){
+    case &#39;message&#39;: $eventMessage = true; break;    
+    case &#39;postback&#39;: $eventPostback = true; break;  
+    case &#39;join&#39;: $eventJoin = true; break;  
+    case &#39;leave&#39;: $eventLeave = true; break;    
+    case &#39;follow&#39;: $eventFollow = true; break;  
+    case &#39;unfollow&#39;: $eventUnfollow = true; break;  
+    case &#39;beacon&#39;: $eventBeacon = true; break;     
+    case &#39;accountLink&#39;: $eventAccountLink = true; break;       
+    case &#39;memberJoined&#39;: $eventMemberJoined = true; break;       
+    case &#39;memberLeft&#39;: $eventMemberLeft = true; break;       				                     
+}
+// สร้างตัวแปรเก็บค่า userId กรณีเป็น Event ที่เกิดขึ้นใน USER
+if($eventObj-&gt;isUserEvent()){
+    $userId = $eventObj-&gt;getUserId();  
+	$sourceType = &quot;USER&quot;;
+}
+// สร้างตัวแปรเก็บค่า groupId กรณีเป็น Event ที่เกิดขึ้นใน GROUP
+if($eventObj-&gt;isGroupEvent()){
+    $groupId = $eventObj-&gt;getGroupId();  
+	$userId = $eventObj-&gt;getUserId();  
+	$sourceType = &quot;GROUP&quot;;
+}
+// สร้างตัวแปรเก็บค่า roomId กรณีเป็น Event ที่เกิดขึ้นใน ROOM
+if($eventObj-&gt;isRoomEvent()){
+    $roomId = $eventObj-&gt;getRoomId();        
+	$userId = $eventObj-&gt;getUserId();      
+	$sourceType = &quot;ROOM&quot;;
+}
+// เก็บค่า sourceId ปกติจะเป็นค่าเดียวกันกับ userId หรือ roomId หรือ groupId ขึ้นกับว่าเป็น event แบบใด
+$sourceId = $eventObj-&gt;getEventSourceId();
+// ดึงค่า replyToken มาไว้ใช้งาน ทุกๆ Event ที่ไม่ใช่ Leave และ Unfollow Event และ  MemberLeft
+// replyToken ไว้สำหรับส่งข้อความจอบกลับ 
+if(is_null($eventLeave) &amp;&amp; is_null($eventUnfollow) &amp;&amp; is_null($eventMemberLeft)){
+    $replyToken = $eventObj-&gt;getReplyToken();    
+}
+
+////////////////////////////  ส่วนของการทำงาน
+include_once(&quot;bot_action.php&quot;);
+//////////////////////////
+
+$response = $bot-&gt;replyMessage($replyToken,$replyData);
+if ($response-&gt;isSucceeded()) {
+	echo &#39;Succeeded!&#39;;
+	return;
+}
+// Failed
+echo $response-&gt;getHTTPStatus() . &#39; &#39; . $response-&gt;getRawBody();
+?&gt;</pre>
+</div>
+<div>
+	&nbsp;</div>
+<h5>
+	ไฟล์ bot_action.php</h5>
+<div>
+	<pre class="php:controls highlight:[44,45,46,47,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509]" name="code">
+&lt;?php
+///////////// ส่วนของการเรียกใช้งาน class ผ่าน namespace
+use LINE\LINEBot;
+use LINE\LINEBot\HTTPClient;
+use LINE\LINEBot\HTTPClient\CurlHTTPClient;
+use LINE\LINEBot\Event;
+use LINE\LINEBot\Event\BaseEvent;
+use LINE\LINEBot\Event\MessageEvent;
+use LINE\LINEBot\Event\AccountLinkEvent;
+use LINE\LINEBot\Event\MemberJoinEvent; 
+use LINE\LINEBot\MessageBuilder;
+use LINE\LINEBot\MessageBuilder\TextMessageBuilder;
+use LINE\LINEBot\MessageBuilder\StickerMessageBuilder;
+use LINE\LINEBot\MessageBuilder\ImageMessageBuilder;
+use LINE\LINEBot\MessageBuilder\LocationMessageBuilder;
+use LINE\LINEBot\MessageBuilder\AudioMessageBuilder;
+use LINE\LINEBot\MessageBuilder\VideoMessageBuilder;
+use LINE\LINEBot\ImagemapActionBuilder;
+use LINE\LINEBot\ImagemapActionBuilder\AreaBuilder;
+use LINE\LINEBot\ImagemapActionBuilder\ImagemapMessageActionBuilder ;
+use LINE\LINEBot\ImagemapActionBuilder\ImagemapUriActionBuilder;
+use LINE\LINEBot\MessageBuilder\Imagemap\BaseSizeBuilder;
+use LINE\LINEBot\MessageBuilder\ImagemapMessageBuilder;
+use LINE\LINEBot\MessageBuilder\MultiMessageBuilder;
+use LINE\LINEBot\TemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\DatetimePickerTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\MessageTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\PostbackTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\UriTemplateActionBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateMessageBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\ButtonTemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\CarouselTemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\CarouselColumnTemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\ConfirmTemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\ImageCarouselTemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\ImageCarouselColumnTemplateBuilder;
+use LINE\LINEBot\QuickReplyBuilder;
+use LINE\LINEBot\QuickReplyBuilder\QuickReplyMessageBuilder;
+use LINE\LINEBot\QuickReplyBuilder\ButtonBuilder\QuickReplyButtonBuilder;
+use LINE\LINEBot\TemplateActionBuilder\CameraRollTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\CameraTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\LocationTemplateActionBuilder;
+use LINE\LINEBot\RichMenuBuilder;
+use LINE\LINEBot\RichMenuBuilder\RichMenuSizeBuilder;
+use LINE\LINEBot\RichMenuBuilder\RichMenuAreaBuilder;
+use LINE\LINEBot\RichMenuBuilder\RichMenuAreaBoundsBuilder;
+
+
+// ส่วนของการทำงาน
+if(!is_null($events)){
+
+	// ถ้า bot ถูก invite เพื่อเข้า Join Event ให้ bot ส่งข้อความใน GROUP ว่าเข้าร่วม GROUP แล้ว
+	if(!is_null($eventJoin)){
+		$textReplyMessage = &quot;ขอเข้าร่วมด้วยน่ะ $sourceType ID:: &quot;.$sourceId;
+		$replyData = new TextMessageBuilder($textReplyMessage);                 
+	}
+	
+	// ถ้า bot ออกจาก สนทนา จะไม่สามารถส่งข้อความกลับได้ เนื่องจากไม่มี replyToken
+	if(!is_null($eventLeave)){
+
+	}	
+	
+	// ถ้า bot ถูกเพื่มเป้นเพื่อน หรือถูกติดตาม หรือ ยกเลิกการ บล็อก
+	if(!is_null($eventFollow)){
+        $textReplyMessage = &quot;ขอบคุณที่เป็นเพื่อน และติดตามเรา&quot;;        
+        $replyData = new TextMessageBuilder($textReplyMessage);     			
+	}
+	
+	// ถ้า bot ถูกบล็อก หรือเลิกติดตาม จะไม่สามารถส่งข้อความกลับได้ เนื่องจากไม่มี replyToken
+	if(!is_null($eventUnfollow)){
+
+	}		
+	
+	// ถ้ามีสมาชิกคนอื่น เข้ามาร่วมใน room หรือ group 
+	// room คือ สมมติเราคุยกับ คนหนึ่งอยู่ แล้วเชิญคนอื่นๆ เข้ามาสนทนาด้วย จะกลายเป็นห้องใหม่
+	// group คือ กลุ่มที่เราสร้างไว้ มีชื่อกลุ่ม แล้วเราเชิญคนอื่นเข้ามาในกลุ่ม เพิ่มร่วมสนทนาด้วย
+	if(!is_null($eventMemberJoined)){
+			$arr_joinedMember = $eventObj-&gt;getEventBody();
+			$joinedMember = $arr_joinedMember[&#39;joined&#39;][&#39;members&#39;][0];
+			if(!is_null($groupId) || !is_null($roomId)){
+				if($eventObj-&gt;isGroupEvent()){
+					foreach($joinedMember as $k_user=&gt;$v_user){
+						if($k_user==&quot;userId&quot;){
+							$joined_userId = $v_user;
+						}
+					}						
+					$response = $bot-&gt;getGroupMemberProfile($groupId, $joined_userId);
+				}
+				if($eventObj-&gt;isRoomEvent()){
+					foreach($joinedMember as $k_user=&gt;$v_user){
+						if($k_user==&quot;userId&quot;){
+							$joined_userId = $v_user;
+						}
+					}					
+					$response = $bot-&gt;getRoomMemberProfile($roomId, $joined_userId);    
+				}
+			}else{
+				$response = $bot-&gt;getProfile($userId);
+			}
+			if ($response-&gt;isSucceeded()) {
+				$userData = $response-&gt;getJSONDecodedBody(); // return array     
+				// $userData[&#39;userId&#39;]
+				// $userData[&#39;displayName&#39;]
+				// $userData[&#39;pictureUrl&#39;]
+				// $userData[&#39;statusMessage&#39;]
+				$textReplyMessage = &#39;สวัสดีครับ คุณ &#39;.$userData[&#39;displayName&#39;];     
+			}else{
+				$textReplyMessage = &#39;สวัสดีครับ ยินดีต้อนรับ&#39;;
+			}
+//        $textReplyMessage = &quot;ยินดีต้อนรับกลับมาอีกครั้ง &quot;.json_encode($joinedMember);
+        $replyData = new TextMessageBuilder($textReplyMessage);     				
+	}
+	
+	// ถ้ามีสมาชิกคนอื่น ออกจากก room หรือ group จะไม่สามารถส่งข้อความกลับได้ เนื่องจากไม่มี replyToken
+	if(!is_null($eventMemberLeft)){
+	
+	}	
+
+	// ถ้ามีกาาเชื่อมกับบัญชี LINE กับระบบสมาชิกของเว็บไซต์เรา
+	if(!is_null($eventAccountLink)){
+		// หลักๆ ส่วนนี้ใช้สำรหบัเพิ่มความภัยในการเชื่อมบัญตี LINE กับระบบสมาชิกของเว็บไซต์เรา 
+        $textReplyMessage = &quot;AccountLink ทำงาน &quot;.$replyToken.&quot; Nonce: &quot;.$eventObj-&gt;getNonce();
+        $replyData = new TextMessageBuilder($textReplyMessage);   	  					
+	}
+			
+    // ถ้าเป็น Postback Event
+    if(!is_null($eventPostback)){
+        $dataPostback = NULL;
+        $paramPostback = NULL;
+        // แปลงข้อมูลจาก Postback Data เป็น array
+        parse_str($eventObj-&gt;getPostbackData(),$dataPostback);
+        // ดึงค่า params กรณีมีค่า params
+        $paramPostback = $eventObj-&gt;getPostbackParams();
+		
+		$moreResult = &quot;&quot;;
+		// ส่วนทำงานสำหรับเชื่อม Rich Menu ไปยังผู้ใช้นั้นๆ
+		if(isset($dataPostback[&#39;action&#39;]) &amp;&amp; $dataPostback[&#39;action&#39;]==&quot;more_richmenu&quot;){
+			$respRichMenu = $bot-&gt;linkRichMenu($userId,$dataPostback[&#39;richmenuid&#39;]);
+			$moreResult = $respRichMenu-&gt;getRawBody();
+			$result = json_decode($respRichMenu-&gt;getRawBody(),TRUE);	
+		}		
+		// ส่วนทำงานสำหรับยกเลิกการเชื่อมกับ Rich Menu ของ ผู้ใช้
+		if(isset($dataPostback[&#39;action&#39;]) &amp;&amp; $dataPostback[&#39;action&#39;]==&quot;back_richmenu&quot;){
+			$respRichMenu = $bot-&gt;unlinkRichMenu($userId);
+			$moreResult = $respRichMenu-&gt;getRawBody();
+			$result = json_decode($respRichMenu-&gt;getRawBody(),TRUE);	
+		}				
+		// ส่วนทำงานสำหรับลบ Rich Menu
+		if(isset($dataPostback[&#39;action&#39;]) &amp;&amp; $dataPostback[&#39;action&#39;]==&quot;delete_richmenu&quot;){
+			$respRichMenu = $bot-&gt;deleteRichMenu($dataPostback[&#39;richMenuId&#39;]);
+			$moreResult = $respRichMenu-&gt;getRawBody();
+			$result = json_decode($respRichMenu-&gt;getRawBody(),TRUE);	
+		}
+		// ส่วนทำงานสำหรับดูข้อมูลของ Rich Menu นั้นๆ
+		if(isset($dataPostback[&#39;action&#39;]) &amp;&amp; $dataPostback[&#39;action&#39;]==&quot;get_richmenu&quot;){
+			$respRichMenu = $bot-&gt;getRichMenu($dataPostback[&#39;richMenuId&#39;]);
+			$moreResult = $respRichMenu-&gt;getRawBody();
+			$result = json_decode($respRichMenu-&gt;getRawBody(),TRUE);	
+		}
+		// ส่วนทำงานสำหรับกำหนดเป็น เมนูหลัก
+		if(isset($dataPostback[&#39;action&#39;]) &amp;&amp; $dataPostback[&#39;action&#39;]==&quot;s_default_richmenu&quot;){
+			$respRichMenu = $httpClient-&gt;post(&quot;https://api.line.me/v2/bot/user/all/richmenu/&quot;.$dataPostback[&#39;richMenuId&#39;],array());
+			$moreResult = $respRichMenu-&gt;getRawBody();
+			$result = json_decode($respRichMenu-&gt;getRawBody(),TRUE);	
+		}	
+		// ส่วนทำงานสำหรับยกเลิกเมนูหลัก	
+		if(isset($dataPostback[&#39;action&#39;]) &amp;&amp; $dataPostback[&#39;action&#39;]==&quot;c_default_richmenu&quot;){
+			$respRichMenu = $httpClient-&gt;delete(&quot;https://api.line.me/v2/bot/user/all/richmenu&quot;);
+			$moreResult = $respRichMenu-&gt;getRawBody();
+			$result = json_decode($respRichMenu-&gt;getRawBody(),TRUE);	
+		}			
+		// ส่วนทำงานดึงข้อมูลเมนูหลัก หรือ Rich Menu ที่เป็นเมนูหลัก ถ้ามี
+		if(isset($dataPostback[&#39;action&#39;]) &amp;&amp; $dataPostback[&#39;action&#39;]==&quot;g_default_richmenu&quot;){
+			$respRichMenu = $httpClient-&gt;get(&quot;https://api.line.me/v2/bot/user/all/richmenu&quot;);
+			$moreResult = $respRichMenu-&gt;getRawBody();
+			$result = json_decode($respRichMenu-&gt;getRawBody(),TRUE);	
+		}		
+		// ส่วนทำงานอัพโหลดรูปให้กับ Rich Menu	
+		if(isset($dataPostback[&#39;action&#39;]) &amp;&amp; $dataPostback[&#39;action&#39;]==&quot;upload_richmenu&quot;){
+			$richMenuImg = str_replace(&#39;Rich Menu &#39;,&#39;&#39;,$dataPostback[&#39;richMenuName&#39;]);
+			if(!file_exists(&quot;rich-menu/rich-menu-0&quot;.$richMenuImg.&quot;.png&quot;)){
+				$richMenuImg = substr(str_replace(&#39;Rich Menu &#39;,&#39;&#39;,$dataPostback[&#39;richMenuName&#39;]),0,1);
+			}
+			$respRichMenu = $bot-&gt;uploadRichMenuImage($dataPostback[&#39;richMenuId&#39;],&quot;rich-menu/rich-menu-0&quot;.$richMenuImg.&quot;.png&quot;,&quot;image/png&quot;);
+			$moreResult = $respRichMenu-&gt;getRawBody();
+			$result = json_decode($respRichMenu-&gt;getRawBody(),TRUE);	
+		}					
+		
+        // ทดสอบแสดงข้อความที่เกิดจาก Postaback Event
+        $textReplyMessage = &quot;ข้อความจาก Postback Event Data : DataPostback = &quot;;        
+        $textReplyMessage.= json_encode($dataPostback);
+        $textReplyMessage.= &quot; ParamPostback = &quot;.json_encode($paramPostback);
+		$textReplyMessage.= &quot; RsponseMore = &quot;.$moreResult;
+        $replyData = new TextMessageBuilder($textReplyMessage);     
+    }
+    // ถ้าเป้น Message Event 
+    if(!is_null($eventMessage)){
+		
+		// สร้างตัวแปรเก็ยค่าประเภทของ Message จากทั้งหมด 7 ประเภท
+		$typeMessage = $eventObj-&gt;getMessageType();  
+		//  text | image | sticker | location | audio | video | file  
+		// เก็บค่า id ของข้อความ
+		$idMessage = $eventObj-&gt;getMessageId();  		
+		// ถ้าเป็นข้อความ
+		if($typeMessage==&#39;text&#39;){
+			$userMessage = $eventObj-&gt;getText(); // เก็บค่าข้อความที่ผู้ใช้พิมพ์
+		}
+		// ถ้าเป็น image
+		if($typeMessage==&#39;image&#39;){
+
+		}				
+		// ถ้าเป็น audio
+
+		if($typeMessage==&#39;audio&#39;){
+
+		}		
+		// ถ้าเป็น video
+		if($typeMessage==&#39;video&#39;){
+
+		}	
+		// ถ้าเป็น file
+		if($typeMessage==&#39;file&#39;){
+			$FileName = $eventObj-&gt;getFileName();
+			$FileSize = $eventObj-&gt;getFileSize();
+		}				
+		// ถ้าเป็น image หรือ audio หรือ video หรือ file และต้องการบันทึกไฟล์
+		if(preg_match(&#39;/image|audio|video|file/&#39;,$typeMessage)){			
+			$responseMedia = $bot-&gt;getMessageContent($idMessage);
+			if ($responseMedia-&gt;isSucceeded()) {
+				// คำสั่ง getRawBody() ในกรณีนี้ จะได้ข้อมูลส่งกลับมาเป็น binary 
+				// เราสามารถเอาข้อมูลไปบันทึกเป็นไฟล์ได้
+				$dataBinary = $responseMedia-&gt;getRawBody(); // return binary
+				// ดึงข้อมูลประเภทของไฟล์ จาก header
+				$fileType = $responseMedia-&gt;getHeader(&#39;Content-Type&#39;);    
+				switch ($fileType){
+					case (preg_match(&#39;/^application/&#39;,$fileType) ? true : false):
+//						$fileNameSave = $FileName; // ถ้าต้องการบันทึกเป็นชื่อไฟล์เดิม
+						$arr_ext = explode(&quot;.&quot;,$FileName);
+						$ext = array_pop($arr_ext);
+						$fileNameSave = time().&quot;.&quot;.$ext;       						
+						break;					
+					case (preg_match(&#39;/^image/&#39;,$fileType) ? true : false):
+						list($typeFile,$ext) = explode(&quot;/&quot;,$fileType);
+						$ext = ($ext==&#39;jpeg&#39; || $ext==&#39;jpg&#39;)?&quot;jpg&quot;:$ext;
+						$fileNameSave = time().&quot;.&quot;.$ext;
+						break;
+					case (preg_match(&#39;/^audio/&#39;,$fileType) ? true : false):
+						list($typeFile,$ext) = explode(&quot;/&quot;,$fileType);
+						$fileNameSave = time().&quot;.&quot;.$ext;                        
+						break;
+					case (preg_match(&#39;/^video/&#39;,$fileType) ? true : false):
+						list($typeFile,$ext) = explode(&quot;/&quot;,$fileType);
+						$fileNameSave = time().&quot;.&quot;.$ext;                                
+						break;                                                      
+				}
+				$botDataFolder = &#39;botdata/&#39;; // โฟลเดอร์หลักที่จะบันทึกไฟล์
+				$botDataUserFolder = $botDataFolder.$userId; // มีโฟลเดอร์ด้านในเป็น userId อีกขั้น
+				if(!file_exists($botDataUserFolder)) { // ตรวจสอบถ้ายังไม่มีให้สร้างโฟลเดอร์ userId
+					mkdir($botDataUserFolder, 0777, true);
+				}   
+				// กำหนด path ของไฟล์ที่จะบันทึก
+				$fileFullSavePath = $botDataUserFolder.&#39;/&#39;.$fileNameSave;
+//				file_put_contents($fileFullSavePath,$dataBinary); // เอา comment ออก ถ้าต้องการทำการบันทึกไฟล์
+				$textReplyMessage = &quot;บันทึกไฟล์เรียบร้อยแล้ว $fileNameSave&quot;;
+				$replyData = new TextMessageBuilder($textReplyMessage);
+//				$failMessage = json_encode($fileType);				
+//				$failMessage = json_encode($responseMedia-&gt;getHeaders());
+				$replyData = new TextMessageBuilder($failMessage);  					
+			}else{
+				$failMessage = json_encode($idMessage.&#39; &#39;.$responseMedia-&gt;getHTTPStatus() . &#39; &#39; . $responseMedia-&gt;getRawBody());
+				$replyData = new TextMessageBuilder($failMessage);  		
+			}
+		}
+		// ถ้าเป็น sticker
+		if($typeMessage==&#39;sticker&#39;){
+			$packageId = $eventObj-&gt;getPackageId();
+			$stickerId = $eventObj-&gt;getStickerId();
+		}
+		// ถ้าเป็น location
+		if($typeMessage==&#39;location&#39;){
+			$locationTitle = $eventObj-&gt;getTitle();
+			$locationAddress = $eventObj-&gt;getAddress();
+			$locationLatitude = $eventObj-&gt;getLatitude();
+			$locationLongitude = $eventObj-&gt;getLongitude();
+		}       
+		
+		
+        switch ($typeMessage){ // กำหนดเงื่อนไขการทำงานจาก ประเภทของ message
+            case &#39;text&#39;:  // ถ้าเป็นข้อความ
+                $userMessage = strtolower($userMessage); // แปลงเป็นตัวเล็ก สำหรับทดสอบ
+                switch ($userMessage) {
+						case (preg_match(&#39;/^cr-/&#39;,$userMessage) ? true : false):
+							$paramRichMenu = explode(&quot;&gt;&quot;,$userMessage);
+							if(!isset($paramRichMenu) || !is_array($paramRichMenu) || count($paramRichMenu)&lt;3){
+								exit;
+							}
+							$patternSet = $paramRichMenu[0];
+							$numberID = $paramRichMenu[1];
+							$actionSet = $paramRichMenu[2];
+							$actionArr_prepare = array();
+							if(isset($actionSet)){
+								$actionArr_prepare = explode(&quot;)&quot;,$actionSet);
+								array_pop($actionArr_prepare);
+							}
+							$imgTypePattern = str_replace(&quot;cr-&quot;,&quot;&quot;,$patternSet);
+							$areaBound_arr = array(
+								&quot;a&quot;=&gt;array(0,0,833,843),
+								&quot;b&quot;=&gt;array(833,0,833,843),
+								&quot;c&quot;=&gt;array(1666,0,834,843),
+								&quot;d&quot;=&gt;array(0,843,833,843),
+								&quot;e&quot;=&gt;array(833,843,833,843),
+								&quot;f&quot;=&gt;array(1666,843,834,843),
+								&quot;g&quot;=&gt;array(0,0,1250,843),
+								&quot;h&quot;=&gt;array(1250,0,1250,843),
+								&quot;i&quot;=&gt;array(0,843,1250,843),
+								&quot;j&quot;=&gt;array(1250,843,1250,843),
+								&quot;k&quot;=&gt;array(0,0,2500,843),
+								&quot;l&quot;=&gt;array(0,0,1666,1686),
+								&quot;m&quot;=&gt;array(0,843,2500,843),
+								&quot;n&quot;=&gt;array(0,0,1250,1686),
+								&quot;o&quot;=&gt;array(1250,0,1250,1686),
+								&quot;p&quot;=&gt;array(0,0,2500,1686)
+							);
+							$imgTypePatternArea_arr = array(
+								&quot;1&quot;=&gt;array(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;),
+								&quot;2&quot;=&gt;array(&quot;g&quot;,&quot;h&quot;,&quot;i&quot;,&quot;j&quot;),
+								&quot;3&quot;=&gt;array(&quot;k&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;),
+								&quot;4&quot;=&gt;array(&quot;l&quot;,&quot;c&quot;,&quot;f&quot;),
+								&quot;5&quot;=&gt;array(&quot;k&quot;,&quot;m&quot;),
+								&quot;6&quot;=&gt;array(&quot;n&quot;,&quot;o&quot;),
+								&quot;7&quot;=&gt;array(&quot;p&quot;)
+							);
+							
+							function makeFRM($imgType){
+								global $areaBound_arr,$imgTypePatternArea_arr,$actionSet,$actionArr_prepare;
+								$dataArr = array();
+								$Area_arr = $imgTypePatternArea_arr[$imgType];
+								for($i=1;$i&lt;=count($imgTypePatternArea_arr[$imgType]);$i++){									
+									if(preg_match(&#39;/^p\(/&#39;,$actionArr_prepare[$i-1])){
+										list($ac,$data) = explode(&quot;(&quot;,$actionArr_prepare[$i-1]);
+										$actionVal = new PostbackTemplateActionBuilder(&#39;p&#39;,$data);
+									}elseif(preg_match(&#39;/^m\(/&#39;,$actionArr_prepare[$i-1])){
+										list($ac,$data) = explode(&quot;(&quot;,$actionArr_prepare[$i-1]);
+										$actionVal = new MessageTemplateActionBuilder(&#39;m&#39;,$data);									
+									}elseif(preg_match(&#39;/^u\(/&#39;,$actionArr_prepare[$i-1])){
+										list($ac,$data) = explode(&quot;(&quot;,$actionArr_prepare[$i-1]);
+										$actionVal = new UriTemplateActionBuilder(&#39;u&#39;,$data);	
+									}elseif(preg_match(&#39;/^c\(/&#39;,$actionArr_prepare[$i-1])){
+										list($ac,$data) = explode(&quot;(&quot;,$actionArr_prepare[$i-1]);
+										$actionVal = new UriTemplateActionBuilder(&#39;u&#39;,&quot;line://nv/camera/&quot;);		
+									}elseif(preg_match(&#39;/^cs\(/&#39;,$actionArr_prepare[$i-1])){
+										list($ac,$data) = explode(&quot;(&quot;,$actionArr_prepare[$i-1]);
+										$actionVal = new UriTemplateActionBuilder(&#39;u&#39;,&quot;line://nv/cameraRoll/single/&quot;);	
+									}elseif(preg_match(&#39;/^cm\(/&#39;,$actionArr_prepare[$i-1])){
+										list($ac,$data) = explode(&quot;(&quot;,$actionArr_prepare[$i-1]);
+										$actionVal = new UriTemplateActionBuilder(&#39;u&#39;,&quot;line://nv/cameraRoll/multi/&quot;);														
+									}elseif(preg_match(&#39;/^l\(/&#39;,$actionArr_prepare[$i-1])){
+										list($ac,$data) = explode(&quot;(&quot;,$actionArr_prepare[$i-1]);
+										$actionVal = new UriTemplateActionBuilder(&#39;u&#39;,&quot;line://nv/location&quot;);	                                        
+									}elseif(preg_match(&#39;/^d\(/&#39;,$actionArr_prepare[$i-1])){
+										list($ac,$data) = explode(&quot;(&quot;,$actionArr_prepare[$i-1]);
+										$actionVal = new DatetimePickerTemplateActionBuilder(&#39;d&#39;,$data,&#39;datetime&#39;);
+									}elseif(preg_match(&#39;/^n\(/&#39;,$actionArr_prepare[$i-1])){
+										$actionVal = NULL;
+										continue;
+									}else{
+										$actionVal = NULL;
+										continue;
+									}
+									$patternLetter = $Area_arr[$i-1];
+									array_push($dataArr,
+											new RichMenuAreaBuilder(
+												new RichMenuAreaBoundsBuilder(...$areaBound_arr[$patternLetter]),$actionVal
+											)					
+									);
+								}
+								return $dataArr;						
+							}
+//							$arrayRichMenu = makeFRM();
+							// $sizeBuilder, $selected, $name, $chatBarText, $areaBuilders // 1686, 843.  // 2500
+							// ($x, $y, $width, $height)
+							$_idRichMenu = $imgTypePattern.&quot;-&quot;.$numberID;
+							$respRichMenu = $bot-&gt;createRichMenu(
+								new RichMenuBuilder(
+									new RichMenuSizeBuilder(1686,2500),true,&quot;Rich Menu $_idRichMenu&quot;,
+									&quot;เมนู&quot;,
+									makeFRM($imgTypePattern)
+								)
+							);
+							// ทำอื่นๆ 
+							$textReplyMessage = &quot; การสร้าง Rich Menu &quot;.$respRichMenu-&gt;getRawBody().&quot; Res = &quot;.json_encode($dataArr);
+							$replyData = new TextMessageBuilder($textReplyMessage);         							
+							break;								
+						case &quot;gr-&quot;: // ส่วนจัดการ Rich Menu ส่วนที่ 1
+							/// หา Rich Menu ที่เป็นเมนูหลัก หรือ Default ถ้ามี
+							$respRichMenu = $httpClient-&gt;get(&quot;https://api.line.me/v2/bot/user/all/richmenu&quot;);
+							$result = json_decode($respRichMenu-&gt;getRawBody(),TRUE);		
+							$defaultRichMenu = (isset($result[&#39;richMenuId&#39;]))?$result[&#39;richMenuId&#39;]:NULL;
+	
+							// รายการ Rich Menu ทั้งหมด
+							$respRichMenu = $bot-&gt;getRichMenuList();
+							$result = json_decode($respRichMenu-&gt;getRawBody(),TRUE);									
+							// สร้างตัวแปร สำหรับเก็บ rich menu แต่ละรายการไว้ในแต่ละคอลัมน์
+							$columnTemplate = array();
+							foreach($result[&#39;richmenus&#39;] as $itemRichMenu){
+								$_txtShow = ($itemRichMenu[&#39;richMenuId&#39;]==$defaultRichMenu)?&quot;ยกเลิก&quot;:&quot;กำหนดเป็น&quot;;
+								$_action = ($itemRichMenu[&#39;richMenuId&#39;]==$defaultRichMenu)?&quot;c_default_richmenu&quot;:&quot;s_default_richmenu&quot;;
+								$imgRichLayout = substr(str_replace(&#39;Rich Menu &#39;,&#39;&#39;,$itemRichMenu[&#39;name&#39;]),0,1);
+								array_push($columnTemplate,	
+									new CarouselColumnTemplateBuilder(
+											$itemRichMenu[&#39;name&#39;], // ชื่อ rich menu
+											&#39;เลือกการจัดการ&#39;,
+											&#39;[เปลี่ยนส่วนนี้เป็น path url ของเรา]rich-menu/rich-menu-pattern-0&#39;.$imgRichLayout.&#39;.png&#39;, // ไม่แสดงรูป มีมี url รูป
+											// ตัวอย่าง &#39;https://www.mywebsite.com/linebot/rich-menu/rich-menu-pattern-0&#39;.$imgRichLayout.&#39;.png&#39;, 
+											array(									
+												new PostbackTemplateActionBuilder(
+													$_txtShow.&#39; Default&#39;, // ข้อความแสดงในปุ่ม
+													http_build_query(array(
+														&#39;action&#39;=&gt;$_action,			
+														&#39;richMenuName&#39;=&gt;$itemRichMenu[&#39;name&#39;],					 
+														&#39;richMenuId&#39;=&gt;$itemRichMenu[&#39;richMenuId&#39;]
+													)), // ข้อมูลที่จะส่งไปใน webhook ผ่าน postback event
+													&#39;กำหนด Default Rich Menu&#39;  // ข้อความที่จะแสดงฝั่งผู้ใช้ เมื่อคลิกเลือก
+												),      	
+												new PostbackTemplateActionBuilder(
+													&#39;แสดงที่ Default&#39;, // ข้อความแสดงในปุ่ม
+													http_build_query(array(
+														&#39;action&#39;=&gt;&#39;g_default_richmenu&#39;,		
+														&#39;richMenuName&#39;=&gt;$itemRichMenu[&#39;name&#39;],			 
+														&#39;richMenuId&#39;=&gt;$itemRichMenu[&#39;richMenuId&#39;]
+													)), // ข้อมูลที่จะส่งไปใน webhook ผ่าน postback event
+													&#39;แสดง Default Rich Menu&#39;  // ข้อความที่จะแสดงฝั่งผู้ใช้ เมื่อคลิกเลือก
+												),     																						
+												new PostbackTemplateActionBuilder(
+													&#39;อัพโหลดรูป Rich Menu นี้&#39;, // ข้อความแสดงในปุ่ม
+													http_build_query(array(
+														&#39;action&#39;=&gt;&#39;upload_richmenu&#39;,			
+														&#39;richMenuName&#39;=&gt;$itemRichMenu[&#39;name&#39;],					 
+														&#39;richMenuId&#39;=&gt;$itemRichMenu[&#39;richMenuId&#39;]
+													)), // ข้อมูลที่จะส่งไปใน webhook ผ่าน postback event
+													&#39;อัพโหลดรูป Rich Menu&#39;  // ข้อความที่จะแสดงฝั่งผู้ใช้ เมื่อคลิกเลือก
+												) 						
+											)		
+									)	// end CarouselColumnTemplateBuilder			
+								); // end array push function
+							}	// end foreach						
+							
+							// ใช้ Carousel Template วนลูปแสดงรายการ rich menu ที่ได้สร้างไว้
+							$replyData = new TemplateMessageBuilder(&#39;Carousel&#39;,
+								new CarouselTemplateBuilder(
+									$columnTemplate
+								)
+							);											
+							break;  	
+						case &quot;gr2-&quot;: // ส่วนจัดการ Rich Menu ส่วนที่ 2
+							$respRichMenu = $bot-&gt;getRichMenuList();
+							$result = json_decode($respRichMenu-&gt;getRawBody(),TRUE);	
+								
+							// สร้างตัวแปร สำหรับเก็บ rich menu แต่ละรายการไว้ในแต่ละคอลัมน์
+							$columnTemplate = array();
+							foreach($result[&#39;richmenus&#39;] as $itemRichMenu){
+								$imgRichLayout = substr(str_replace(&#39;Rich Menu &#39;,&#39;&#39;,$itemRichMenu[&#39;name&#39;]),0,1);								
+								array_push($columnTemplate,	
+									new CarouselColumnTemplateBuilder(
+											$itemRichMenu[&#39;name&#39;], // ชื่อ rich menu
+											&#39;เลือกการจัดการ&#39;,
+											&#39;[เปลี่ยนส่วนนี้เป็น path url ของเรา]rich-menu/rich-menu-pattern-0&#39;.$imgRichLayout.&#39;.png&#39;, // ไม่แสดงรูป มีมี url รูป
+											// ตัวอย่าง &#39;https://www.mywebsite.com/linebot/rich-menu/rich-menu-pattern-0&#39;.$imgRichLayout.&#39;.png&#39;, 
+											array(
+												new PostbackTemplateActionBuilder(
+													&#39;รายละเอียด Rich Menu&#39;, // ข้อความแสดงในปุ่ม
+													http_build_query(array(
+														&#39;action&#39;=&gt;&#39;get_richmenu&#39;,		
+														&#39;richMenuName&#39;=&gt;$itemRichMenu[&#39;name&#39;],						 
+														&#39;richMenuId&#39;=&gt;$itemRichMenu[&#39;richMenuId&#39;]
+													)), // ข้อมูลที่จะส่งไปใน webhook ผ่าน postback event
+													&#39;ข้อมูล Rich Menu&#39;  // ข้อความที่จะแสดงฝั่งผู้ใช้ เมื่อคลิกเลือก
+												),      																														
+												new PostbackTemplateActionBuilder(
+													&#39;ลบ Rich Menu นี้&#39;, // ข้อความแสดงในปุ่ม
+													http_build_query(array(
+														&#39;action&#39;=&gt;&#39;delete_richmenu&#39;,			
+														&#39;richMenuName&#39;=&gt;$itemRichMenu[&#39;name&#39;],					 
+														&#39;richMenuId&#39;=&gt;$itemRichMenu[&#39;richMenuId&#39;]
+													)), // ข้อมูลที่จะส่งไปใน webhook ผ่าน postback event
+													&#39;ลบ Rich Menu&#39;  // ข้อความที่จะแสดงฝั่งผู้ใช้ เมื่อคลิกเลือก
+												),      		
+												new PostbackTemplateActionBuilder(
+													&#39;อัพโหลดรูป Rich Menu นี้&#39;, // ข้อความแสดงในปุ่ม
+													http_build_query(array(
+														&#39;action&#39;=&gt;&#39;upload_richmenu&#39;,			
+														&#39;richMenuName&#39;=&gt;$itemRichMenu[&#39;name&#39;],					 
+														&#39;richMenuId&#39;=&gt;$itemRichMenu[&#39;richMenuId&#39;]
+													)), // ข้อมูลที่จะส่งไปใน webhook ผ่าน postback event
+													&#39;อัพโหลดรูป Rich Menu&#39;  // ข้อความที่จะแสดงฝั่งผู้ใช้ เมื่อคลิกเลือก
+												) 						
+											)		
+									)	// end CarouselColumnTemplateBuilder			
+								); // end array push function
+							}	// end foreach						
+							
+							// ใช้ Carousel Template วนลูปแสดงรายการ rich menu ที่ได้สร้างไว้
+							$replyData = new TemplateMessageBuilder(&#39;Carousel&#39;,
+								new CarouselTemplateBuilder(
+									$columnTemplate
+								)
+							);											
+							break;  															
+						case &quot;ot&quot;:
+							// ทำอื่นๆ 
+							break;
+						case &quot;l&quot;: // เงื่อนไขทดสอบถ้ามีใครพิมพ์ L ใน GROUP / ROOM แล้วให้ bot ออกจาก GROUP / ROOM
+								$sourceId = $eventObj-&gt;getEventSourceId();
+								if($eventObj-&gt;isGroupEvent()){
+									$bot-&gt;leaveGroup($sourceId);
+								}
+								if($eventObj-&gt;isRoomEvent()){
+									$bot-&gt;leaveRoom($sourceId);  
+								}                                                                                         
+							break;							
+						case &quot;qr&quot;:
+							$postback = new PostbackTemplateActionBuilder(
+                                &#39;Postback&#39;, // ข้อความแสดงในปุ่ม
+                                http_build_query(array(
+                                    &#39;action&#39;=&gt;&#39;buy&#39;,
+                                    &#39;item&#39;=&gt;100
+                                )), // ข้อมูลที่จะส่งไปใน webhook ผ่าน postback event
+		                         &#39;Buy&#39;  // ข้อความที่จะแสดงฝั่งผู้ใช้ เมื่อคลิกเลือก
+                            );
+							$txtMsg = new MessageTemplateActionBuilder(
+                                &#39;ข้อความภาษาไทย&#39;,// ข้อความแสดงในปุ่ม
+                                &#39;thai&#39; // ข้อความที่จะแสดงฝั่งผู้ใช้ เมื่อคลิกเลือก
+                            );
+							$datetimePicker = new DatetimePickerTemplateActionBuilder(
+								&#39;Datetime Picker&#39;, // ข้อความแสดงในปุ่ม
+								http_build_query(array(
+									&#39;action&#39;=&gt;&#39;reservation&#39;,
+									&#39;person&#39;=&gt;5
+								)), // ข้อมูลที่จะส่งไปใน webhook ผ่าน postback event
+								&#39;datetime&#39;, // date | time | datetime รูปแบบข้อมูลที่จะส่ง ในที่นี้ใช้ datatime
+								substr_replace(date(&quot;Y-m-d H:i&quot;),&#39;T&#39;,10,1), // วันที่ เวลา ค่าเริ่มต้นที่ถูกเลือก
+								substr_replace(date(&quot;Y-m-d H:i&quot;,strtotime(&quot;+5 day&quot;)),&#39;T&#39;,10,1), //วันที่ เวลา มากสุดที่เลือกได้
+								substr_replace(date(&quot;Y-m-d H:i&quot;),&#39;T&#39;,10,1) //วันที่ เวลา น้อยสุดที่เลือกได้
+							);
+							
+							$quickReply = new QuickReplyMessageBuilder(
+								array(
+									new QuickReplyButtonBuilder(new LocationTemplateActionBuilder(&#39;เลือกตำแหน่ง&#39;)),
+									new QuickReplyButtonBuilder(new CameraTemplateActionBuilder(&#39;ถ่ายรูป&#39;)),
+									new QuickReplyButtonBuilder(new CameraRollTemplateActionBuilder(&#39;เลือกรูปภาพ&#39;)),
+									new QuickReplyButtonBuilder($postback),
+									new QuickReplyButtonBuilder($datetimePicker),
+									new QuickReplyButtonBuilder(
+										$txtMsg,
+										&quot;https://www.ninenik.com/images/ninenik_page_logo.png&quot;
+									),
+								)
+							);
+							$textReplyMessage = &quot;ส่งพร้อม quick reply &quot;;
+							$replyData = new TextMessageBuilder($textReplyMessage,$quickReply);     						
+							break;   												                       
+                    default:
+                        $textReplyMessage = &quot; คุณไม่ได้พิมพ์ ค่า ตามที่กำหนด&quot;;
+                        $replyData = new TextMessageBuilder($textReplyMessage);         
+                        break;                                      
+                }
+                break;                                                  
+            default:
+				if(!is_null($replyData)){
+					
+				}else{
+					// กรณีทดสอบเงื่อนไขอื่นๆ ผู้ใช้ไม่ได้ส่งเป็นข้อความ
+					$textReplyMessage = &#39;สวัสดีครับ คุณ &#39;.$typeMessage;         
+					$replyData = new TextMessageBuilder($textReplyMessage);         
+				}
+                break;  
+        }
+    }
+}
+?&gt;</pre>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	หวังว่าจะเป็นแนวทาง หรือนำไปใช้ประโยชน์ต่อไปได้ไม่นากก็น้อย</div>
+<div>
+	&nbsp;</div>
+<div>
+	ดูตัวอย่างได้จาก Demo Video ด้านล่าง</div>
+</div>
+</div>
+
+
+
+<br>
+<br>
+<h3 class="bg-warning tag-of-content" style="padding: 5px;;border-radius: 10px;background-color:#F7EFFB;box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.1);">
+&nbsp;&nbsp;
+<span style="    position: relative;
+    top: 3px;
+    font-size: 20px;">
+        เพิ่มเติมเนื้อหา ครั้งที่ 1 </span>
+<span class="badge bg-success" style="padding: 8px;background-color:#ca5ec9;">วันที่ 28-06-2020</span>
+</h3>
+<div class="more_detail_show" id="more_detail_show163" style="display:block;">
+<br>
+<div>
+<h3>
+	ปรับให้รองรับ Rich Menu แบบ Compact</h3>
+<div>
+	&nbsp; &nbsp; Rich menu ขนาด Compact หรือขนาดที่มีความสูงครึ่งหนึ่งจากขนาอเดิม (Large) จะมีรูปแบบ</div>
+<div>
+	pattern เพิ่มมาจากเดิมอีก 5 รายการ ใช้เลข 8-12 เพื่อระบุรูปแบบ ตามรูปด้านล่าง<br />
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<img alt="" src="https://i.imgur.com/e6gTwdo.png" style="width: 588px; height: 260px;" /><br />
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; ให้ดาวน์โหดลไฟล์ตัวอย่าง pattern เพิ่มเติม ตามลิ้งค์ด้านล่าง</div>
+<div>
+	<a href="http://niik.in/download/rich-menu.zip" target="_blank">&nbsp; &nbsp; ไฟล์ pattern 1-2 ดาวน์โหลด</a></div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; รูปภาพ rich menu ที่เพิ่มเข้ามา คือ&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre name="code">
+rich-menu-08.png
+rich-menu-09.png
+rich-menu-10.png
+rich-menu-11.png
+rich-menu-12.png</pre>
+</div>
+<div>
+	&nbsp; &nbsp; และไฟล์รูปแบบ pattern</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre name="code">
+rich-menu-pattern-08.png
+rich-menu-pattern-09.png
+rich-menu-pattern-10.png
+rich-menu-pattern-11.png
+rich-menu-pattern-12.png</pre>
+</div>
+<div>
+	&nbsp; &nbsp; ให้ copy ไฟล์เหล่านี้ไปไว้ในโฟลเดอร์ rich-menu สำหรับเรียกใช้งาน</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; จากนั้นให้ปรับส่วนของไฟล์ bot_action.php ใหม่ตามบรรทัดที่ highlight ให้รองรับการใช้งานรูปแบบ</div>
+<div>
+	compact จะได้ไฟล์เป็นดังนี้</div>
+<div>
+	&nbsp;</div>
+<h4>
+	&nbsp; &nbsp; ไฟล์ bot_action.php</h4>
+<div>
+	<pre class="php:controls highlight:[136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530]" name="code">
+&lt;?php
+///////////// ส่วนของการเรียกใช้งาน class ผ่าน namespace
+use LINE\LINEBot;
+use LINE\LINEBot\HTTPClient;
+use LINE\LINEBot\HTTPClient\CurlHTTPClient;
+use LINE\LINEBot\Event;
+use LINE\LINEBot\Event\BaseEvent;
+use LINE\LINEBot\Event\MessageEvent;
+use LINE\LINEBot\Event\AccountLinkEvent;
+use LINE\LINEBot\Event\MemberJoinEvent; 
+use LINE\LINEBot\MessageBuilder;
+use LINE\LINEBot\MessageBuilder\TextMessageBuilder;
+use LINE\LINEBot\MessageBuilder\StickerMessageBuilder;
+use LINE\LINEBot\MessageBuilder\ImageMessageBuilder;
+use LINE\LINEBot\MessageBuilder\LocationMessageBuilder;
+use LINE\LINEBot\MessageBuilder\AudioMessageBuilder;
+use LINE\LINEBot\MessageBuilder\VideoMessageBuilder;
+use LINE\LINEBot\ImagemapActionBuilder;
+use LINE\LINEBot\ImagemapActionBuilder\AreaBuilder;
+use LINE\LINEBot\ImagemapActionBuilder\ImagemapMessageActionBuilder ;
+use LINE\LINEBot\ImagemapActionBuilder\ImagemapUriActionBuilder;
+use LINE\LINEBot\MessageBuilder\Imagemap\BaseSizeBuilder;
+use LINE\LINEBot\MessageBuilder\ImagemapMessageBuilder;
+use LINE\LINEBot\MessageBuilder\MultiMessageBuilder;
+use LINE\LINEBot\TemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\DatetimePickerTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\MessageTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\PostbackTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\UriTemplateActionBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateMessageBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\ButtonTemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\CarouselTemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\CarouselColumnTemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\ConfirmTemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\ImageCarouselTemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\ImageCarouselColumnTemplateBuilder;
+use LINE\LINEBot\QuickReplyBuilder;
+use LINE\LINEBot\QuickReplyBuilder\QuickReplyMessageBuilder;
+use LINE\LINEBot\QuickReplyBuilder\ButtonBuilder\QuickReplyButtonBuilder;
+use LINE\LINEBot\TemplateActionBuilder\CameraRollTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\CameraTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\LocationTemplateActionBuilder;
+use LINE\LINEBot\RichMenuBuilder;
+use LINE\LINEBot\RichMenuBuilder\RichMenuSizeBuilder;
+use LINE\LINEBot\RichMenuBuilder\RichMenuAreaBuilder;
+use LINE\LINEBot\RichMenuBuilder\RichMenuAreaBoundsBuilder;
+ 
+ 
+// ส่วนของการทำงาน
+if(!is_null($events)){
+ 
+    // ถ้า bot ถูก invite เพื่อเข้า Join Event ให้ bot ส่งข้อความใน GROUP ว่าเข้าร่วม GROUP แล้ว
+    if(!is_null($eventJoin)){
+        $textReplyMessage = &quot;ขอเข้าร่วมด้วยน่ะ $sourceType ID:: &quot;.$sourceId;
+        $replyData = new TextMessageBuilder($textReplyMessage);                 
+    }
+     
+    // ถ้า bot ออกจาก สนทนา จะไม่สามารถส่งข้อความกลับได้ เนื่องจากไม่มี replyToken
+    if(!is_null($eventLeave)){
+ 
+    }   
+     
+    // ถ้า bot ถูกเพื่มเป้นเพื่อน หรือถูกติดตาม หรือ ยกเลิกการ บล็อก
+    if(!is_null($eventFollow)){
+        $textReplyMessage = &quot;ขอบคุณที่เป็นเพื่อน และติดตามเรา&quot;;        
+        $replyData = new TextMessageBuilder($textReplyMessage);                 
+    }
+     
+    // ถ้า bot ถูกบล็อก หรือเลิกติดตาม จะไม่สามารถส่งข้อความกลับได้ เนื่องจากไม่มี replyToken
+    if(!is_null($eventUnfollow)){
+ 
+    }       
+     
+    // ถ้ามีสมาชิกคนอื่น เข้ามาร่วมใน room หรือ group 
+    // room คือ สมมติเราคุยกับ คนหนึ่งอยู่ แล้วเชิญคนอื่นๆ เข้ามาสนทนาด้วย จะกลายเป็นห้องใหม่
+    // group คือ กลุ่มที่เราสร้างไว้ มีชื่อกลุ่ม แล้วเราเชิญคนอื่นเข้ามาในกลุ่ม เพิ่มร่วมสนทนาด้วย
+    if(!is_null($eventMemberJoined)){
+            $arr_joinedMember = $eventObj-&gt;getEventBody();
+            $joinedMember = $arr_joinedMember[&#39;joined&#39;][&#39;members&#39;][0];
+            if(!is_null($groupId) || !is_null($roomId)){
+                if($eventObj-&gt;isGroupEvent()){
+                    foreach($joinedMember as $k_user=&gt;$v_user){
+                        if($k_user==&quot;userId&quot;){
+                            $joined_userId = $v_user;
+                        }
+                    }                       
+                    $response = $bot-&gt;getGroupMemberProfile($groupId, $joined_userId);
+                }
+                if($eventObj-&gt;isRoomEvent()){
+                    foreach($joinedMember as $k_user=&gt;$v_user){
+                        if($k_user==&quot;userId&quot;){
+                            $joined_userId = $v_user;
+                        }
+                    }                   
+                    $response = $bot-&gt;getRoomMemberProfile($roomId, $joined_userId);    
+                }
+            }else{
+                $response = $bot-&gt;getProfile($userId);
+            }
+            if ($response-&gt;isSucceeded()) {
+                $userData = $response-&gt;getJSONDecodedBody(); // return array     
+                // $userData[&#39;userId&#39;]
+                // $userData[&#39;displayName&#39;]
+                // $userData[&#39;pictureUrl&#39;]
+                // $userData[&#39;statusMessage&#39;]
+                $textReplyMessage = &#39;สวัสดีครับ คุณ &#39;.$userData[&#39;displayName&#39;];     
+            }else{
+                $textReplyMessage = &#39;สวัสดีครับ ยินดีต้อนรับ&#39;;
+            }
+//        $textReplyMessage = &quot;ยินดีต้อนรับกลับมาอีกครั้ง &quot;.json_encode($joinedMember);
+        $replyData = new TextMessageBuilder($textReplyMessage);                     
+    }
+     
+    // ถ้ามีสมาชิกคนอื่น ออกจากก room หรือ group จะไม่สามารถส่งข้อความกลับได้ เนื่องจากไม่มี replyToken
+    if(!is_null($eventMemberLeft)){
+     
+    }   
+ 
+    // ถ้ามีกาาเชื่อมกับบัญชี LINE กับระบบสมาชิกของเว็บไซต์เรา
+    if(!is_null($eventAccountLink)){
+        // หลักๆ ส่วนนี้ใช้สำรหบัเพิ่มความภัยในการเชื่อมบัญตี LINE กับระบบสมาชิกของเว็บไซต์เรา 
+        $textReplyMessage = &quot;AccountLink ทำงาน &quot;.$replyToken.&quot; Nonce: &quot;.$eventObj-&gt;getNonce();
+        $replyData = new TextMessageBuilder($textReplyMessage);                         
+    }
+             
+    // ถ้าเป็น Postback Event
+    if(!is_null($eventPostback)){
+        $dataPostback = NULL;
+        $paramPostback = NULL;
+        // แปลงข้อมูลจาก Postback Data เป็น array
+        parse_str($eventObj-&gt;getPostbackData(),$dataPostback);
+        // ดึงค่า params กรณีมีค่า params
+        $paramPostback = $eventObj-&gt;getPostbackParams();
+         
+        $moreResult = &quot;&quot;;
+        // ส่วนทำงานสำหรับเชื่อม Rich Menu ไปยังผู้ใช้นั้นๆ
+        if(isset($dataPostback[&#39;action&#39;]) &amp;&amp; $dataPostback[&#39;action&#39;]==&quot;more_richmenu&quot;){
+            $respRichMenu = $bot-&gt;linkRichMenu($userId,$dataPostback[&#39;richmenuid&#39;]);
+            $moreResult = $respRichMenu-&gt;getRawBody();
+            $result = json_decode($respRichMenu-&gt;getRawBody(),TRUE); 
+        }       
+        // ส่วนทำงานสำหรับยกเลิกการเชื่อมกับ Rich Menu ของ ผู้ใช้
+        if(isset($dataPostback[&#39;action&#39;]) &amp;&amp; $dataPostback[&#39;action&#39;]==&quot;back_richmenu&quot;){
+            $respRichMenu = $bot-&gt;unlinkRichMenu($userId);
+            $moreResult = $respRichMenu-&gt;getRawBody();
+            $result = json_decode($respRichMenu-&gt;getRawBody(),TRUE); 
+        }               
+        // ส่วนทำงานสำหรับลบ Rich Menu
+        if(isset($dataPostback[&#39;action&#39;]) &amp;&amp; $dataPostback[&#39;action&#39;]==&quot;delete_richmenu&quot;){
+            $respRichMenu = $bot-&gt;deleteRichMenu($dataPostback[&#39;richMenuId&#39;]);
+            $moreResult = $respRichMenu-&gt;getRawBody();
+            $result = json_decode($respRichMenu-&gt;getRawBody(),TRUE); 
+        }
+        // ส่วนทำงานสำหรับดูข้อมูลของ Rich Menu นั้นๆ
+        if(isset($dataPostback[&#39;action&#39;]) &amp;&amp; $dataPostback[&#39;action&#39;]==&quot;get_richmenu&quot;){
+            $respRichMenu = $bot-&gt;getRichMenu($dataPostback[&#39;richMenuId&#39;]);
+            $moreResult = $respRichMenu-&gt;getRawBody();
+            $result = json_decode($respRichMenu-&gt;getRawBody(),TRUE); 
+        }
+        // ส่วนทำงานสำหรับกำหนดเป็น เมนูหลัก
+        if(isset($dataPostback[&#39;action&#39;]) &amp;&amp; $dataPostback[&#39;action&#39;]==&quot;s_default_richmenu&quot;){
+            $respRichMenu = $httpClient-&gt;post(&quot;https://api.line.me/v2/bot/user/all/richmenu/&quot;.$dataPostback[&#39;richMenuId&#39;],array());
+            $moreResult = $respRichMenu-&gt;getRawBody();
+            $result = json_decode($respRichMenu-&gt;getRawBody(),TRUE); 
+        }   
+        // ส่วนทำงานสำหรับยกเลิกเมนูหลัก    
+        if(isset($dataPostback[&#39;action&#39;]) &amp;&amp; $dataPostback[&#39;action&#39;]==&quot;c_default_richmenu&quot;){
+            $respRichMenu = $httpClient-&gt;delete(&quot;https://api.line.me/v2/bot/user/all/richmenu&quot;);
+            $moreResult = $respRichMenu-&gt;getRawBody();
+            $result = json_decode($respRichMenu-&gt;getRawBody(),TRUE); 
+        }           
+        // ส่วนทำงานดึงข้อมูลเมนูหลัก หรือ Rich Menu ที่เป็นเมนูหลัก ถ้ามี
+        if(isset($dataPostback[&#39;action&#39;]) &amp;&amp; $dataPostback[&#39;action&#39;]==&quot;g_default_richmenu&quot;){
+            $respRichMenu = $httpClient-&gt;get(&quot;https://api.line.me/v2/bot/user/all/richmenu&quot;);
+            $moreResult = $respRichMenu-&gt;getRawBody();
+            $result = json_decode($respRichMenu-&gt;getRawBody(),TRUE); 
+        }       
+        // ส่วนทำงานอัพโหลดรูปให้กับ Rich Menu  
+        if(isset($dataPostback[&#39;action&#39;]) &amp;&amp; $dataPostback[&#39;action&#39;]==&quot;upload_richmenu&quot;){
+			$arr_richMenuImg = explode(&quot;-&quot;,$dataPostback[&#39;richMenuName&#39;]);
+			$richMenuImg = str_replace(&#39;Rich Menu &#39;,&#39;&#39;,$arr_richMenuImg[0]);		
+			$richMenuImg = sprintf(&quot;%02d&quot;,$richMenuImg);
+			$richMenuImg_full = $richMenuImg.&quot;-&quot;.$arr_richMenuImg[1];			
+            if(file_exists(&quot;rich-menu/rich-menu-&quot;.$richMenuImg_full.&quot;.png&quot;)){
+                $richMenuImg = $richMenuImg_full;
+            }
+            $respRichMenu = $bot-&gt;uploadRichMenuImage($dataPostback[&#39;richMenuId&#39;],&quot;rich-menu/rich-menu-&quot;.$richMenuImg.&quot;.png&quot;,&quot;image/png&quot;);
+            $moreResult = $respRichMenu-&gt;getRawBody();
+            $result = json_decode($respRichMenu-&gt;getRawBody(),TRUE); 
+        }                   
+         
+        // ทดสอบแสดงข้อความที่เกิดจาก Postaback Event
+        $textReplyMessage = &quot;ข้อความจาก Postback Event Data : DataPostback = &quot;;        
+        $textReplyMessage.= json_encode($dataPostback);
+        $textReplyMessage.= &quot; ParamPostback = &quot;.json_encode($paramPostback);
+        $textReplyMessage.= &quot; RsponseMore = &quot;.$moreResult;
+        $replyData = new TextMessageBuilder($textReplyMessage);    
+    }
+    // ถ้าเป้น Message Event 
+    if(!is_null($eventMessage)){
+         
+        // สร้างตัวแปรเก็ยค่าประเภทของ Message จากทั้งหมด 7 ประเภท
+        $typeMessage = $eventObj-&gt;getMessageType();  
+        //  text | image | sticker | location | audio | video | file  
+        // เก็บค่า id ของข้อความ
+        $idMessage = $eventObj-&gt;getMessageId();          
+        // ถ้าเป็นข้อความ
+        if($typeMessage==&#39;text&#39;){
+            $userMessage = $eventObj-&gt;getText(); // เก็บค่าข้อความที่ผู้ใช้พิมพ์
+        }
+        // ถ้าเป็น image
+        if($typeMessage==&#39;image&#39;){
+ 
+        }               
+        // ถ้าเป็น audio
+ 
+        if($typeMessage==&#39;audio&#39;){
+ 
+        }       
+        // ถ้าเป็น video
+        if($typeMessage==&#39;video&#39;){
+ 
+        }   
+        // ถ้าเป็น file
+        if($typeMessage==&#39;file&#39;){
+            $FileName = $eventObj-&gt;getFileName();
+            $FileSize = $eventObj-&gt;getFileSize();
+        }               
+        // ถ้าเป็น image หรือ audio หรือ video หรือ file และต้องการบันทึกไฟล์
+        if(preg_match(&#39;/image|audio|video|file/&#39;,$typeMessage)){            
+            $responseMedia = $bot-&gt;getMessageContent($idMessage);
+            if ($responseMedia-&gt;isSucceeded()) {
+                // คำสั่ง getRawBody() ในกรณีนี้ จะได้ข้อมูลส่งกลับมาเป็น binary 
+                // เราสามารถเอาข้อมูลไปบันทึกเป็นไฟล์ได้
+                $dataBinary = $responseMedia-&gt;getRawBody(); // return binary
+                // ดึงข้อมูลประเภทของไฟล์ จาก header
+                $fileType = $responseMedia-&gt;getHeader(&#39;Content-Type&#39;);    
+                switch ($fileType){
+                    case (preg_match(&#39;/^application/&#39;,$fileType) ? true : false):
+//                      $fileNameSave = $FileName; // ถ้าต้องการบันทึกเป็นชื่อไฟล์เดิม
+                        $arr_ext = explode(&quot;.&quot;,$FileName);
+                        $ext = array_pop($arr_ext);
+                        $fileNameSave = time().&quot;.&quot;.$ext;                            
+                        break;                  
+                    case (preg_match(&#39;/^image/&#39;,$fileType) ? true : false):
+                        list($typeFile,$ext) = explode(&quot;/&quot;,$fileType);
+                        $ext = ($ext==&#39;jpeg&#39; || $ext==&#39;jpg&#39;)?&quot;jpg&quot;:$ext;
+                        $fileNameSave = time().&quot;.&quot;.$ext;
+                        break;
+                    case (preg_match(&#39;/^audio/&#39;,$fileType) ? true : false):
+                        list($typeFile,$ext) = explode(&quot;/&quot;,$fileType);
+                        $fileNameSave = time().&quot;.&quot;.$ext;                        
+                        break;
+                    case (preg_match(&#39;/^video/&#39;,$fileType) ? true : false):
+                        list($typeFile,$ext) = explode(&quot;/&quot;,$fileType);
+                        $fileNameSave = time().&quot;.&quot;.$ext;                                
+                        break;                                                      
+                }
+                $botDataFolder = &#39;botdata/&#39;; // โฟลเดอร์หลักที่จะบันทึกไฟล์
+                $botDataUserFolder = $botDataFolder.$userId; // มีโฟลเดอร์ด้านในเป็น userId อีกขั้น
+                if(!file_exists($botDataUserFolder)) { // ตรวจสอบถ้ายังไม่มีให้สร้างโฟลเดอร์ userId
+                    mkdir($botDataUserFolder, 0777, true);
+                }   
+                // กำหนด path ของไฟล์ที่จะบันทึก
+                $fileFullSavePath = $botDataUserFolder.&#39;/&#39;.$fileNameSave;
+//              file_put_contents($fileFullSavePath,$dataBinary); // เอา comment ออก ถ้าต้องการทำการบันทึกไฟล์
+                $textReplyMessage = &quot;บันทึกไฟล์เรียบร้อยแล้ว $fileNameSave&quot;;
+                $replyData = new TextMessageBuilder($textReplyMessage);
+//              $failMessage = json_encode($fileType);              
+//              $failMessage = json_encode($responseMedia-&gt;getHeaders());
+                $replyData = new TextMessageBuilder($failMessage);                      
+            }else{
+                $failMessage = json_encode($idMessage.&#39; &#39;.$responseMedia-&gt;getHTTPStatus() . &#39; &#39; . $responseMedia-&gt;getRawBody());
+                $replyData = new TextMessageBuilder($failMessage);          
+            }
+        }
+        // ถ้าเป็น sticker
+        if($typeMessage==&#39;sticker&#39;){
+            $packageId = $eventObj-&gt;getPackageId();
+            $stickerId = $eventObj-&gt;getStickerId();
+        }
+        // ถ้าเป็น location
+        if($typeMessage==&#39;location&#39;){
+            $locationTitle = $eventObj-&gt;getTitle();
+            $locationAddress = $eventObj-&gt;getAddress();
+            $locationLatitude = $eventObj-&gt;getLatitude();
+            $locationLongitude = $eventObj-&gt;getLongitude();
+        }       
+         
+         
+        switch ($typeMessage){ // กำหนดเงื่อนไขการทำงานจาก ประเภทของ message
+            case &#39;text&#39;:  // ถ้าเป็นข้อความ
+                $userMessage = strtolower($userMessage); // แปลงเป็นตัวเล็ก สำหรับทดสอบ
+                switch ($userMessage) {
+					/////////////////// RICH MENU
+						case (preg_match(&#39;/^cr-/&#39;,$userMessage) ? true : false):
+							$paramRichMenu = explode(&quot;&gt;&quot;,$userMessage);
+							if(!isset($paramRichMenu) || !is_array($paramRichMenu) || count($paramRichMenu)&lt;3){
+								exit;
+							}
+							$patternSet = $paramRichMenu[0];
+							$numberID = $paramRichMenu[1];
+							$actionSet = $paramRichMenu[2];
+							$actionArr_prepare = array();
+							if(isset($actionSet)){
+								$actionArr_prepare = explode(&quot;)&quot;,$actionSet);
+								array_pop($actionArr_prepare);
+							}
+							$imgTypePattern = str_replace(&quot;cr-&quot;,&quot;&quot;,$patternSet);
+							$areaBound_arr = array(
+								&quot;a&quot;=&gt;array(0,0,833,843),
+								&quot;b&quot;=&gt;array(833,0,833,843),
+								&quot;c&quot;=&gt;array(1666,0,834,843),
+								&quot;d&quot;=&gt;array(0,843,833,843),
+								&quot;e&quot;=&gt;array(833,843,833,843),
+								&quot;f&quot;=&gt;array(1666,843,834,843),
+								&quot;g&quot;=&gt;array(0,0,1250,843),
+								&quot;h&quot;=&gt;array(1250,0,1250,843),
+								&quot;i&quot;=&gt;array(0,843,1250,843),
+								&quot;j&quot;=&gt;array(1250,843,1250,843),
+								&quot;k&quot;=&gt;array(0,0,2500,843),
+								&quot;l&quot;=&gt;array(0,0,1666,1686),
+								&quot;m&quot;=&gt;array(0,843,2500,843),
+								&quot;n&quot;=&gt;array(0,0,1250,1686),
+								&quot;o&quot;=&gt;array(1250,0,1250,1686),
+								&quot;p&quot;=&gt;array(0,0,2500,1686),
+								&quot;q&quot;=&gt;array(0,0,1666,843),
+								&quot;r&quot;=&gt;array(833,0,2500,843)
+							);
+							$imgTypePatternArea_arr = array(
+								&quot;1&quot;=&gt;array(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;),
+								&quot;2&quot;=&gt;array(&quot;g&quot;,&quot;h&quot;,&quot;i&quot;,&quot;j&quot;),
+								&quot;3&quot;=&gt;array(&quot;k&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;),
+								&quot;4&quot;=&gt;array(&quot;l&quot;,&quot;c&quot;,&quot;f&quot;),
+								&quot;5&quot;=&gt;array(&quot;k&quot;,&quot;m&quot;),
+								&quot;6&quot;=&gt;array(&quot;n&quot;,&quot;o&quot;),
+								&quot;7&quot;=&gt;array(&quot;p&quot;),
+								&quot;8&quot;=&gt;array(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;),
+								&quot;9&quot;=&gt;array(&quot;g&quot;,&quot;h&quot;),
+								&quot;10&quot;=&gt;array(&quot;q&quot;,&quot;c&quot;),
+								&quot;11&quot;=&gt;array(&quot;a&quot;,&quot;r&quot;),
+								&quot;12&quot;=&gt;array(&quot;k&quot;)
+							);
+
+							function makeFRM($imgType){
+								global $areaBound_arr,$imgTypePatternArea_arr,$actionSet,$actionArr_prepare;
+								$dataArr = array();
+								$Area_arr = $imgTypePatternArea_arr[$imgType];
+								for($i=1;$i&lt;=count($imgTypePatternArea_arr[$imgType]);$i++){                                 
+									if(preg_match(&#39;/^p\(/&#39;,$actionArr_prepare[$i-1])){
+										list($ac,$data) = explode(&quot;(&quot;,$actionArr_prepare[$i-1]);
+										$actionVal = new PostbackTemplateActionBuilder(&#39;p&#39;,$data);
+									}elseif(preg_match(&#39;/^m\(/&#39;,$actionArr_prepare[$i-1])){
+										list($ac,$data) = explode(&quot;(&quot;,$actionArr_prepare[$i-1]);
+										$actionVal = new MessageTemplateActionBuilder(&#39;m&#39;,$data);                                   
+									}elseif(preg_match(&#39;/^u\(/&#39;,$actionArr_prepare[$i-1])){
+										list($ac,$data) = explode(&quot;(&quot;,$actionArr_prepare[$i-1]);
+										$actionVal = new UriTemplateActionBuilder(&#39;u&#39;,$data);   
+									}elseif(preg_match(&#39;/^c\(/&#39;,$actionArr_prepare[$i-1])){
+										list($ac,$data) = explode(&quot;(&quot;,$actionArr_prepare[$i-1]);
+										$actionVal = new UriTemplateActionBuilder(&#39;u&#39;,&quot;line://nv/camera/&quot;);     
+									}elseif(preg_match(&#39;/^cs\(/&#39;,$actionArr_prepare[$i-1])){
+										list($ac,$data) = explode(&quot;(&quot;,$actionArr_prepare[$i-1]);
+										$actionVal = new UriTemplateActionBuilder(&#39;u&#39;,&quot;line://nv/cameraRoll/single/&quot;);  
+									}elseif(preg_match(&#39;/^cm\(/&#39;,$actionArr_prepare[$i-1])){
+										list($ac,$data) = explode(&quot;(&quot;,$actionArr_prepare[$i-1]);
+										$actionVal = new UriTemplateActionBuilder(&#39;u&#39;,&quot;line://nv/cameraRoll/multi/&quot;);                                                       
+									}elseif(preg_match(&#39;/^l\(/&#39;,$actionArr_prepare[$i-1])){
+										list($ac,$data) = explode(&quot;(&quot;,$actionArr_prepare[$i-1]);
+										$actionVal = new UriTemplateActionBuilder(&#39;u&#39;,&quot;line://nv/location&quot;);                                            
+									}elseif(preg_match(&#39;/^d\(/&#39;,$actionArr_prepare[$i-1])){
+										list($ac,$data) = explode(&quot;(&quot;,$actionArr_prepare[$i-1]);
+										$actionVal = new DatetimePickerTemplateActionBuilder(&#39;d&#39;,$data,&#39;datetime&#39;);
+									}elseif(preg_match(&#39;/^n\(/&#39;,$actionArr_prepare[$i-1])){
+										$actionVal = NULL;
+										continue;
+									}else{
+										$actionVal = NULL;
+										continue;
+									}
+									$patternLetter = $Area_arr[$i-1];
+									array_push($dataArr,
+											new RichMenuAreaBuilder(
+												new RichMenuAreaBoundsBuilder(...$areaBound_arr[$patternLetter]),$actionVal
+											)                   
+									);
+								}
+								return $dataArr;                        
+							}
+		//                          $arrayRichMenu = makeFRM();
+							// $sizeBuilder, $selected, $name, $chatBarText, $areaBuilders // 1686, 843.  // 2500
+							// ($x, $y, $width, $height)
+							$_RichMenuSize = [1686,2500];
+							if((int)$imgTypePattern&gt;7){
+								$_RichMenuSize = [843,2500];
+							}
+							$_idRichMenu = $imgTypePattern.&quot;-&quot;.$numberID;
+							$respRichMenu = $bot-&gt;createRichMenu(
+								new RichMenuBuilder(
+									new RichMenuSizeBuilder(...$_RichMenuSize),true,&quot;Rich Menu $_idRichMenu&quot;,
+									&quot;เมนู&quot;,
+									makeFRM($imgTypePattern)
+								)
+							);
+							// ทำอื่นๆ 
+							$textReplyMessage = &quot; การสร้าง Rich Menu &quot;.$respRichMenu-&gt;getRawBody().&quot; Res = &quot;.json_encode($dataArr);
+							$replyData = new TextMessageBuilder($textReplyMessage);                                     
+							break;                              
+						case &quot;gr-&quot;: // ส่วนจัดการ Rich Menu ส่วนที่ 1
+							/// หา Rich Menu ที่เป็นเมนูหลัก หรือ Default ถ้ามี
+							$respRichMenu = $httpClient-&gt;get(&quot;https://api.line.me/v2/bot/user/all/richmenu&quot;);
+							$result = json_decode($respRichMenu-&gt;getRawBody(),TRUE);     
+							$defaultRichMenu = (isset($result[&#39;richMenuId&#39;]))?$result[&#39;richMenuId&#39;]:NULL;
+
+							// รายการ Rich Menu ทั้งหมด
+							$respRichMenu = $bot-&gt;getRichMenuList();
+							$result = json_decode($respRichMenu-&gt;getRawBody(),TRUE);                                 
+							// สร้างตัวแปร สำหรับเก็บ rich menu แต่ละรายการไว้ในแต่ละคอลัมน์
+							$columnTemplate = array();
+							foreach($result[&#39;richmenus&#39;] as $itemRichMenu){
+								$_txtShow = ($itemRichMenu[&#39;richMenuId&#39;]==$defaultRichMenu)?&quot;ยกเลิก&quot;:&quot;กำหนดเป็น&quot;;
+								$_action = ($itemRichMenu[&#39;richMenuId&#39;]==$defaultRichMenu)?&quot;c_default_richmenu&quot;:&quot;s_default_richmenu&quot;;
+								$arr_imgRichLayout = explode(&quot;-&quot;,$itemRichMenu[&#39;name&#39;]);
+								$imgRichLayout = str_replace(&#39;Rich Menu &#39;,&#39;&#39;,$arr_imgRichLayout[0]);
+								$imgRichLayout = sprintf(&quot;%02d&quot;,$imgRichLayout);
+								//$imgRichLayout = str_pad($imgRichLayout,2,&quot;0&quot;,STR_PAD_LEFT);			
+								array_push($columnTemplate, 
+									new CarouselColumnTemplateBuilder(
+											$itemRichMenu[&#39;name&#39;], // ชื่อ rich menu
+											&#39;เลือกการจัดการ&#39;,
+											&#39;[เปลี่ยนส่วนนี้เป็น path url ของเรา]/linebot/rich-menu/rich-menu-pattern-&#39;.$imgRichLayout.&#39;.png&#39;, // ไม่แสดงรูป มีมี url รูป
+											// ตัวอย่าง &#39;https://www.mywebsite.com/linebot/rich-menu/rich-menu-pattern-&#39;.$imgRichLayout.&#39;.png&#39;, 
+											array(                                  
+												new PostbackTemplateActionBuilder(
+													$_txtShow.&#39; Default&#39;, // ข้อความแสดงในปุ่ม
+													http_build_query(array(
+														&#39;action&#39;=&gt;$_action,          
+														&#39;richMenuName&#39;=&gt;$itemRichMenu[&#39;name&#39;],                    
+														&#39;richMenuId&#39;=&gt;$itemRichMenu[&#39;richMenuId&#39;]
+													)), // ข้อมูลที่จะส่งไปใน webhook ผ่าน postback event
+													&#39;กำหนด Default Rich Menu&#39;  // ข้อความที่จะแสดงฝั่งผู้ใช้ เมื่อคลิกเลือก
+												),          
+												new PostbackTemplateActionBuilder(
+													&#39;แสดงที่ Default&#39;, // ข้อความแสดงในปุ่ม
+													http_build_query(array(
+														&#39;action&#39;=&gt;&#39;g_default_richmenu&#39;,      
+														&#39;richMenuName&#39;=&gt;$itemRichMenu[&#39;name&#39;],            
+														&#39;richMenuId&#39;=&gt;$itemRichMenu[&#39;richMenuId&#39;]
+													)), // ข้อมูลที่จะส่งไปใน webhook ผ่าน postback event
+													&#39;แสดง Default Rich Menu&#39;  // ข้อความที่จะแสดงฝั่งผู้ใช้ เมื่อคลิกเลือก
+												),                                                                                          
+												new PostbackTemplateActionBuilder(
+													&#39;อัพโหลดรูป Rich Menu นี้&#39;, // ข้อความแสดงในปุ่ม
+													http_build_query(array(
+														&#39;action&#39;=&gt;&#39;upload_richmenu&#39;,         
+														&#39;richMenuName&#39;=&gt;$itemRichMenu[&#39;name&#39;],                    
+														&#39;richMenuId&#39;=&gt;$itemRichMenu[&#39;richMenuId&#39;]
+													)), // ข้อมูลที่จะส่งไปใน webhook ผ่าน postback event
+													&#39;อัพโหลดรูป Rich Menu&#39;  // ข้อความที่จะแสดงฝั่งผู้ใช้ เมื่อคลิกเลือก
+												)                       
+											)       
+									)   // end CarouselColumnTemplateBuilder            
+								); // end array push function
+							}   // end foreach                      
+
+							// ใช้ Carousel Template วนลูปแสดงรายการ rich menu ที่ได้สร้างไว้
+							$replyData = new TemplateMessageBuilder(&#39;Carousel&#39;,
+								new CarouselTemplateBuilder(
+									$columnTemplate
+								)
+							);                                          
+							break;      
+						case &quot;gr2-&quot;: // ส่วนจัดการ Rich Menu ส่วนที่ 2
+							$respRichMenu = $bot-&gt;getRichMenuList();
+							$result = json_decode($respRichMenu-&gt;getRawBody(),TRUE); 
+
+							// สร้างตัวแปร สำหรับเก็บ rich menu แต่ละรายการไว้ในแต่ละคอลัมน์
+							$columnTemplate = array();
+							foreach($result[&#39;richmenus&#39;] as $itemRichMenu){
+								$arr_imgRichLayout = explode(&quot;-&quot;,$itemRichMenu[&#39;name&#39;]);
+								$imgRichLayout = str_replace(&#39;Rich Menu &#39;,&#39;&#39;,$arr_imgRichLayout[0]);
+								$imgRichLayout = sprintf(&quot;%02d&quot;,$imgRichLayout);
+								//$imgRichLayout = str_pad($imgRichLayout,2,&quot;0&quot;,STR_PAD_LEFT);									
+								array_push($columnTemplate, 
+									new CarouselColumnTemplateBuilder(
+											$itemRichMenu[&#39;name&#39;], // ชื่อ rich menu
+											&#39;เลือกการจัดการ&#39;,
+											&#39;[เปลี่ยนส่วนนี้เป็น path url ของเรา]/linebot/rich-menu/rich-menu-pattern-&#39;.$imgRichLayout.&#39;.png&#39;, // ไม่แสดงรูป มีมี url รูป
+											// ตัวอย่าง &#39;https://www.mywebsite.com/linebot/rich-menu/rich-menu-pattern-&#39;.$imgRichLayout.&#39;.png&#39;, 
+											array(
+												new PostbackTemplateActionBuilder(
+													&#39;รายละเอียด Rich Menu&#39;, // ข้อความแสดงในปุ่ม
+													http_build_query(array(
+														&#39;action&#39;=&gt;&#39;get_richmenu&#39;,        
+														&#39;richMenuName&#39;=&gt;$itemRichMenu[&#39;name&#39;],                        
+														&#39;richMenuId&#39;=&gt;$itemRichMenu[&#39;richMenuId&#39;]
+													)), // ข้อมูลที่จะส่งไปใน webhook ผ่าน postback event
+													&#39;ข้อมูล Rich Menu&#39;  // ข้อความที่จะแสดงฝั่งผู้ใช้ เมื่อคลิกเลือก
+												),                                                                                                                              
+												new PostbackTemplateActionBuilder(
+													&#39;ลบ Rich Menu นี้&#39;, // ข้อความแสดงในปุ่ม
+													http_build_query(array(
+														&#39;action&#39;=&gt;&#39;delete_richmenu&#39;,         
+														&#39;richMenuName&#39;=&gt;$itemRichMenu[&#39;name&#39;],                    
+														&#39;richMenuId&#39;=&gt;$itemRichMenu[&#39;richMenuId&#39;]
+													)), // ข้อมูลที่จะส่งไปใน webhook ผ่าน postback event
+													&#39;ลบ Rich Menu&#39;  // ข้อความที่จะแสดงฝั่งผู้ใช้ เมื่อคลิกเลือก
+												),              
+												new PostbackTemplateActionBuilder(
+													&#39;อัพโหลดรูป Rich Menu นี้&#39;, // ข้อความแสดงในปุ่ม
+													http_build_query(array(
+														&#39;action&#39;=&gt;&#39;upload_richmenu&#39;,         
+														&#39;richMenuName&#39;=&gt;$itemRichMenu[&#39;name&#39;],                    
+														&#39;richMenuId&#39;=&gt;$itemRichMenu[&#39;richMenuId&#39;]
+													)), // ข้อมูลที่จะส่งไปใน webhook ผ่าน postback event
+													&#39;อัพโหลดรูป Rich Menu&#39;  // ข้อความที่จะแสดงฝั่งผู้ใช้ เมื่อคลิกเลือก
+												)                       
+											)       
+									)   // end CarouselColumnTemplateBuilder            
+								); // end array push function
+							}   // end foreach                      
+
+							// ใช้ Carousel Template วนลูปแสดงรายการ rich menu ที่ได้สร้างไว้
+							$replyData = new TemplateMessageBuilder(&#39;Carousel&#39;,
+								new CarouselTemplateBuilder(
+									$columnTemplate
+								)
+							);                                          
+							break;   
+					/////////////////// RICH MENU		                                                        
+                        case &quot;ot&quot;:
+                            // ทำอื่นๆ 
+                            break;
+                        case &quot;l&quot;: // เงื่อนไขทดสอบถ้ามีใครพิมพ์ L ใน GROUP / ROOM แล้วให้ bot ออกจาก GROUP / ROOM
+                                $sourceId = $eventObj-&gt;getEventSourceId();
+                                if($eventObj-&gt;isGroupEvent()){
+                                    $bot-&gt;leaveGroup($sourceId);
+                                }
+                                if($eventObj-&gt;isRoomEvent()){
+                                    $bot-&gt;leaveRoom($sourceId);  
+                                }                                                                                         
+                            break;                          
+                        case &quot;qr&quot;:
+                            $postback = new PostbackTemplateActionBuilder(
+                                &#39;Postback&#39;, // ข้อความแสดงในปุ่ม
+                                http_build_query(array(
+                                    &#39;action&#39;=&gt;&#39;buy&#39;,
+                                    &#39;item&#39;=&gt;100
+                                )), // ข้อมูลที่จะส่งไปใน webhook ผ่าน postback event
+                                 &#39;Buy&#39;  // ข้อความที่จะแสดงฝั่งผู้ใช้ เมื่อคลิกเลือก
+                            );
+                            $txtMsg = new MessageTemplateActionBuilder(
+                                &#39;ข้อความภาษาไทย&#39;,// ข้อความแสดงในปุ่ม
+                                &#39;thai&#39; // ข้อความที่จะแสดงฝั่งผู้ใช้ เมื่อคลิกเลือก
+                            );
+                            $datetimePicker = new DatetimePickerTemplateActionBuilder(
+                                &#39;Datetime Picker&#39;, // ข้อความแสดงในปุ่ม
+                                http_build_query(array(
+                                    &#39;action&#39;=&gt;&#39;reservation&#39;,
+                                    &#39;person&#39;=&gt;5
+                                )), // ข้อมูลที่จะส่งไปใน webhook ผ่าน postback event
+                                &#39;datetime&#39;, // date | time | datetime รูปแบบข้อมูลที่จะส่ง ในที่นี้ใช้ datatime
+                                substr_replace(date(&quot;Y-m-d H:i&quot;),&#39;T&#39;,10,1), // วันที่ เวลา ค่าเริ่มต้นที่ถูกเลือก
+                                substr_replace(date(&quot;Y-m-d H:i&quot;,strtotime(&quot;+5 day&quot;)),&#39;T&#39;,10,1), //วันที่ เวลา มากสุดที่เลือกได้
+                                substr_replace(date(&quot;Y-m-d H:i&quot;),&#39;T&#39;,10,1) //วันที่ เวลา น้อยสุดที่เลือกได้
+                            );
+                             
+                            $quickReply = new QuickReplyMessageBuilder(
+                                array(
+                                    new QuickReplyButtonBuilder(new LocationTemplateActionBuilder(&#39;เลือกตำแหน่ง&#39;)),
+                                    new QuickReplyButtonBuilder(new CameraTemplateActionBuilder(&#39;ถ่ายรูป&#39;)),
+                                    new QuickReplyButtonBuilder(new CameraRollTemplateActionBuilder(&#39;เลือกรูปภาพ&#39;)),
+                                    new QuickReplyButtonBuilder($postback),
+                                    new QuickReplyButtonBuilder($datetimePicker),
+                                    new QuickReplyButtonBuilder(
+                                        $txtMsg,
+                                        &quot;https://www.ninenik.com/images/ninenik_page_logo.png&quot;
+                                    ),
+                                )
+                            );
+                            $textReplyMessage = &quot;ส่งพร้อม quick reply &quot;;
+                            $replyData = new TextMessageBuilder($textReplyMessage,$quickReply);                             
+                            break;                                                                         
+                    default:
+                        $textReplyMessage = &quot; คุณไม่ได้พิมพ์ ค่า ตามที่กำหนด&quot;;
+                        $replyData = new TextMessageBuilder($textReplyMessage);         
+                        break;                                      
+                }
+                break;                                                  
+            default:
+                if(!is_null($replyData)){
+                     
+                }else{
+                    // กรณีทดสอบเงื่อนไขอื่นๆ ผู้ใช้ไม่ได้ส่งเป็นข้อความ
+                    $textReplyMessage = &#39;สวัสดีครับ คุณ &#39;.$typeMessage;         
+                    $replyData = new TextMessageBuilder($textReplyMessage);         
+                }
+                break;  
+        }
+    }
+}
+?&gt;</pre>
+</div>
+<div>
+	&nbsp; &nbsp; การใช้งานทุกอย่างยังเหมือนเดิม มีเพียงแค่เราสามารถกำหนดรุปแบบได้มากขึ้น คือจากเดิมแค่ 1-7 ก็จะ</div>
+<div>
+	สามารถเพิ่มเป็น 1-12 รูปแบบ โดยรูปแบบที่ 8-12 จะเป็นรูปแบบ compact ที่ขนาดรูปจะต้องเท่ากับ</div>
+<div>
+	2500x843 px หรือสูงครั้งหนึ่งของแบบเต็มที่ขนาด 2500x1686 px</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; การกำหนดจำนวนของ action ต้องกำหนด จำนวนให้เท่ากับ จำนวนพื้นที่ของแต่ละ pattern นั้นๆ</div>
+<div>
+	&nbsp; &nbsp; โดยแต่ละ pattern มีจุด action แตกต่างกันไปดังนี้</div>
+<div>
+	&nbsp; &nbsp; &nbsp;pattern 1 มี 6</div>
+<div>
+	&nbsp; &nbsp; &nbsp;pattern 2 มี 4</div>
+<div>
+	&nbsp; &nbsp; &nbsp;pattern 3 มี 4</div>
+<div>
+	&nbsp; &nbsp; &nbsp;pattern 4 มี 3</div>
+<div>
+	&nbsp; &nbsp; &nbsp;pattern 5 มี 2</div>
+<div>
+	&nbsp; &nbsp; &nbsp;pattern 6 มี 2</div>
+<div>
+	&nbsp; &nbsp; &nbsp;pattern 7 มี 1</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; &nbsp;เพิ่มใหม่</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; &nbsp;pattern 8 มี 3</div>
+<div>
+	&nbsp; &nbsp; &nbsp;pattern 9 มี 2</div>
+<div>
+	&nbsp; &nbsp; &nbsp;pattern 10 มี 2</div>
+<div>
+	&nbsp; &nbsp; &nbsp;pattern 11 มี 2</div>
+<div>
+	&nbsp; &nbsp; &nbsp;pattern 12 มี 1</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; &nbsp;การกำหนดชื่่อไฟล์รูปทุกอย่างมีรูปแบบเหมือนเดิม เช่น สมมติเราต้องการรูปแบบที่ 8 มีจุด action 3 จุด</div>
+<div>
+	ไฟล์รูปของเราก็จะเป็น&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre name="code">
+rich-menu-08-1.png
+rich-menu-08-2.png
+......
+...
+rich-menu-08-x.png</pre>
+</div>
+<div>
+	&nbsp; &nbsp; เมื่อ x คือลำดับ ID ตามที่ได้ที่อธิบายไปให้หัวข้อหลักด้านบน</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; ยกตัวอย่าง เราจะสร้าง rich menu เป็นรูปแบบที่ 8 ขึ้นมา 2 เมนู เราก็ต้องทำการอัพโหลดรุปเมนู มีชื่อไฟล์ว่า</div>
+<div>
+	&nbsp;</div>
+<div>
+	rich-menu-08-1.png</div>
+<div>
+	rich-menu-08-2.png</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; ไปไว้ในโฟลเดอร์ rich-menu&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; จากนั้นสร้างเมนูด้วยคำสั่ง</div>
+<div>
+	&nbsp; &nbsp; เมนูรูปแบบ 8 เมนูที่ 1&nbsp; (สมมติยังไม่กำหนด action ใดๆ *อย่างน้อยต้องมี 1 action รูปจึงจะแสดง)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre name="code">
+cr-8&gt;1&gt;()()()</pre>
+</div>
+<div>
+	&nbsp; &nbsp; เมนูรูปแบบ 8 เมนูที่ 1&nbsp; (สมมติให้ action ที่สองส่งข้อความว่า hello world)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre name="code">
+cr-8&gt;2&gt;()m(hello world)()</pre>
+</div>
+<div>
+	&nbsp;</div>
+<h4>
+	&nbsp; &nbsp; การเปลี่ยนรูปภาพให้กับ Rich Menu</h4>
+<div>
+	&nbsp; &nbsp; ในกรณีที่เราสร้าง rich menu และใช้เมนูลำดับเดิม โดยต้องการเปลี่ยนรูปเมนูอย่างเดียว กรณีนี้</div>
+<div>
+	เราต้องทำการลบเมนูนั้นออกก่อน แล้วทำการสร้างเมนูเข้าไปใหม่ พร้อมกำทำคำสั่งอัพโหลดรุปใหม่อีกครั้ง</div>
+<div>
+	โดยจะยังเป็นชื่อรูปจากลำดับเดิม&nbsp;</div>
+<div>
+	&nbsp; &nbsp; ยกตัวอย่างเช่น เรามีเมนู Rich menu 8-1 ซึ่งจะใช้ไฟล์รูปเป็น rich-menu-08-1.png เราทำการกำหนด</div>
+<div>
+	ค่าต่างๆ ทั้งอัพโหลดรูปเรียบร้อยแล้ว แต่เกิดเปลี่ยนใจอยากเปลี่ยนรูปใหม่ โดยเราทำการอัพโหลดไฟล์รูป</div>
+<div>
+	ที่ชื่อเหมือนเดิม rich-menu-08-1.png ขึ้นไปทับไฟล์เดิม กรณีแบบนี้ รูปที่แสดงใน Rich menu 8-1 จะไม่</div>
+<div>
+	เปลี่ยนแปลง จะยังเป็นรูปเดิมที่เรากำหนด หากต้องการใช้หรือให้ดึงรูปใหม่ เราต้องทำการลบ และสร้าง&nbsp;</div>
+<div>
+	rich menu นั้นๆ ใหม่อีกครั้ง รวมถึงทำคำสั่งกำหนดรูปให้กับ rich menu นั้นใหม่</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; ดูตัวอย่างการสร้าง Rich menu เพิ่มเติมได้ที่ DEMO 5</div></div>
+<br>
+<br>
+</div>
+
+<style type="text/css">
+.nav-tabs > li {
+    float:none;
+    display:inline-block;
+    zoom:1;
+}
+.nav-tabs {
+    text-align:center;
+}
+div.niik.tab-pane.active{
+	box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.1);
+	padding-bottom: 20px;
+}
+</style>
+<div>
+  <ul class="nav nav-tabs" id="myTabs" role="tablist" style="border-radius: 10px 10px 0px 0px;box-shadow: 0 0.25em 0.25em #F5F5F5;background-color:#FCFCFC;">
+      <li role="presentation" class="active">
+    <a href="#demo_c_div1" id="demo_c_div1-tab" role="tab" data-toggle="tab" aria-controls="demo_c_div1" aria-expanded="true" title="350 x 650" >
+    <button title="Reload demo" onclick="reloadIframe('1')" class="btn btn-sm btn-light"><i class="fas fa-redo-alt"></i></button>
+    DEMO 1        </a>
+    </li>
+        <li role="presentation" class="">
+    <a href="#demo_c_div2" id="demo_c_div2-tab" role="tab" data-toggle="tab" aria-controls="demo_c_div2" aria-expanded="true" title="350 x 650" >
+    <button title="Reload demo" onclick="reloadIframe('2')" class="btn btn-sm btn-light"><i class="fas fa-redo-alt"></i></button>
+    DEMO 2        </a>
+    </li>
+        <li role="presentation" class="">
+    <a href="#demo_c_div3" id="demo_c_div3-tab" role="tab" data-toggle="tab" aria-controls="demo_c_div3" aria-expanded="true" title="350 x 650" >
+    <button title="Reload demo" onclick="reloadIframe('3')" class="btn btn-sm btn-light"><i class="fas fa-redo-alt"></i></button>
+    DEMO 3        </a>
+    </li>
+        <li role="presentation" class="">
+    <a href="#demo_c_div4" id="demo_c_div4-tab" role="tab" data-toggle="tab" aria-controls="demo_c_div4" aria-expanded="true" title="350 x 650" >
+    <button title="Reload demo" onclick="reloadIframe('4')" class="btn btn-sm btn-light"><i class="fas fa-redo-alt"></i></button>
+    DEMO 4        </a>
+    </li>
+        <li role="presentation" class="">
+    <a href="#demo_c_div5" id="demo_c_div5-tab" role="tab" data-toggle="tab" aria-controls="demo_c_div5" aria-expanded="true" title="350 x 650" >
+    <button title="Reload demo" onclick="reloadIframe('5')" class="btn btn-sm btn-light"><i class="fas fa-redo-alt"></i></button>
+    DEMO 5        </a>
+    </li>
+      </ul>
+  <div class="tab-content" id="myTabContent">
+      <div class="niik tab-pane active" role="tabpanel" id="demo_c_div1" aria-labelledby="demo_c_div1-tab">
+        <div style="margin:auto;width:350px;position:relative;overflow-x: hidden;">
+        <br>
+    
+        <iframe class="iframe_demo" id="iframe_demo_c_div1"  sandbox="allow-forms allow-popups allow-modals allow-scripts allow-same-origin" frameborder="0" height="650"  src="demo/show_demo.php?demoID=129&20220101" width="100%" style="
+        position:relative;margin-left:13px;" ></iframe>
+        
+        </div>
+    </div>
+        <div class="niik tab-pane " role="tabpanel" id="demo_c_div2" aria-labelledby="demo_c_div2-tab">
+        <div style="margin:auto;width:350px;position:relative;overflow-x: hidden;">
+        <br>
+    
+        <iframe class="iframe_demo" id="iframe_demo_c_div2"  sandbox="allow-forms allow-popups allow-modals allow-scripts allow-same-origin" frameborder="0" height="650"  src="demo/show_demo.php?demoID=130&20220101" width="100%" style="
+        position:relative;margin-left:13px;" ></iframe>
+        
+        </div>
+    </div>
+        <div class="niik tab-pane " role="tabpanel" id="demo_c_div3" aria-labelledby="demo_c_div3-tab">
+        <div style="margin:auto;width:350px;position:relative;overflow-x: hidden;">
+        <br>
+    
+        <iframe class="iframe_demo" id="iframe_demo_c_div3"  sandbox="allow-forms allow-popups allow-modals allow-scripts allow-same-origin" frameborder="0" height="650"  src="demo/show_demo.php?demoID=132&20220101" width="100%" style="
+        position:relative;margin-left:13px;" ></iframe>
+        
+        </div>
+    </div>
+        <div class="niik tab-pane " role="tabpanel" id="demo_c_div4" aria-labelledby="demo_c_div4-tab">
+        <div style="margin:auto;width:350px;position:relative;overflow-x: hidden;">
+        <br>
+    
+        <iframe class="iframe_demo" id="iframe_demo_c_div4"  sandbox="allow-forms allow-popups allow-modals allow-scripts allow-same-origin" frameborder="0" height="650"  src="demo/show_demo.php?demoID=133&20220101" width="100%" style="
+        position:relative;margin-left:13px;" ></iframe>
+        
+        </div>
+    </div>
+        <div class="niik tab-pane " role="tabpanel" id="demo_c_div5" aria-labelledby="demo_c_div5-tab">
+        <div style="margin:auto;width:350px;position:relative;overflow-x: hidden;">
+        <br>
+    
+        <iframe class="iframe_demo" id="iframe_demo_c_div5"  sandbox="allow-forms allow-popups allow-modals allow-scripts allow-same-origin" frameborder="0" height="650"  src="demo/show_demo.php?demoID=215&20220101" width="100%" style="
+        position:relative;margin-left:13px;" ></iframe>
+        
+        </div>
+    </div>
+      </div>
+</div>
+
+
+<br>
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+  $(function(){
+  	$("iframe.iframe_demo:visible").on("load",function(){
+		resizeIframe($(this)[0]);
+	});
+  });
+</script>
+
+
+
+
+</div>
+
+<style type="text/css">
+#overlay_for_lock {       
+    background:#000;    
+    width:100%;    
+    height:100%;    
+    z-index:80000;    
+    top:0px;    
+    left:0px;    
+    position:fixed;    
+    opacity: .8;       
+    filter: alpha(opacity=80);       
+    -moz-opacity: .8;      
+    display:none;    
+}    
+.msg_show_lock{  
+    position:fixed;  
+    z-index:90000;  
+    margin:auto;  
+	width:700px;
+	height:300px;
+    top: 30%;  
+    left: 50%;  
+    margin-top: -100px;  
+    margin-left: -350px;  
+    text-align:center;  
+    display:none;  
+}  
+.i_block_social{
+	 display:block;
+	 width:240px;
+	 height:60px;	
+	 list-style:none;
+	 padding:0;
+	 margin:0;			
+	 margin-left:50px;
+    position: relative;
+    top: 10px;
+}
+.i_block_social li{
+	display:block;
+	float:left;
+/*	width:60px;*/
+	height:60px;	
+	text-align:center;
+}
+.reference_place {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 10px;
+}
+.reference_place a{
+	margin-left:10px;	
+}
+</style>
+<div class="good_to_share" style="margin:auto;width:100%;position:relative;font-family: 'Kanit', sans-serif;">
+<div class="good_to_share_msg" style="
+    position: absolute;
+    right: 60px;color: #4267b2;
+    font-size: 18px;
+">กด Like หรือ Share เป็นกำลังใจ ให้มีบทความใหม่ๆ เรื่อยๆ น่ะครับ
+<img src="https://www.ninenik.com/images/emoticon/51.gif">
+</div>
+<ul class="i_block_social">
+
+<li>
+<div class="fb-like" data-href="https://www.ninenik.com/content.php?arti_id=898" 
+data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+</li>
+</ul>
+
+<div style="display:block;width:100px;text-align:center;float:left;">
+</div>
+</div>
+<br style="clear:both;" />
+<!--BEGIN ARTICLE NEXT-->
+
+<br style="clear:both;"/>
+<br>
+
+<p class="iPadP">
+<img src="https://www.ninenik.com/images/emoticon/litlegirl/135.gif" style="
+    height: 50px;margin-right: 20px;
+">
+อ่านต่อที่บทความ</p>
+
+<div  class="content_group_sector_1"  style="display:block;position:relative;width:100%;margin:auto;float:left;left:20px;">
+<ul style="padding:0px;margin:0px;list-style:none;width:95%;">
+	
+<li class="listTopic" style="border-bottom: 1px dashed #ca5ec9;" >
+<div class="dayTopic" style="border: 1px solid #ca5ec9;">
+06 
+Apr<div style="
+    background-color: #ca5ec9;
+    color: #FFF;
+">2019</div>
+</div>
+<div class="break-word-list"  style="position: relative;
+left: 10px;top:5px;color:#A79972;">
+<a style="color:#0F1214;" href="https://www.ninenik.com/เริ่มต้นการใช้งาน_Flex_Message_ผ่าน_LINE_Messaging_API_ตอนที่_9-899.html" title="เริ่มต้นการใช้งาน Flex Message ผ่าน LINE Messaging API ตอนที่ 9">
+เริ่มต้นการใช้งาน Flex Message ผ่าน LINE Messaging API ตอนที่ 9</a>
+&nbsp;<span style="font-weight:bold;color:#9B3F9A;">อ่าน 8,867</span>
+<br>
+<span class="newTopic_css" style="background-color:#ca5ec9;opacity:.7;">พิเศษ เฉพาะสมาชิก </span> 
+
+	เนื้อหาในตอนต่อไปนี้ เราจะมาดูเกี่ยวกับการใช้งาน Flex Message ซึ่งเป็นรูปแบบ
+</div>
+
+
+<br style="clear:both;"/>
+</li>
+</ul>
+</div>
+
+<br style="clear:both;"/>
+<br>
+
+
+<!--END ARTICLE NEXT-->
+
+<br style="clear:both;" />
+  <br>
+  <div style="margin:auto;text-align:center;padding:10px;">
+    <div style="margin:auto;width:50%;text-align:center;float:left;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ninenik-ads-04 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:320px;height:100px"
+     data-ad-client="ca-pub-7717395067782467"
+     data-ad-slot="9543832943"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<div style="margin:auto;width:50%;text-align:center;float:right;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ninenik-ads-04 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:320px;height:100px"
+     data-ad-client="ca-pub-7717395067782467"
+     data-ad-slot="9543832943"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<br style="clear:both;"/>
+  </div>
+    <br>
+
+<br style="clear:both;"/>
+<br>
+
+<p class="iPadP">
+<img src="https://www.ninenik.com/images/emoticon/freeonionhead/image_100.gif" style="
+    height: 50px;margin-right: 20px;
+">
+เนื้อหาที่เกี่ยวข้อง</p>
+
+<div class="content_group_sector_1"  style="display:block;position:relative;width:100%;margin:auto;float:left;left:20px;">
+<ul style="padding:0px;margin:0px;list-style:none;width:95%;">
+	
+<li class="listTopic" style="border-bottom: 1px dashed #fa42a2;position:relative;" >
+<div class="dayTopic" style="border: 1px solid #fa42a2;">
+14 
+Nov<div style="
+    background-color: #fa42a2;
+    color: #FFF;
+">2017</div>
+</div>
+<div class="break-word-list"  style="position: relative;
+left: 10px;top:5px;color:#A79972;">
+<a style="color:#0F1214;" href="https://www.ninenik.com/การใช้งาน_LINE_Messaging_API_สร้าง_Bot_ให้บริการและโต้ตอบกับผู้ใช้_ตอนที่_1-834.html" title="การใช้งาน LINE Messaging API สร้าง Bot ให้บริการและโต้ตอบกับผู้ใช้ ตอนที่ 1">
+การใช้งาน LINE Messaging API สร้าง Bot ให้บริการและโต้ตอบกับผู้ใช้ ตอนที่ 1</a>
+&nbsp;<span style="font-weight:bold;color:#DE4896;">อ่าน 22,101</span>
+<br>
+
+	เนื้อหาต่อไปนี้ จะเป็นแวทาง วิธีการใช้งาน LINE Messaging API สำหรับสร้าง Bot 
+</div>
+
+
+<br style="clear:both;"/>
+</li>
+	
+<li class="listTopic" style="border-bottom: 1px dashed #61c419;position:relative;" >
+<div class="dayTopic" style="border: 1px solid #61c419;">
+15 
+Nov<div style="
+    background-color: #61c419;
+    color: #FFF;
+">2017</div>
+</div>
+<div class="break-word-list"  style="position: relative;
+left: 10px;top:5px;color:#A79972;">
+<a style="color:#0F1214;" href="https://www.ninenik.com/ส่งข้อความด้วย_LINE_bot_sdk_php_สำหรับ_LINE_Messaging_API_ตอนที่_2-835.html" title="ส่งข้อความด้วย LINE bot sdk php สำหรับ LINE Messaging API ตอนที่ 2">
+ส่งข้อความด้วย LINE bot sdk php สำหรับ LINE Messaging API ตอนที่ 2</a>
+&nbsp;<span style="font-weight:bold;color:#53A11A;">อ่าน 22,294</span>
+<br>
+<span class="newTopic_css" style="background-color:#61c419;opacity:.7;">พิเศษ เฉพาะสมาชิก </span> 
+
+	เนื้อหานี้เป็นตอนที่สอง ต่อจากตอนที่แล้วที่เราได้สร้าง app สำหรับกำหนดค่าต่าง
+</div>
+
+
+<br style="clear:both;"/>
+</li>
+	
+<li class="listTopic" style="border-bottom: 1px dashed #44c5ed;position:relative;" >
+<div class="dayTopic" style="border: 1px solid #44c5ed;">
+17 
+Nov<div style="
+    background-color: #44c5ed;
+    color: #FFF;
+">2017</div>
+</div>
+<div class="break-word-list"  style="position: relative;
+left: 10px;top:5px;color:#A79972;">
+<a style="color:#0F1214;" href="https://www.ninenik.com/การใช้งาน_Template_Message_ใน_LINE_Messaging_API_ตอนที่_3-836.html" title="การใช้งาน Template Message ใน LINE Messaging API ตอนที่ 3">
+การใช้งาน Template Message ใน LINE Messaging API ตอนที่ 3</a>
+&nbsp;<span style="font-weight:bold;color:#41AFD1;">อ่าน 16,749</span>
+<br>
+<span class="newTopic_css" style="background-color:#44c5ed;opacity:.7;">พิเศษ เฉพาะสมาชิก </span> 
+
+	จากตอนที่แล้ว เราได้รู้จักวิธีการกำหนดให้ bot ส่งข้อความตอบกลับผู้ใช้งาน ในรู
+</div>
+
+
+<br style="clear:both;"/>
+</li>
+	
+<li class="listTopic" style="border-bottom: 1px dashed #ca5ec9;position:relative;" >
+<div class="dayTopic" style="border: 1px solid #ca5ec9;">
+18 
+Nov<div style="
+    background-color: #ca5ec9;
+    color: #FFF;
+">2017</div>
+</div>
+<div class="break-word-list"  style="position: relative;
+left: 10px;top:5px;color:#A79972;">
+<a style="color:#0F1214;" href="https://www.ninenik.com/การบันทึกไฟล์รูปภาพ_เสียง_และวิดีโอ_จากผู้ใช้_ใน_LINE_Messaging_API_ตอนที่_4-837.html" title="การบันทึกไฟล์รูปภาพ เสียง และวิดีโอ จากผู้ใช้ ใน LINE Messaging API ตอนที่ 4">
+การบันทึกไฟล์รูปภาพ เสียง และวิดีโอ จากผู้ใช้ ใน LINE Messaging API ตอนที่ 4</a>
+&nbsp;<span style="font-weight:bold;color:#9B3F9A;">อ่าน 12,629</span>
+<br>
+<span class="newTopic_css" style="background-color:#ca5ec9;opacity:.7;">พิเศษ เฉพาะสมาชิก </span> 
+
+	สำหรับเนื้อหาในตอนต่อไปนี้ จะเป็นแนวทางการใช้งาน LINE bot sdk php ในการจัดการ
+</div>
+
+
+<br style="clear:both;"/>
+</li>
+	
+<li class="listTopic" style="border-bottom: 1px dashed #ffd149;position:relative;" >
+<div class="dayTopic" style="border: 1px solid #ffd149;">
+20 
+Nov<div style="
+    background-color: #ffd149;
+    color: #FFF;
+">2017</div>
+</div>
+<div class="break-word-list"  style="position: relative;
+left: 10px;top:5px;color:#A79972;">
+<a style="color:#0F1214;" href="https://www.ninenik.com/การใช้งาน_LINE_Messaging_API_ส่ง_Push_Message_ถึงผู้ใช้_LINE_ตอนที่_5-838.html" title="การใช้งาน LINE Messaging API ส่ง Push Message ถึงผู้ใช้ LINE ตอนที่ 5">
+การใช้งาน LINE Messaging API ส่ง Push Message ถึงผู้ใช้ LINE ตอนที่ 5</a>
+&nbsp;<span style="font-weight:bold;color:#F0C135;">อ่าน 18,265</span>
+<br>
+<span class="newTopic_css" style="background-color:#ffd149;opacity:.7;">พิเศษ เฉพาะสมาชิก </span> 
+
+	เนื้อหานี้เป็นตอนที่ 5 แล้ว เกี่ยวกับการประยุกต์ และวิธีการใช้งาน LINE Messag
+</div>
+
+
+<br style="clear:both;"/>
+</li>
+	
+<li class="listTopic" style="border-bottom: 1px dashed #61c419;position:relative;" >
+<div class="dayTopic" style="border: 1px solid #61c419;">
+22 
+Nov<div style="
+    background-color: #61c419;
+    color: #FFF;
+">2017</div>
+</div>
+<div class="break-word-list"  style="position: relative;
+left: 10px;top:5px;color:#A79972;">
+<a style="color:#0F1214;" href="https://www.ninenik.com/แปลงข้อมูล_ด้วย_LINE_bot_sdk_ใน_LINE_Messaging_API_ตอนที่_6-839.html" title="แปลงข้อมูล ด้วย LINE bot sdk ใน LINE Messaging API ตอนที่ 6">
+แปลงข้อมูล ด้วย LINE bot sdk ใน LINE Messaging API ตอนที่ 6</a>
+&nbsp;<span style="font-weight:bold;color:#53A11A;">อ่าน 14,135</span>
+<br>
+<span class="newTopic_css" style="background-color:#61c419;opacity:.7;">พิเศษ เฉพาะสมาชิก </span> 
+
+	สำหรับเนื้อหาในตอนต่อไปนี้ จะเป็นการใช้งานวิธีการแปลงข้อมูลที่ได้รับจาก LINE 
+</div>
+
+
+<br style="clear:both;"/>
+</li>
+	
+<li class="listTopic" style="border-bottom: 1px dashed #ff8e25;position:relative;" >
+<div class="dayTopic" style="border: 1px solid #ff8e25;">
+28 
+Mar<div style="
+    background-color: #ff8e25;
+    color: #FFF;
+">2019</div>
+</div>
+<div class="break-word-list"  style="position: relative;
+left: 10px;top:5px;color:#A79972;">
+<a style="color:#0F1214;" href="https://www.ninenik.com/การใช้งานปุ่ม_Quick_Reply_ใน_LINE_Messaging_API_ตอนที่_7-897.html" title="การใช้งานปุ่ม Quick Reply ใน LINE Messaging API ตอนที่ 7">
+การใช้งานปุ่ม Quick Reply ใน LINE Messaging API ตอนที่ 7</a>
+&nbsp;<span style="font-weight:bold;color:#DA7D27;">อ่าน 7,511</span>
+<br>
+<span class="newTopic_css" style="background-color:#ff8e25;opacity:.7;">พิเศษ เฉพาะสมาชิก </span> 
+
+	เนื้อหาในตอนนี้ เราจะมาดูเกี่ยวกับการใช้งานปุ่ม quick reply&nbsp;
+
+	ซึ่งเป็
+</div>
+
+
+<br style="clear:both;"/>
+</li>
+	
+<li class="listTopic" style="border-bottom: 1px dashed #ff0000;position:relative;" >
+<div style="
+    position: absolute;
+    right: 70px;
+    font-size: 12px;
+    border: 1px solid #CCC;
+    padding: 3px 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;    
+    border-radius: 10px;
+    transform: rotate(-20deg);
+    top: 20px;
+">กำลังอ่านเนื้อหานี้อยู่</div>
+<div class="dayTopic" style="border: 1px solid #ff0000;">
+31 
+Mar<div style="
+    background-color: #ff0000;
+    color: #FFF;
+">2019</div>
+</div>
+<div class="break-word-list"  style="position: relative;
+left: 10px;top:5px;color:#A79972;">
+<a style="color:#0F1214;" href="https://www.ninenik.com/การสร้าง_และใช้งาน_Rich_Menu_ผ่าน_LINE_Messaging_API_ตอนที่_8-898.html" title="การสร้าง และใช้งาน Rich Menu ผ่าน LINE Messaging API ตอนที่ 8">
+การสร้าง และใช้งาน Rich Menu ผ่าน LINE Messaging API ตอนที่ 8</a>
+&nbsp;<span style="font-weight:bold;color:#D12A2A;">อ่าน 17,724</span>
+<br>
+<span class="newTopic_css" style="background-color:#ff0000;opacity:.7;">พิเศษ เฉพาะสมาชิก </span> 
+
+	เนื้อหาในตอนต่อไปนี้ เราจะมาดูเกี่ยวกับการใช้งาน Rich Menu
+
+	&nbsp; &nbsp; 
+</div>
+
+
+<br style="clear:both;"/>
+</li>
+	
+<li class="listTopic" style="border-bottom: 1px dashed #ca5ec9;position:relative;" >
+<div class="dayTopic" style="border: 1px solid #ca5ec9;">
+06 
+Apr<div style="
+    background-color: #ca5ec9;
+    color: #FFF;
+">2019</div>
+</div>
+<div class="break-word-list"  style="position: relative;
+left: 10px;top:5px;color:#A79972;">
+<a style="color:#0F1214;" href="https://www.ninenik.com/เริ่มต้นการใช้งาน_Flex_Message_ผ่าน_LINE_Messaging_API_ตอนที่_9-899.html" title="เริ่มต้นการใช้งาน Flex Message ผ่าน LINE Messaging API ตอนที่ 9">
+เริ่มต้นการใช้งาน Flex Message ผ่าน LINE Messaging API ตอนที่ 9</a>
+&nbsp;<span style="font-weight:bold;color:#9B3F9A;">อ่าน 8,867</span>
+<br>
+<span class="newTopic_css" style="background-color:#ca5ec9;opacity:.7;">พิเศษ เฉพาะสมาชิก </span> 
+
+	เนื้อหาในตอนต่อไปนี้ เราจะมาดูเกี่ยวกับการใช้งาน Flex Message ซึ่งเป็นรูปแบบ
+</div>
+
+
+<br style="clear:both;"/>
+</li>
+</ul>
+</div>
+
+<br style="clear:both;"/>
+<br>
+
+
+<div class="tag-of-content" style="margin: auto;
+background: #F5F5F5;
+width: 95%;
+color:#000000;
+text-indent:5px;
+ box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.1);
+padding: 5px 0px;">
+<div style="float:left;line-height: 30px;">
+Tags::
+<a href="tag_คำสั่ง_วิธีการ_ใช้งาน_การประยุกต์_ตัวอย่าง_เกี่ยวกับ-line" target="_blank">line</a>
+<a href="tag_คำสั่ง_วิธีการ_ใช้งาน_การประยุกต์_ตัวอย่าง_เกี่ยวกับ-line_bot" target="_blank">line bot</a>
+<a href="tag_คำสั่ง_วิธีการ_ใช้งาน_การประยุกต์_ตัวอย่าง_เกี่ยวกับ-rich_menu" target="_blank">rich menu</a>
+<!--arti_tagsData-->
+</div>
+<br style="clear:both;">
+</div>
+
+
+
+<br style="clear:both;" />
+  <div style="margin:auto;text-align:center;padding:10px;width:95%;">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7717395067782467"
+     data-ad-slot="3916101740"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><br style="clear:both;"/>
+  </div>
+<br style="clear:both;" />
+
+
+	  		        <div class="msg_show_lock" style="display:block;">  
+        <div class="msg_data">  
+        <div style="background-color: #F7EFFB;
+        border-color: #5bc0de;
+        padding: 20px;width: 95%;
+        margin: auto;
+        margin-bottom: 20px;
+        border-left: 3px solid #ca5ec9;" class="bs-callout bs-callout-danger">
+            <h4>เนื้อหาพิเศษ เฉพาะสำหรับสมาชิก </h4>
+            <p>กรุณาล็อกอิน เพื่ออ่านเนื้อหาบทความ<br>
+<br>
+          
+<div style="
+    text-align: left;
+    margin: auto;
+    padding-left: 180px;
+">
+<button type="button" onClick="window.location='forum.html?signup';" style="width:173px;"  class="btn btn-success">คลิก สมัครสมาชิก</button>
+ยังไม่เป็นสมาชิก
+        <br><br>
+<button type="button" onClick="window.location='forum.html?signin';" style="width:173px;"  class="btn btn-warning">คลิก ล็อกอินเข้าระบบ</button>
+สมาชิกล็อกอิน </div>
+        <br>
+        <br>
+<div style="
+    clear: both;
+    border-bottom: 1px dashed #ca5ec9;
+"></div>        
+        <br>
+<div style="
+    text-align: center;
+    margin: auto;
+">        
+( หรือ เข้าใช้งานผ่าน Social Login )<br>
+<input name="goToURL" type="hidden" id="goToURL" value="https://www.ninenik.com/content.php?arti_id=898">
+<style type="text/css">
+.social-login-wrap{
+	padding: 1px;
+	margin: 5px;
+	border-radius: 10px;
+	display: flex;
+	max-width: 250px;
+}
+.social-login-wrap .btn-social{
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+.btn-social .mr-2{
+	margin-right: 8px;
+}
+.text-facebook{ color:#087CEA !important;}
+.text-line{ color: #00B900 !important;} 
+.text-google{   color: #FF0000 !important;}     
+.text-twitter{  color: #1DA1F3 !important;}         
+.btn-social-facebook:hover{ border:1px solid  #087CEA !important;}
+.btn-social-line:hover{ border:1px solid  #00B900 !important;} 
+.btn-social-google:hover{   border:1px solid  #FF0000 !important;}     
+.btn-social-twitter:hover{  border:1px solid  #1DA1F3 !important;}             
+.toggle {
+     cursor: pointer;
+     display: inline-block;
+    margin-bottom: 0;
+}
+ .toggle-switch {
+     display: inline-block;
+     background: #ccc;
+     border-radius: 16px;
+     width: 58px;
+     height: 32px;
+     position: relative;
+     vertical-align: middle;
+     transition: background 0.25s;
+}
+ .toggle-switch:before, .toggle-switch:after {
+     content: "";
+}
+ .toggle-switch:before {
+     display: block;
+     background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+     border-radius: 50%;
+     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+     width: 24px;
+     height: 24px;
+     position: absolute;
+     top: 4px;
+     left: 4px;
+     transition: left 0.25s;
+}
+ .toggle:hover .toggle-switch:before {
+     background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+ .toggle-checkbox:checked + .toggle-switch {
+     background: #0061f2;
+}
+ .toggle-checkbox:checked + .toggle-switch.app-line {
+     background: #00B900 !important;
+}
+ .toggle-checkbox:checked + .toggle-switch.app-facebook {
+     background: #087CEA !important;
+}   
+ .toggle-checkbox:checked + .toggle-switch.app-google {
+     background: #FF0000 !important;
+}       
+ .toggle-checkbox:checked + .toggle-switch.app-twitter {
+     background: #1DA1F3 !important;
+}   
+ .toggle-checkbox:checked + .toggle-switch:before {
+     left: 30px;
+}
+ .toggle-checkbox {
+     position: absolute;
+     visibility: hidden;
+}
+ .toggle-label {
+     margin-left: 5px;
+     position: relative;
+     top: 2px;
+}
+</style>
+<div class="list-group" style="    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0;">
+<div class="list-group-item" style="display: none;"></div>
+		<div class="list-group-item social-login-wrap btn-social-line">
+		<a class="btn btn-social  text-line" href="https://www.ninenik.com/authen/line/?action=connect">
+             <i class="fab fa-line fa-fw  fa-2x mr-2"></i> 
+            ล็อกอินด้วย Line			</a>		
+    </div>    
+		<div class="list-group-item social-login-wrap btn-social-google">
+		<a class="btn btn-social  text-google" href="https://www.ninenik.com/authen/google/?action=connect">
+             <i class="fab fa-google fa-fw  fa-2x mr-2"></i> 
+            ล็อกอินด้วย Google			</a>		
+    </div>    
+		<div class="list-group-item social-login-wrap btn-social-facebook">
+		<a class="btn btn-social  text-facebook" href="https://www.ninenik.com/authen/facebook/?action=connect">
+             <i class="fab fa-facebook fa-fw  fa-2x mr-2"></i> 
+            ล็อกอินด้วย Facebook			</a>		
+    </div>    
+		<div class="list-group-item social-login-wrap btn-social-twitter">
+		<a class="btn btn-social  text-twitter" href="https://www.ninenik.com/authen/twitter/?action=connect">
+             <i class="fab fa-twitter fa-fw  fa-2x mr-2"></i> 
+            ล็อกอินด้วย Twitter			</a>		
+    </div>    
+<div class="list-group-item" style="display: none;"></div>
+</div>    
+</div>    
+        </p>
+          </div>     
+        </div>  
+        </div>     
+    
+    
+
+
+
+<br style="clear:both;" />
+
+<br style="clear:both;" />
+<div style="width: 95%;margin: auto;">
+<div class="alert alert-success" role="alert" id="alert_success_div" style="display:none;"> <strong>สำเร็จ!</strong> อัพเดทข้อมูลเรียบร้อยแล้ว. </div>
+</div>
+<div style="background-color: #F7EFFB;
+border-color: #5bc0de;
+padding: 20px;width: 95%;
+margin: auto;
+margin-bottom: 20px;
+border-left: 3px solid #ca5ec9;display:none;" class="bs-callout bs-callout-danger" >    
+<br style="clear:both;" />
+</div>
+
+
+<br style="clear:both;" />
+<div style="background-color: #fcf8f2;
+border-color: #5bc0de;
+padding: 20px;width: 95%;
+margin: auto;
+border-left: 3px solid #f0ad4e;" class="bs-callout bs-callout-warning" >    
+<span style="float:left;">URL สำหรับอ้างอิง</span>
+<span style="float:left;margin-left: 10px;margin-top: -4px;">
+<div class="fb-save" data-uri="https://www.ninenik.com/content.php?arti_id=898" data-size="large"></div>
+</span>
+<span style="float:right;">
+  <button type="button" id="btm_go_top" class="btn btn-warning btn-sm"   />
+Top
+<i class="fa fa-arrow-up fa-lg"></i>
+</button>
+  <button type="button" id="btm_copy" class="btn btn-success btn-sm btm_copy" data-clipboard-target="#link_share"  />
+Copy
+<i class="fa fa-clipboard fa-lg"  title="Copy to clipboard"></i>
+</button>
+</span>
+<style type="text/css">
+.my_short_url::selection{
+    color: #FFFFFF; 
+    background: #000000;
+}
+</style>
+<span style="
+    float: right;
+    background-color: #9B3F9A;
+    display: inline-block;
+    height: 30px;
+    margin: 0px 5px;
+    line-height: 30px;
+    padding: 0px 10px;
+    color: #ffffff;
+">
+    <input onClick="this.select()" class="my_short_url" type="text" value="http://niik.in/898" style="
+    background-color: transparent;
+    border: 0px;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    text-align: center;
+">
+</span>
+  <br style="clear:both;">
+  <textarea name="link_share" id="link_share" cols="80" rows="3" class="form-control" placeholder="Search" >การสร้าง และใช้งาน Rich Menu ผ่าน LINE Messaging API ตอนที่ 8 http://niik.in/898 
+https://www.ninenik.com/content.php?arti_id=898 via @ninenik</textarea>
+</div>
+<div id="show_copy_success" style="background-color:#EBFDEB;color:#5CB85C;
+padding: 20px;width: 95%;
+margin: auto;
+margin-bottom: 0px;display:none;
+border-left: 3px solid #5CB85C;" class="bs-callout bs-callout-success" >    
+<strong>สำเร็จ!</strong> ทำการ copy URL สำหรับอ้างอิงเรียบร้อยแล้ว
+</div>
+<div style="padding:10px;"></div>
+  <br style="clear:both;"/>
+<style type="text/css">
+div#bs-topic-modal-sm{
+
+}
+#link_to_topic tr{
+	cursor:pointer;	
+}
+</style>
+<div id="bs-topic-modal-sm" class="modal fade bs-topic-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content"  style="padding:10px;max-height: calc(90vh);overflow-y: scroll;">
+    <br>
+        <table class="table table-condensed table-hover">
+        <tbody id="link_to_topic">
+        <tr >
+            <td>
+            
+            </td>
+        </tr>
+        </tbody>
+        </table>
+        <br>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+function gotop_topic(offset){
+	$('html, body').animate({ // สร้างการเคลื่อนไหว
+				scrollTop: offset-100 // ให้หน้าเพจเลื่อนไปทำตำแหน่งบนสุด
+			}, 0); // ภายในเวลา 0.5 วินาที ---- 1000 เท่ากับ 1 วินาที	
+	$('#bs-topic-modal-sm').modal('hide')			
+}
+function htmlEntities(str) {
+    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+$(function(){
+	var contextModal_data = "";
+	$('#bs-topic-modal-sm').on('show.bs.modal', function (event) {
+	  var modalTopic = $(this);
+	  contextModal_data = "";
+		$(".nShowContent").find("h2,h3,h4,h5,h6").each(function(i,k){
+//			console.log($(k)[0].tagName);
+			css_class_tr = "sector_"+$(k)[0].tagName.toLowerCase();
+			contextModal_data+='<tr class="'+css_class_tr+'" onClick="gotop_topic('+$(k).offset().top+')"><td>';
+//			console.log($(k).offset().top);
+//			console.log(k);
+//			console.log(typeof($(this)[i]));
+			itemValData = k.outerText.replace(/\u00a0/g, " ");
+			contextModal_data+=htmlEntities(itemValData);
+			contextModal_data+='</td></tr>';			
+		});
+		if(contextModal_data==""){
+			contextModal_data="<tr><td>ไม่มีหัวข้อข้อมูล</td></tr>";	
+		}		
+		modalTopic.find('tbody#link_to_topic').html(contextModal_data);
+/*	  modalTopic.find('.modal-title').text('New message to ' + recipient)
+	  modalTopic.find('.modal-body input').val(recipient)*/
+	})	
+});
+</script>
+<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.8/clipboard.min.js"></script>
+<script type="text/javascript">
+
+    var clipboard = new Clipboard('.btm_copy');
+
+    clipboard.on('success', function(e) {
+		$("#show_copy_success").slideDown("fast",function(){
+			setTimeout(function(){
+				$("#show_copy_success").fadeOut();
+			},4000);
+		});
+		$("#show_copy_success2").slideDown("fast",function(){
+			setTimeout(function(){
+				$("#show_copy_success2").fadeOut();
+			},4000);
+		});		
+    });
+
+/*    clipboard.on('error', function(e) {
+        console.log(e);
+    });*/
+</script>
+<script type="text/javascript">
+$(function(){
+         // เงื่อนไขเมื่อมีการคลิกที่ปุ่ม go to top
+         $("#btm_go_top").on("click",function(){
+            $('html, body').animate({ // สร้างการเคลื่อนไหว
+                scrollTop: $(document.body).offset().top // ให้หน้าเพจเลื่อนไปทำตำแหน่งบนสุด
+            }, 500); // ภายในเวลา 0.5 วินาที ---- 1000 เท่ากับ 1 วินาที
+         });	
+});
+</script>
+  <br>
+  <br>
+  <div style="margin:auto;text-align:center;padding:10px;">
+    <script type="text/javascript"><!--
+google_ad_client = "ca-pub-7717395067782467";
+/* ninenik-ad_01 */
+google_ad_slot = "5045781586";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>  </div>
+  <br style="clear:both;"/>
+  
+<div class="fb-comments-wrap" style="margin:auto;width:750px;">
+  <div id="fb-root"></div>
+<input name="fb_xid" type="hidden" id="fb_xid" value="49e262e6b4e3f222514db085c1e1e6af" />
+<div class="fb-comments"
+data-colorscheme="light" 
+ data-width="100%" data-href="https://www.ninenik.com/content.php?arti_id=898"></div>
+ </div>   
+<br style="clear:both;"/>
+<br style="clear:both;"/>
+<br style="clear:both;"/>
+<br style="clear:both;"/>  
+  <br>
+  <br>
+  <style>
+.donate-qrcode{
+	display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    min-width: 250px;
+    margin: auto;
+}
+.donate-link:active,
+.donate-link:focus{
+	color: orange !important;
+}
+</style>
+<script>
+function pay(a){
+var wrapQr = document.querySelector(".donate-qrcode");
+ var imgQr = "https://www.ninenik.com/images/pay-with-truemoney-"+a+".jpg";
+ var objImgQr  = document.querySelector(".img-qrcode");
+ objImgQr.src = imgQr;
+ wrapQr.style.display = 'flex';
+}
+</script>
+<div class="donate-qrcode">
+    <strong>ขอบคุณทุกการสนับสนุน</strong>
+<img class="img-qrcode" src=""></div>
+</div>
+<div class="footer_css_new" style="background-color: #34393E;padding-top:10px !important;box-shadow: 0 -0.25em 0.25em rgba(0, 0, 0, 0.1);">
+<br>
+<div>
+สนับสนุนเว็บไซต์เรา จ่ายด้วย <img src="https://www.ninenik.com/images/truemoney-wallet.png" alt="Truemoney Wallet" style="height: 20px;" />
+</div>
+<div>
+<a class="donate-link" href="javascript:pay(20);">20 บาท</a> <a class="donate-link" href="javascript:pay(50);">50 บาท</a> <a class="donate-link" href="javascript:pay(100);">100 บาท</a> <a class="donate-link" href="javascript:pay(300);">300 บาท</a> หรือ <a class="donate-link" href="javascript:pay('00');">ระบุจำนวน</a>
+</div>
+<a href="https://www.ninenik.com/privacy_policy.php">Privacy Policy</a>
+<br>
+Author <a  rel="author"  href="javascript:void(0);">Ninenik Narkdee</a>   <br />
+2022 &copy; Copyright ninenik.com. All rights reserved.
+</div></div>
+<div id="fb-root"></div>
+<div id="overlay_for_adsblock"></div>
+<div id="msg_show_adsblock">
+เว็บไซต์ของเราให้บริการเนื้อหาบทความสำหรับนักพัฒนา โดยพึ่งพารายได้เล็กน้อยจากการแสดงโฆษณา
+โปรดสนับสนุนเว็บไซต์ของเราด้วยการ<span style="color:yellow;margin:0 5px;text-decoration:underline;">ปิดการใช้งาน</span>ตัวปิดกั้นโฆษณา (Disable Ads Blocker) ขอบคุณครับ
+</div>
+<script src="https://www.ninenik.com/ads.js" type="text/javascript"></script>
+<script type="text/javascript">
+if(document.getElementById('sGfICBzbHNgO')){
+} else {
+	$("#overlay_for_adsblock,#msg_show_adsblock").show();
+	$(".msg_show_lock").hide();
+	var adsLock=1;
+	1==adsLock&&setInterval(function(){var a=$("#overlay_for_adsblock")[0];void 0==a&&(window.location="forum.html")},8e3);	
+}
+</script>
+<script>
+    var fb_appId='134358299911812';
+    var urlDirect="https://www.ninenik.com/forum.html";
+    var loginURL="https://www.facebook.com/dialog/oauth?";
+    loginURL+="client_id="+fb_appId;
+    loginURL+="&redirect_uri="+urlDirect;
+    loginURL+="&auth_type=rerequest";
+    loginURL+="&scope=public_profile,email";    
+	
+	var shareCountC_FB=null;
+	
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '134358299911812',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v11.0'
+    });	
+    FB.AppEvents.logPageView();			 
+			     
+		
+	// In your onload method
+	FB.Event.subscribe('comment.create', function(){
+//		console.log("test comment create");	
+		$.post("update_comment.php",{arti_id:898,action:'create'},function(sdata){
+		});  			
+	});
+	FB.Event.subscribe('comment.remove', function(){
+//		console.log("test comment remove");	
+		$.post("update_comment.php",{arti_id:898,action:'remove'},function(sdata){
+		});  			
+	});
+				 
+
+
+		        
+   
+    $(function(){
+        
+       $("#fb_btn_login").on("click",function(){
+           	$(".fa-facebook").hide();
+			$(".begin_login_fb").show();
+             FB.getLoginStatus(function(response) {
+              if (response.status === 'connected') {
+                var uid = response.authResponse.userID;
+                var accessToken = response.authResponse.accessToken;
+                    FB.api('/me?fields=id,name,first_name,last_name,email', function(response) {
+                        if(response.id!=null && response.name!=null){
+							if(response.email!=null){
+								$.post("register_member_fb.php",{
+									name:response.name,
+									username:response.email,
+									userID:response.id,
+									accTK:accessToken
+								},function(data){
+									var resData=$.trim(data);
+									var checkUID=resData.split("|");
+									if(response.id!=checkUID[1]){
+										window.location="forum.html?signout";
+									}else{
+										if($("#need_go_back").val()!=undefined){
+											window.location=$("#need_go_back").val();	
+										}else{
+											if($("#goToURL").val()!=undefined){
+												window.location=$("#goToURL").val();	
+											}else{
+												window.location="forum.html";	
+											}
+										}								
+									}
+								});
+							}else{
+								alert("จำเป็นต้องใช้งานข้อมูลอีเมล");
+								if(confirm("ต้องการสมัครสมาชิก และล็อกอินแบบปกติหรือไม่?")){
+									window.location='forum.html?signup';
+								}else{
+									window.location=loginURL;     
+								}								  
+							}
+                        }else{
+							alert("จำเป็นต้องมีไอดีและชื่อผู้ใช้จากเฟสบุ๊ค");
+								window.location=loginURL;       							
+						}
+                    });
+              } else if (response.status === 'not_authorized') {
+				  alert("จำเป็นต้องเชื่อมต่อกับ www.ninenik.com ก่อน");
+                  window.location=loginURL;
+              } else {
+/*				  console.log(response);
+				  console.log("ERROR");			*/	  
+//				  alert("เกิดข้อผิดพลาดกรุณาลองใหม่");
+                  window.location=loginURL;
+              }
+             });      
+           
+       });
+        	
+       
+        
+    });
+			  
+  };
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+		
+<script type="text/javascript">
+Number.prototype.pad = function(size) {
+    var s = String(this);
+    while (s.length < (size || 2)) {s = "0" + s;}
+    return s;
+}
+function setDarkModeJs(val){
+		var days=365; // กำหนดจำนวนวันที่ต้องการให้จำค่า
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+		document.cookie = "set-dark-mode="+val+"; expires=" + expires + "; path=/";	
+}
+$(function(){
+	$(".dark-mode-toggle").on("change",function(){
+		if($(this).prop("checked")==true){
+			setDarkModeJs(1);
+			$("html").addClass("__nk-dark-mode");
+			$("link[data-theme='brush']").attr("href","/lib/syntaxhighlighter/css/shThemeRDark.css");
+			$("meta[data-theme='color']").attr("content","#18191A");
+		}else{
+			setDarkModeJs(0);
+			$("html").removeClass("__nk-dark-mode");
+			$("link[data-theme='brush']").attr("href","/lib/syntaxhighlighter/css/shThemeDefault.css");			
+			$("meta[data-theme='color']").attr("content","#9B3F9A");
+		}
+	});
+	$('.dropdown-menu.member-menu-list').on({
+		"click":function(e){
+		  e.stopPropagation();
+		}
+	});
+	
+	var landingStart = new Date('2022/01/01 19:32:00');
+/*	console.log(landingStart);*/
+	var landingTime = landingStart.getTime();
+	var currentTimeValue = new Date();
+	setInterval(function(){
+		landingTime=landingTime+1000;
+		currentTimeValue.setTime(landingTime);
+		var _Hvalue = currentTimeValue.getHours().pad();
+		var _Ivalue = currentTimeValue.getMinutes().pad();
+		var _Svalue = currentTimeValue.getSeconds().pad();
+		$(".myclock_place").attr("placeholder","เวลา "+_Hvalue+":"+_Ivalue+":"+_Svalue+" น. / ค้นหาที่นี่");
+	},1000);
+	 // เงื่อนไขเมื่อมีการคลิกที่ปุ่ม go to top
+	 $("#goto_section_top,#goto_section_top2").click(function(){
+		 if($(this).attr("id")=="goto_section_top"){
+			 var curXposition = $(window).scrollTop();
+			 curXposition = (curXposition>0)?curXposition-350:0;
+			$('html, body').animate({ // สร้างการเคลื่อนไหว
+				scrollTop: curXposition
+			}, 0); // ภายในเวลา 0.5 วินาที ---- 1000 เท่ากับ 1 วินาที	 			 
+		 }else{ 
+			$('html, body').animate({ // สร้างการเคลื่อนไหว
+				scrollTop: $(document.body).offset().top // ให้หน้าเพจเลื่อนไปทำตำแหน่งบนสุด
+			}, 0); // ภายในเวลา 0.5 วินาที ---- 1000 เท่ากับ 1 วินาที	 
+		 }
+	 });
+
+	 $("#goto_section_reply").click(function(){
+		$('html, body').animate({ // สร้างการเคลื่อนไหว
+			scrollTop: $(".section_reply").offset().top // ให้หน้าเพจเลื่อนไปทำตำแหน่งบนสุด
+		}, 0); // ภายในเวลา 0.5 วินาที ---- 1000 เท่ากับ 1 วินาที	 
+	 });	
+	 
+	 $("#goto_section_bottom,#goto_section_bottom2").click(function(){
+		 if($(this).attr("id")=="goto_section_bottom"){
+			 var curXposition = $(window).scrollTop();
+			 var bottomPositionV = $(".footer_css_new").offset().top;			 
+			 curXposition = (curXposition<bottomPositionV)?curXposition+350:bottomPositionV;
+			$('html, body').animate({ // สร้างการเคลื่อนไหว
+				scrollTop: curXposition
+			}, 0); // ภายในเวลา 0.5 วินาที ---- 1000 เท่ากับ 1 วินาที	 			 
+		 }else{
+			$('html, body').animate({ // สร้างการเคลื่อนไหว
+				scrollTop: $(".footer_css_new").offset().top // ให้หน้าเพจเลื่อนไปทำตำแหน่งบนสุด
+			},0); // ภายในเวลา 0.5 วินาที ---- 1000 เท่ากับ 1 วินาที	 
+		 }
+	 });	 
+	 
+});
+</script><script type="text/javascript">
+$(function(){
+	$("div[itemprop='description'],.iTopicQUE_R_cover,.more_detail_show").find("img").each(function(idx, ele){
+		$(ele).addClass("use_shadow darkmode-ignore");
+	});
+	setTimeout(function(){$(".google-auto-placed").each(function(idx, ele){$(ele).css("min-height",$(ele).find("iframe").height());});},3000);	
+	setTimeout(function(){$(".google-auto-placed").each(function(idx, ele){$(ele).css("min-height",$(ele).find("iframe").height());});},7000);	
+	setTimeout(function(){$(".google-auto-placed").each(function(idx, ele){$(ele).css("min-height",$(ele).find("iframe").height());});},10000);	
+	setTimeout(function(){$(".google-auto-placed").each(function(idx, ele){$(ele).css("min-height",$(ele).find("iframe").height());});},30000);	
+	setTimeout(function(){$(".adsbygoogle").each(function(idx, ele){$(ele).css("min-height",$(ele).find("iframe").height());});},12000);	
+	setTimeout(function(){$(".adsbygoogle").each(function(idx, ele){$(ele).css("min-height",$(ele).find("iframe").height());});},30000);	
+	
+});
+</script>
+      
+<style type="text/css">.only_fix_like_btn{
+	position: fixed !important;bottom: 0px;margin-right: 50% !important;width: 1000px !important;background: #FFFFFF;
+	-webkit-box-shadow: 0px -1px 3px 1px rgba(230,230,230,1);
+    -moz-box-shadow: 0px -1px 3px 1px rgba(230,230,230,1);
+    box-shadow: 0px -1px 3px 1px rgba(230,230,230,1);
+    padding-top: 10px;
+	}.only_fix_like_btn:hover{opacity:1;}</style>
+<script type="text/javascript" src="js/jquery.qrcode.min.js"></script>
+<script type="text/javascript">
+function reloadIframe(demoID){
+	$("#iframe_demo_c_div"+demoID)[0].src = $("#iframe_demo_c_div"+demoID)[0].src;
+}
+$(function(){
+	$("#get_qrcode_url").click(function(){
+		$("#place_qrcode_url").toggle();
+	});
+	$("#place_qrcode_url").show();
+	setTimeout(function(){
+		$("#place_qrcode_url").html("").qrcode({width: 100,height: 100,text: "http://niik.in/898"});
+	},1000);	
+	
+	
+     $(window).scroll(function(){  
+		if($(window).scrollTop()  > 400 && $(window).scrollTop()<2000) {
+			$(".good_to_share").addClass("only_fix_like_btn");
+		}else{
+			$(".good_to_share").removeClass("only_fix_like_btn");
+		}
+     });     		
+
+	$(".syntaxhighlighter").each(function(_key, _ele){
+		var objBtn = $("<button></button>",{
+			title:"Copy",
+			type:"button",
+			class:"btn btn-light btn-code-copy",
+			html:"<i class=\"far fa-copy\">"
+/*			click: function() {
+	
+			}*/
+		});
+		new Clipboard($(objBtn)[0], {
+			target: function(trigger) {
+				return $(_ele).find(".code .container")[0];
+				//* return trigger.getAttribute('aria-label');
+			}
+		}).on('success', function(e) {
+/*			console.info('Action:', e.action);
+			console.info('Text:', e.text);
+			console.info('Trigger:', e.trigger);
+		*/
+			setTimeout(function(){
+			e.clearSelection();
+			},1500);
+		});	
+		$(_ele).prepend(objBtn);
+	});
+	
+	$("pre").each(function(_key, _ele){
+		var objBtn = $("<button></button>",{
+			title:"Copy",
+			type:"button",
+			class:"btn btn-light btn-code-copy",
+			html:"<i class=\"far fa-copy\">"
+		});
+		new Clipboard($(objBtn)[0], {
+			target: function(trigger) {
+				return $(_ele)[0];
+			}
+		}).on('success', function(e) {
+			setTimeout(function(){
+			e.clearSelection();
+			},1500);
+		});	
+		$(_ele).wrap("<div class=\"syntaxhighlighter\"></div>").before(objBtn);	
+	});
+
+	$("div[itemprop='description']").find("img").each(function(idx, ele){
+		$(ele).css("cursor","pointer").css("box-shadow", "");
+		$(ele).on("click",function(){
+			$(this).toggleClass("big_preview_img use_shadow");
+			$("#overlay_for_adsblock").toggle();
+		});
+	});
+
+	$(".more_detail_show").find("img").each(function(idx, ele){
+		$(ele).css("cursor","pointer").css("box-shadow", "");
+		$(ele).on("click",function(){
+			$(this).toggleClass("big_preview_img use_shadow");
+			$("#overlay_for_adsblock").toggle();
+		});
+	});
+	
+});
+</script>
+<script type="text/javascript">  
+$(function(){  
+	var contentLock=1;
+	1==contentLock&&setInterval(function(){var a=$("#overlay_for_lock")[0];void 0==a&&(window.location="forum.html")},8e3);
+});  
+</script>  
+<script type="text/javascript" src="lib/syntaxhighlighter/js/shCore.js"></script> 
+<script type="text/javascript" src="lib/syntaxhighlighter/js/shLegacy.js"></script> 
+<script type="text/javascript" src="lib/syntaxhighlighter/js/shBrushPhp.js"></script> 
+<script type="text/javascript" src="lib/syntaxhighlighter/js/shBrushJScript.js"></script> 
+<script type="text/javascript" src="lib/syntaxhighlighter/js/shBrushXml.js"></script> 
+<script type="text/javascript" src="lib/syntaxhighlighter/js/shBrushSql.js"></script> 
+<script type="text/javascript" src="lib/syntaxhighlighter/js/shBrushCpp.js"></script> 
+<script type="text/javascript" src="lib/syntaxhighlighter/js/shBrushCSharp.js"></script> 
+<script type="text/javascript" src="lib/syntaxhighlighter/js/shBrushCss.js"></script> 
+<script type="text/javascript" src="lib/syntaxhighlighter/js/shBrushJava.js"></script> 
+<script type="text/javascript" src="lib/syntaxhighlighter/js/shBrushPlain.js"></script> 
+<script type="text/javascript">
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.defaults['auto-links'] = true;	
+	SyntaxHighlighter.all();
+	dp.SyntaxHighlighter.HighlightAll('code');
+</script> 
+<div id="overlay_for_lock" style="display:block;"></div>   
+</body>
+</html>
